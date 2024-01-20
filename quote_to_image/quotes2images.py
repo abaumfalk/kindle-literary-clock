@@ -46,6 +46,16 @@ def get_quotes(src_file):
     with open(src_file, newline='\n', encoding="utf8") as yaml_file:
         result = yaml.safe_load(yaml_file)
 
+    expected_keys = ['author', 'quote', 'time', 'timestring', 'title']
+    for dataset in result:
+        for key in expected_keys:
+            if key not in dataset:
+                raise Exception(f"Error: missing key in {dataset} (expected {expected_keys})")
+
+        timestring, quote = dataset['timestring'], dataset['quote']
+        if timestring not in quote:
+            raise Exception(f"Error: timestring '{timestring}' not found in quote '{quote}'")
+
     return result
 
 
