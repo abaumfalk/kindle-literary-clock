@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import html
 from argparse import ArgumentParser
 from collections import defaultdict
 from pathlib import Path
@@ -19,27 +20,71 @@ def get_arguments():
     parser.add_argument('-text_font', help='font for regular text', type=str, default="Sans")
     parser.add_argument('-meta_font', help='font for metadata', type=str, default="")
     parser.add_argument('-width', help='image width', type=int, default=600)
-    parser.add_argument('-height', help='image height', type=int, default=600)
+    parser.add_argument('-height', help='image height', type=int, default=800)
 
     parsed = parser.parse_args()
     return vars(parsed)
 
 
 class Quote2Image:
-    def __init__(self, width: int, height: int, borders=(0, 0, 0, 0), font="Sans", font_meta=""):
-
+    def __init__(self, width: int, height: int, font="Sans", font_meta="", annotation_height=100):
+        self.width = width
+        self.height = height
         self.font = font
         self.font_meta = font_meta
-        self.borders = borders
+        self.annotation_height = annotation_height
 
         self.surface = cairocffi.ImageSurface(cairocffi.FORMAT_ARGB32, width, height)
         self.context = cairocffi.Context(self.surface)
 
+        self.layout = pangocairocffi.create_layout(self.context)
+        self.layout.wrap = pangocffi.WrapMode.WORD
+        self.layout.width = units_from_double(self.width)
+
     def add_quote(self, quote: str, timestr: str):
-        raise NotImplementedError()
+        # fill background
+        with self.context:
+            self.context.set_source_rgb(1, 1, 1)  # white
+            self.context.paint()
+
+        length = len(quote)
+        quote = html.escape(quote, quote=False)
+        quote = quote.replace(timestr, f"<b>{timestr}</b>")
+
+        font_size = self._find_font_size(quote, length)
+        self.layout.apply_markup(self._get_markup(quote, font_size))
+        pangocairocffi.show_layout(self.context, self.layout)
 
     def add_annotations(self, title: str, author: str):
         raise NotImplementedError()
+
+    def _find_font_size(self, quote, length):
+        # TODO: use a more advanced search approach
+        max_height = self.height - self.annotation_height
+        font_size = self._predict_font_size(length)
+        height = self._get_height(quote, font_size)
+
+        step = 1 if height < max_height else -1
+        while True:
+            font_size += step
+            height = self._get_height(quote, font_size)
+            if step < 0 and height <= max_height:
+                return font_size
+            if step > 0 and height > max_height:
+                return font_size - step
+
+    def _get_height(self, quote, font_size):
+        self.layout.apply_markup(self._get_markup(quote, font_size))
+        _, ext = self.layout.get_extents()
+        return units_to_double(ext.height)
+
+    def _get_markup(self, quote, font_size):
+        return f"<span font_desc='{self.font} {font_size}'>{quote}</span>"
+
+    @staticmethod
+    def _predict_font_size(_length):
+        # TODO: make a good prediction by learning from previous attempts
+        return 40
 
 
 def get_quotes(src_file):
@@ -104,8 +149,8 @@ if __name__ == "__main__":
         q2i.add_quote(data['quote'], data['timestring'])
         q2i.surface.write_to_png(str(dst / f'{basename}.png'))
 
-        q2i.add_annotations(data['title'], data['author'])
-        q2i.surface.write_to_png(str(meta_dst / f'{basename}_credits.png'))
+        # q2i.add_annotations(data['title'], data['author'])
+        # q2i.surface.write_to_png(str(meta_dst / f'{basename}_credits.png'))
 
     missing = counter.get_missing()
     if missing:
