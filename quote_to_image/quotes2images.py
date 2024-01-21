@@ -9,6 +9,8 @@ import pangocffi
 import pangocairocffi
 from pangocffi import units_from_double, units_to_double
 
+DEFAULT_MARGIN = 26
+
 
 def get_arguments():
     parser = ArgumentParser(
@@ -21,6 +23,7 @@ def get_arguments():
     parser.add_argument('-meta_font', help='font for metadata', type=str, default="")
     parser.add_argument('-width', help='image width', type=int, default=600)
     parser.add_argument('-height', help='image height', type=int, default=800)
+    parser.add_argument('-margin', help='margin around text in pixels', type=int, default=DEFAULT_MARGIN)
 
     parsed = parser.parse_args()
     return vars(parsed)
@@ -29,12 +32,14 @@ def get_arguments():
 class Quote2Image:
     PRECISION = 0.5  # precision of font size search
 
-    def __init__(self, width: int, height: int, font="Sans", font_meta="", annotation_height=100):
+    def __init__(self, width: int, height: int, font="Sans", font_meta="", annotation_height=100,
+                 margin=DEFAULT_MARGIN):
         self.width = width
         self.height = height
         self.font = font
         self.font_meta = font_meta
         self.annotation_height = annotation_height
+        self.margin = margin
 
         self.surface = None
         self.context = None
@@ -51,7 +56,7 @@ class Quote2Image:
 
         self.layout = pangocairocffi.create_layout(self.context)
         self.layout.wrap = pangocffi.WrapMode.WORD
-        self.layout.width = units_from_double(self.width)
+        self.layout.width = units_from_double(self.width - 2 * self.margin)
 
     def add_quote(self, quote: str, timestr: str):
         self._init_data()
@@ -61,6 +66,8 @@ class Quote2Image:
 
         font_size = self._find_font_size(quote, length)
         self.layout.apply_markup(self._get_markup(quote, font_size))
+
+        self.context.move_to(self.margin, self.margin)
         pangocairocffi.show_layout(self.context, self.layout)
 
     def add_annotations(self, title: str, author: str):
@@ -68,7 +75,7 @@ class Quote2Image:
 
     def _find_font_size(self, quote, length):
         # TODO: use a more advanced search approach
-        max_height = self.height - self.annotation_height
+        max_height = self.height - self.annotation_height - 2 * self.margin
         font_size = self._predict_font_size(length)
         height = self._get_height(quote, font_size)
 
