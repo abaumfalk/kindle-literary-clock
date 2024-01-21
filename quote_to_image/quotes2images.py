@@ -76,22 +76,23 @@ class Quote2Image:
     def _find_font_size(self, quote, length):
         # TODO: use a more advanced search approach
         max_height = self.height - self.annotation_height - 2 * self.margin
+        max_width = self.width - 2 * self.margin
         font_size = self._predict_font_size(length)
-        height = self._get_height(quote, font_size)
+        height, width = self._get_extents(quote, font_size)
 
-        step = self.PRECISION if height < max_height else -self.PRECISION
+        step = self.PRECISION if height < max_height and width < max_width else -self.PRECISION
         while True:
             font_size += step
-            height = self._get_height(quote, font_size)
-            if step < 0 and height <= max_height:
+            height, width = self._get_extents(quote, font_size)
+            if step < 0 and height <= max_height and width <= max_width:
                 return font_size
-            if step > 0 and height > max_height:
+            if step > 0 and (height > max_height or width > max_width):
                 return font_size - step
 
-    def _get_height(self, quote, font_size):
+    def _get_extents(self, quote, font_size):
         self.layout.apply_markup(self._get_markup(quote, font_size))
         _, ext = self.layout.get_extents()
-        return units_to_double(ext.height)
+        return units_to_double(ext.height), units_to_double(ext.width)
 
     def _get_markup(self, quote, font_size):
         return f"<span font_desc='{self.font} {font_size}'>{quote}</span>"
