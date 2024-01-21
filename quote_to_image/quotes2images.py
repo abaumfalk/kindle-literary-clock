@@ -34,19 +34,25 @@ class Quote2Image:
         self.font_meta = font_meta
         self.annotation_height = annotation_height
 
-        self.surface = cairocffi.ImageSurface(cairocffi.FORMAT_ARGB32, width, height)
+        self.surface = None
+        self.context = None
+        self.layout = None
+
+    def _init_data(self):
+        self.surface = cairocffi.ImageSurface(cairocffi.FORMAT_ARGB32, self.width, self.height)
+
         self.context = cairocffi.Context(self.surface)
+        # fill background
+        with self.context:
+            self.context.set_source_rgb(1, 1, 1)  # white
+            self.context.paint()
 
         self.layout = pangocairocffi.create_layout(self.context)
         self.layout.wrap = pangocffi.WrapMode.WORD
         self.layout.width = units_from_double(self.width)
 
     def add_quote(self, quote: str, timestr: str):
-        # fill background
-        with self.context:
-            self.context.set_source_rgb(1, 1, 1)  # white
-            self.context.paint()
-
+        self._init_data()
         length = len(quote)
         quote = html.escape(quote, quote=False)
         quote = quote.replace(timestr, f"<b>{timestr}</b>")
@@ -130,6 +136,7 @@ class TimeCounter:
 
 if __name__ == "__main__":
     args = get_arguments()
+    q2i = Quote2Image(args['width'], args['height'], args['text_font'], args['meta_font'])
 
     # prepare destination folders
     dst = args['dst']
@@ -144,7 +151,6 @@ if __name__ == "__main__":
         current_time: str = data['time']
         count = counter.count(current_time)
         basename = f"quote_{current_time.replace(':', '')}_{count - 1}"
-        q2i = Quote2Image(args['width'], args['height'], args['text_font'], args['meta_font'])
 
         q2i.add_quote(data['quote'], data['timestring'])
         q2i.surface.write_to_png(str(dst / f'{basename}.png'))
