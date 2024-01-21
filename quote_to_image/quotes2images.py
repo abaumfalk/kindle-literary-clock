@@ -27,6 +27,8 @@ def get_arguments():
 
 
 class Quote2Image:
+    PRECISION = 0.5  # precision of font size search
+
     def __init__(self, width: int, height: int, font="Sans", font_meta="", annotation_height=100):
         self.width = width
         self.height = height
@@ -70,7 +72,7 @@ class Quote2Image:
         font_size = self._predict_font_size(length)
         height = self._get_height(quote, font_size)
 
-        step = 1 if height < max_height else -1
+        step = self.PRECISION if height < max_height else -self.PRECISION
         while True:
             font_size += step
             height = self._get_height(quote, font_size)
