@@ -156,11 +156,14 @@ if __name__ == "__main__":
     missing = []
     for minute in range(0, 60 * 24):  # iterate through all minutes of the day
         current_time = minute_to_timestr(minute)
+        print(f"{current_time}: ", end='')
         quotes = quotes_dict.get(current_time)
         if quotes is None:
             missing.append(current_time)
+            print("missing!")
             continue
         for count, data in enumerate(quotes):
+            print(".", end='', flush=True)
             basename = f"quote_{current_time.replace(':', '')}_{count - 1}"
 
             q2i.add_quote(data['quote'], data['timestring'])
@@ -168,6 +171,7 @@ if __name__ == "__main__":
 
             q2i.add_annotations(data['title'], data['author'])
             q2i.surface.write_to_png(str(meta_dst / f'{basename}_credits.png'))
+        print()
 
     if missing:
         print(f"{len(missing)} missing quotes: {missing}")
