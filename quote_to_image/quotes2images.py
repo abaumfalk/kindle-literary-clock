@@ -61,7 +61,7 @@ class Quote2Image:
 
         length = len(quote)
         quote = html.escape(quote, quote=False)
-        quote = quote.replace(timestr, f"<b>{timestr}</b>")
+        quote = quote.replace(timestr, f"<span foreground='black' font_desc='bold'>{timestr}</span>")
 
         font_size = self._find_font_size(layout, quote, length)
         layout.apply_markup(self._get_markup(quote, font_size))
@@ -91,7 +91,7 @@ class Quote2Image:
         return units_to_double(ext.height), units_to_double(ext.width)
 
     def _get_markup(self, quote, font_size):
-        return f"<span font_desc='{self.font} {font_size}'>{quote}</span>"
+        return f"<span foreground='grey' font_desc='{self.font} {font_size}'>{quote}</span>"
 
     @staticmethod
     def _predict_font_size(_length):
