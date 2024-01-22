@@ -10,6 +10,8 @@ import pangocairocffi
 from pangocffi import units_from_double, units_to_double
 
 DEFAULT_MARGIN = 26
+ANNOTATION_MARGIN = 100
+CREDIT_FONT_SIZE = 18
 
 
 def get_arguments():
@@ -32,20 +34,21 @@ def get_arguments():
 class Quote2Image:
     PRECISION = 0.5  # precision of font size search
 
-    def __init__(self, width: int, height: int, font="Sans", font_meta="", annotation_height=100,
-                 margin=DEFAULT_MARGIN):
+    def __init__(self, width: int, height: int, font="Sans", margin=DEFAULT_MARGIN,
+                 meta_font='', meta_margin=ANNOTATION_MARGIN, meta_width_ratio=0.7):
         self.width = width
         self.height = height
         self.font = font
-        self.font_meta = font_meta
-        self.annotation_height = annotation_height
+        self.meta_font = meta_font
         self.margin = margin
+        self.meta_margin = meta_margin
+        self.meta_width_ratio = meta_width_ratio
 
         self.surface = None
         self.context = None
         self.layout = None
 
-    def _init_data(self):
+    def _init_image(self):
         self.surface = cairocffi.ImageSurface(cairocffi.FORMAT_ARGB32, self.width, self.height)
 
         self.context = cairocffi.Context(self.surface)
@@ -54,12 +57,12 @@ class Quote2Image:
             self.context.set_source_rgb(1, 1, 1)  # white
             self.context.paint()
 
+    def add_quote(self, quote: str, timestr: str):
+        self._init_image()
         self.layout = pangocairocffi.create_layout(self.context)
         self.layout.wrap = pangocffi.WrapMode.WORD
         self.layout.width = units_from_double(self.width - 2 * self.margin)
 
-    def add_quote(self, quote: str, timestr: str):
-        self._init_data()
         length = len(quote)
         quote = html.escape(quote, quote=False)
         quote = quote.replace(timestr, f"<b>{timestr}</b>")
@@ -70,12 +73,9 @@ class Quote2Image:
         self.context.move_to(self.margin, self.margin)
         pangocairocffi.show_layout(self.context, self.layout)
 
-    def add_annotations(self, title: str, author: str):
-        raise NotImplementedError()
-
     def _find_font_size(self, quote, length):
         # TODO: use a more advanced search approach
-        max_height = self.height - self.annotation_height - 2 * self.margin
+        max_height = self.height - self.margin - self.meta_margin
         max_width = self.width - 2 * self.margin
         font_size = self._predict_font_size(length)
         height, width = self._get_extents(quote, font_size)
@@ -101,6 +101,25 @@ class Quote2Image:
     def _predict_font_size(_length):
         # TODO: make a good prediction by learning from previous attempts
         return 40
+
+    def add_annotations(self, title, author):
+        title = html.escape(title)
+        author = html.escape(author)
+
+        context = cairocffi.Context(self.surface)
+
+        layout = pangocairocffi.create_layout(context)
+        layout.wrap = pangocffi.WrapMode.WORD
+        layout.width = units_from_double(self.width * self.meta_width_ratio)
+        layout.alignment = pangocffi.Alignment.RIGHT
+
+        layout.apply_markup(f'<span font_desc="{CREDIT_FONT_SIZE} italic">—{title}, {author}</span>')
+        _, ext = layout.get_extents()
+
+        pos_x = self.width * (1 - self.meta_width_ratio) - self.margin
+        pos_y = self.height - self.margin - units_to_double(ext.height)
+        context.move_to(pos_x, pos_y)
+        pangocairocffi.show_layout(context, layout)
 
 
 def get_quotes(src_file):
@@ -146,7 +165,7 @@ class TimeCounter:
 
 if __name__ == "__main__":
     args = get_arguments()
-    q2i = Quote2Image(args['width'], args['height'], args['text_font'], args['meta_font'])
+    q2i = Quote2Image(args['width'], args['height'], font=args['text_font'], meta_font=args['meta_font'])
 
     # prepare destination folders
     dst = args['dst']
@@ -165,8 +184,8 @@ if __name__ == "__main__":
         q2i.add_quote(data['quote'], data['timestring'])
         q2i.surface.write_to_png(str(dst / f'{basename}.png'))
 
-        # q2i.add_annotations(data['title'], data['author'])
-        # q2i.surface.write_to_png(str(meta_dst / f'{basename}_credits.png'))
+        q2i.add_annotations(data['title'], data['author'])
+        q2i.surface.write_to_png(str(meta_dst / f'{basename}_credits.png'))
 
     missing = counter.get_missing()
     if missing:
