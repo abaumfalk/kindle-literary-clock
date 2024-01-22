@@ -136,28 +136,9 @@ def get_quotes(src_file):
     return result
 
 
-class TimeCounter:
-    """ Counts how often a time has occurred """
-    def __init__(self):
-        self.recorded = defaultdict(lambda: 0)
-
-    def count(self, timestr):
-        minute = self.minute_from_timestr(timestr)
-        self.recorded[minute] += 1
-        return self.recorded[minute]
-
-    @staticmethod
-    def minute_from_timestr(timestr: str):
-        hours, minutes = timestr.split(':')
-        return int(hours) * 60 + int(minutes)
-
-    @staticmethod
-    def minute_to_timestr(minute: int):
-        h, m = divmod(minute, 60)
-        return f"{h:02d}:{m:02d}"
-
-    def get_missing(self):
-        return [self.minute_to_timestr(minute) for minute in range(0, 60 * 24 - 1) if self.recorded[minute] == 0]
+def minute_to_timestr(minute: int):
+    h, m = divmod(minute, 60)
+    return f"{h:02d}:{m:02d}"
 
 
 if __name__ == "__main__":
@@ -170,12 +151,16 @@ if __name__ == "__main__":
     for p in [dst, meta_dst]:
         p.mkdir(parents=True, exist_ok=True)
 
-    counter = TimeCounter()
     quotes_dict = get_quotes(args['src'])
 
-    for current_time, quotes in quotes_dict.items():
-        for data in quotes:
-            count = counter.count(current_time)
+    missing = []
+    for minute in range(0, 60 * 24):  # iterate through all minutes of the day
+        current_time = minute_to_timestr(minute)
+        quotes = quotes_dict.get(current_time)
+        if quotes is None:
+            missing.append(current_time)
+            continue
+        for count, data in enumerate(quotes):
             basename = f"quote_{current_time.replace(':', '')}_{count - 1}"
 
             q2i.add_quote(data['quote'], data['timestring'])
@@ -184,6 +169,5 @@ if __name__ == "__main__":
             q2i.add_annotations(data['title'], data['author'])
             q2i.surface.write_to_png(str(meta_dst / f'{basename}_credits.png'))
 
-    missing = counter.get_missing()
     if missing:
         print(f"{len(missing)} missing quotes: {missing}")
