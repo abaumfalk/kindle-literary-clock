@@ -45,53 +45,49 @@ class Quote2Image:
         self.meta_width_ratio = meta_width_ratio
 
         self.surface = None
-        self.context = None
-        self.layout = None
-
-    def _init_image(self):
-        self.surface = cairocffi.ImageSurface(cairocffi.FORMAT_ARGB32, self.width, self.height)
-
-        self.context = cairocffi.Context(self.surface)
-        # fill background
-        with self.context:
-            self.context.set_source_rgb(1, 1, 1)  # white
-            self.context.paint()
 
     def add_quote(self, quote: str, timestr: str):
-        self._init_image()
-        self.layout = pangocairocffi.create_layout(self.context)
-        self.layout.wrap = pangocffi.WrapMode.WORD
-        self.layout.width = units_from_double(self.width - 2 * self.margin)
+        self.surface = cairocffi.ImageSurface(cairocffi.FORMAT_ARGB32, self.width, self.height)
+
+        context = cairocffi.Context(self.surface)
+        # fill background
+        with context:
+            context.set_source_rgb(1, 1, 1)  # white
+            context.paint()
+
+        layout = pangocairocffi.create_layout(context)
+        layout.wrap = pangocffi.WrapMode.WORD
+        layout.width = units_from_double(self.width - 2 * self.margin)
 
         length = len(quote)
         quote = html.escape(quote, quote=False)
         quote = quote.replace(timestr, f"<b>{timestr}</b>")
 
-        font_size = self._find_font_size(quote, length)
-        self.layout.apply_markup(self._get_markup(quote, font_size))
+        font_size = self._find_font_size(layout, quote, length)
+        layout.apply_markup(self._get_markup(quote, font_size))
 
-        self.context.move_to(self.margin, self.margin)
-        pangocairocffi.show_layout(self.context, self.layout)
+        context.move_to(self.margin, self.margin)
+        pangocairocffi.show_layout(context, layout)
 
-    def _find_font_size(self, quote, length):
+    def _find_font_size(self, layout, quote, length):
         # TODO: use a more advanced search approach
         max_height = self.height - self.margin - self.meta_margin
         max_width = self.width - 2 * self.margin
         font_size = self._predict_font_size(length)
-        height, width = self._get_extents(quote, font_size)
+        height, width = self._get_extents(layout, quote, font_size)
 
         step = self.PRECISION if height < max_height and width < max_width else -self.PRECISION
         while True:
             font_size += step
-            height, width = self._get_extents(quote, font_size)
+            height, width = self._get_extents(layout, quote, font_size)
             if step < 0 and height <= max_height and width <= max_width:
                 return font_size
             if step > 0 and (height > max_height or width > max_width):
                 return font_size - step
 
-    def _get_extents(self, quote, font_size):
-        self.layout.apply_markup(self._get_markup(quote, font_size))
-        _, ext = self.layout.get_extents()
+    def _get_extents(self, layout, quote, font_size):
+        layout.apply_markup(self._get_markup(quote, font_size))
+        _, ext = layout.get_extents()
         return units_to_double(ext.height), units_to_double(ext.width)
 
     def _get_markup(self, quote, font_size):
