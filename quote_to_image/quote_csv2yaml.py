@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 from argparse import ArgumentParser
+from collections import defaultdict
 from csv import DictReader
 from pathlib import Path
 import sys
@@ -44,7 +45,8 @@ def write_yaml(content, dst_file):
         d['quote'] = Quote(d['quote'])
         return d
 
-    content = [mark_quote(item) for item in content]
+    for t, elms in content.items():
+        content[t] = [mark_quote(item) for item in elms]
 
     def quote_presenter(dumper, data):
         return dumper.represent_scalar('tag:yaml.org,2002:str', data, style='>')
@@ -58,4 +60,11 @@ def write_yaml(content, dst_file):
 if __name__ == '__main__':
     src, dst = get_args()
     quotes = read_csv(src)
-    write_yaml(quotes, dst)
+
+    # transform from simple list of dicts to a dict with time as primary key and a list of quotes as elements
+    quotes_dict = defaultdict(lambda: [])
+    for quote in quotes:
+        time = quote.pop('time')
+        quotes_dict[time].append(quote)
+
+    write_yaml(dict(quotes_dict), dst)

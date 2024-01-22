@@ -122,15 +122,16 @@ def get_quotes(src_file):
     with open(src_file, newline='\n', encoding="utf8") as yaml_file:
         result = yaml.safe_load(yaml_file)
 
-    expected_keys = ['author', 'quote', 'time', 'timestring', 'title']
-    for dataset in result:
-        for key in expected_keys:
-            if key not in dataset:
-                raise Exception(f"Error: missing key in {dataset} (expected {expected_keys})")
+    expected_keys = ['author', 'quote', 'timestring', 'title']
+    for t, datasets in result.items():
+        for dataset in datasets:
+            for key in expected_keys:
+                if key not in dataset:
+                    raise Exception(f"Error: missing key in {dataset} (expected {expected_keys})")
 
-        timestring, quote = dataset['timestring'], dataset['quote']
-        if timestring not in quote:
-            raise Exception(f"Error: timestring '{timestring}' not found in quote '{quote}'")
+            timestring, quote = dataset['timestring'], dataset['quote']
+            if timestring not in quote:
+                raise Exception(f"Error: timestring '{timestring}' not found in quote '{quote}'")
 
     return result
 
@@ -170,18 +171,18 @@ if __name__ == "__main__":
         p.mkdir(parents=True, exist_ok=True)
 
     counter = TimeCounter()
-    quotes = get_quotes(args['src'])
+    quotes_dict = get_quotes(args['src'])
 
-    for data in quotes:
-        current_time: str = data['time']
-        count = counter.count(current_time)
-        basename = f"quote_{current_time.replace(':', '')}_{count - 1}"
+    for current_time, quotes in quotes_dict.items():
+        for data in quotes:
+            count = counter.count(current_time)
+            basename = f"quote_{current_time.replace(':', '')}_{count - 1}"
 
-        q2i.add_quote(data['quote'], data['timestring'])
-        q2i.surface.write_to_png(str(dst / f'{basename}.png'))
+            q2i.add_quote(data['quote'], data['timestring'])
+            q2i.surface.write_to_png(str(dst / f'{basename}.png'))
 
-        q2i.add_annotations(data['title'], data['author'])
-        q2i.surface.write_to_png(str(meta_dst / f'{basename}_credits.png'))
+            q2i.add_annotations(data['title'], data['author'])
+            q2i.surface.write_to_png(str(meta_dst / f'{basename}_credits.png'))
 
     missing = counter.get_missing()
     if missing:
