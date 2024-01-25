@@ -46,7 +46,11 @@ class Quote2Image:
 
         self.surface = None
 
+        self.iterations = 0
+        self.quotes = 0
+
     def add_quote(self, quote: str, timestr: str):
+        self.quotes += 1
         self.surface = cairocffi.ImageSurface(cairocffi.FORMAT_ARGB32, self.width, self.height)
 
         context = cairocffi.Context(self.surface)
@@ -86,6 +90,7 @@ class Quote2Image:
                 return font_size - step
 
     def _get_extents(self, layout, quote, font_size):
+        self.iterations += 1
         layout.apply_markup(self._get_markup(quote, font_size))
         _, ext = layout.get_extents()
         return units_to_double(ext.height), units_to_double(ext.width)
@@ -116,6 +121,11 @@ class Quote2Image:
         pos_y = self.height - self.margin - units_to_double(ext.height)
         context.move_to(pos_x, pos_y)
         pangocairocffi.show_layout(context, layout)
+
+    def __del__(self):
+        print(f"quotes: {self.quotes}")
+        print(f"iterations: {self.iterations}")
+        print(f"iterations per quote: {self.iterations / self.quotes}")
 
 
 def get_quotes(src_file):
