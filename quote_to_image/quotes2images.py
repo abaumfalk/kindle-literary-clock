@@ -32,7 +32,9 @@ def get_arguments():
 
 
 class Quote2Image:
-    PRECISION = 0.5  # precision of font size search
+    FONT_SIZE_PRECISION = 0.5  # precision of font size search
+    FONT_SIZE_START = 40
+    FONT_SIZE_STEPS = 3  # determines the initial step size of the search algorithm
 
     def __init__(self, width: int, height: int, font="Sans", margin=DEFAULT_MARGIN,
                  meta_font='', meta_margin=ANNOTATION_MARGIN, meta_width_ratio=0.7):
@@ -63,31 +65,60 @@ class Quote2Image:
         layout.wrap = pangocffi.WrapMode.WORD
         layout.width = units_from_double(self.width - 2 * self.margin)
 
-        length = len(quote)
+        quote_len = len(quote)
         quote = html.escape(quote, quote=False)
         quote = quote.replace(timestr, f"<span foreground='black' font_desc='bold'>{timestr}</span>")
 
-        font_size = self._find_font_size(layout, quote, length)
+        font_size = self._find_font_size(layout, quote, quote_len)
         layout.apply_markup(self._get_markup(quote, font_size))
 
         context.move_to(self.margin, self.margin)
         pangocairocffi.show_layout(context, layout)
 
-    def _find_font_size(self, layout, quote, length):
-        # TODO: use a more advanced search approach
+    def _find_font_size(self, layout, quote, quote_len):
         max_height = self.height - self.margin - self.meta_margin
         max_width = self.width - 2 * self.margin
-        font_size = self._predict_font_size(length)
+
+        # the initial guess decides if we iterate upwards or downwards
+        font_size = self._predict_font_size(quote_len)
         height, width = self._get_extents(layout, quote, font_size)
 
-        step = self.PRECISION if height < max_height and width < max_width else -self.PRECISION
-        while True:
+        step = self._get_step(max_height - height)
+        best = None if height > max_height or width > max_width else font_size
+
+        while abs(step) >= self.FONT_SIZE_PRECISION:
             font_size += step
-            height, width = self._get_extents(layout, quote, font_size)
-            if step < 0 and height <= max_height and width <= max_width:
-                return font_size
-            if step > 0 and (height > max_height or width > max_width):
-                return font_size - step
+            while True:
+                height, width = self._get_extents(layout, quote, font_size)
+                delta = abs(height - max_height)
+                if height > max_height or width > max_width:
+                    if step > 0:
+                        font_size -= step
+                        break
+                    else:
+                        font_size += step
+                else:
+                    best = font_size
+                    if step > 0:
+                        font_size += step
+                    else:
+                        font_size -= step
+                        break
+
+            # overstepped
+            step = self._get_step(delta, step)
+
+        return best
+
+    def _predict_font_size(self, _length):
+        # TODO: make a good prediction by learning from previous attempts
+        return self.FONT_SIZE_START
+
+    def _get_step(self, delta, step=None):
+        # TODO: use current delta to find a better step size
+        if step is None:
+            return self.FONT_SIZE_PRECISION * 2 ** self.FONT_SIZE_STEPS * (1 if delta > 0 else -1)
+        return step / 2
 
     def _get_extents(self, layout, quote, font_size):
         self.iterations += 1
@@ -97,11 +128,6 @@ class Quote2Image:
 
     def _get_markup(self, quote, font_size):
         return f"<span foreground='grey' font_desc='{self.font} {font_size}'>{quote}</span>"
-
-    @staticmethod
-    def _predict_font_size(_length):
-        # TODO: make a good prediction by learning from previous attempts
-        return 40
 
     def add_annotations(self, title, author):
         title = html.escape(title)
