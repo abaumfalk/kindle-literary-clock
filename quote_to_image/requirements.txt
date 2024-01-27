@@ -1,0 +1,6 @@
+PyYAML==6.0.1
+cairocffi==1.6.1
+cffi==1.16.0
+pangocairocffi==0.7.0
+pangocffi==0.12.0
+pycparser==2.21
