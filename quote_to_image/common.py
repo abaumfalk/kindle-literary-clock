@@ -59,3 +59,7 @@ def get_quotes(src_file, collect_errors=False, fix_timestring_case=False):
 
     es = '\n'.join([str(e) for e in exceptions])
     raise Exception(f"{len(exceptions)} Errors in quotes:\n{es}")
+
+def minute_to_timestr(minute: int):
+    h, m = divmod(minute, 60)
+    return f"{h:02d}:{m:02d}"
