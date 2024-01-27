@@ -23,19 +23,32 @@ def write_yaml(content, dst_file):
         yaml.dump(content, yaml_file, allow_unicode=True)
 
 
-def get_quotes(src_file):
+def get_quotes(src_file, collect_errors=False):
     with open(src_file, newline='\n', encoding="utf8") as yaml_file:
         result = yaml.safe_load(yaml_file)
 
+    exceptions = []
     expected_keys = ['author', 'quote', 'timestring', 'title']
     for t, datasets in result.items():
         for dataset in datasets:
             for key in expected_keys:
                 if key not in dataset:
-                    raise Exception(f"Error: missing key in {dataset} (expected {expected_keys})")
+                    e = Exception(f"Missing key in {dataset} (expected {expected_keys})")
+                    if collect_errors:
+                        exceptions.append(e)
+                    else:
+                        raise e
 
             timestring, quote = dataset['timestring'], dataset['quote']
             if timestring not in quote:
-                raise Exception(f"Error: timestring '{timestring}' not found in quote '{quote}'")
+                e = Exception(f"Timestring '{timestring}' not found in quote '{quote}'")
+                if collect_errors:
+                    exceptions.append(e)
+                else:
+                    raise e
+
+    if exceptions:
+        es = '\n'.join([str(e) for e in exceptions])
+        raise Exception(f"{len(exceptions)} Errors in quotes:\n{es}")
 
     return result
