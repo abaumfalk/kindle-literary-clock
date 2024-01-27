@@ -52,3 +52,8 @@ def get_quotes(src_file, collect_errors=False):
         raise Exception(f"{len(exceptions)} Errors in quotes:\n{es}")
 
     return result
+
+
+def minute_to_timestr(minute: int):
+    h, m = divmod(minute, 60)
+    return f"{h:02d}:{m:02d}"

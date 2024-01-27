@@ -1,15 +1,13 @@
 #!/usr/bin/env python3
 import html
 from argparse import ArgumentParser
-from collections import defaultdict
 from pathlib import Path
-import yaml
 import cairocffi
 import pangocffi
 import pangocairocffi
 from pangocffi import units_from_double, units_to_double
 
-from common import get_quotes
+from common import get_quotes, minute_to_timestr
 
 DEFAULT_MARGIN = 26
 ANNOTATION_MARGIN = 100
@@ -154,11 +152,6 @@ class Quote2Image:
         print(f"quotes: {self.quotes}")
         print(f"iterations: {self.iterations}")
         print(f"iterations per quote: {self.iterations / self.quotes}")
-
-
-def minute_to_timestr(minute: int):
-    h, m = divmod(minute, 60)
-    return f"{h:02d}:{m:02d}"
 
 
 if __name__ == "__main__":
