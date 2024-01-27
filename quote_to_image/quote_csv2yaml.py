@@ -5,7 +5,7 @@ from csv import DictReader
 from pathlib import Path
 import sys
 
-import yaml
+from common import write_yaml
 
 
 def get_args():
@@ -45,28 +45,6 @@ def read_csv(src_file):
         raise Exception(f"Parsed result has {result_num} records - expected {csv_num}. Suspicious: {suspicious}")
 
     return result
-
-
-class Quote(str):
-    pass
-
-
-def write_yaml(content, dst_file):
-    # mark quotes
-    def mark_quote(d):
-        d['quote'] = Quote(d['quote'])
-        return d
-
-    for t, elms in content.items():
-        content[t] = [mark_quote(item) for item in elms]
-
-    def quote_presenter(dumper, data):
-        return dumper.represent_scalar('tag:yaml.org,2002:str', data, style='>')
-
-    yaml.add_representer(Quote, quote_presenter)
-
-    with open(dst_file, 'w') as yaml_file:
-        yaml.dump(content, yaml_file, allow_unicode=True)
 
 
 if __name__ == '__main__':

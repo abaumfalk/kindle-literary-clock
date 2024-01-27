@@ -9,6 +9,8 @@ import pangocffi
 import pangocairocffi
 from pangocffi import units_from_double, units_to_double
 
+from common import get_quotes
+
 DEFAULT_MARGIN = 26
 ANNOTATION_MARGIN = 100
 CREDIT_FONT_SIZE = 18
@@ -152,24 +154,6 @@ class Quote2Image:
         print(f"quotes: {self.quotes}")
         print(f"iterations: {self.iterations}")
         print(f"iterations per quote: {self.iterations / self.quotes}")
-
-
-def get_quotes(src_file):
-    with open(src_file, newline='\n', encoding="utf8") as yaml_file:
-        result = yaml.safe_load(yaml_file)
-
-    expected_keys = ['author', 'quote', 'timestring', 'title']
-    for t, datasets in result.items():
-        for dataset in datasets:
-            for key in expected_keys:
-                if key not in dataset:
-                    raise Exception(f"Error: missing key in {dataset} (expected {expected_keys})")
-
-            timestring, quote = dataset['timestring'], dataset['quote']
-            if timestring not in quote:
-                raise Exception(f"Error: timestring '{timestring}' not found in quote '{quote}'")
-
-    return result
 
 
 def minute_to_timestr(minute: int):
