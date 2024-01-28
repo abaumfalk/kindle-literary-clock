@@ -7559,6 +7559,12 @@
   sfw: sfw
   timestring: '6:46'
   title: Shall We Tell the President?
+- author: Bram Stoker
+  quote: >-
+    Left Munich at 8.35 p.m. on 1st May, arriving at Vienna early the next morning;
+    should have arrived at 6.46, but train was an hour late.
+  timestring: '6.46'
+  title: Dracula
 06:47:
 - author: Jeffrey Archer
   quote: >-
@@ -9397,6 +9403,12 @@
   sfw: unknown
   timestring: exactly eight
   title: Three Men and a Maid
+- author: Bram Stoker
+  quote: >-
+    Will you, therefore, instead of lunching with us, please come to breakfast at eight
+    o’clock, if this be not too early for you?
+  timestring: eight o’clock
+  title: Dracula
 08:01:
 - author: Ray Bradbury
   quote: >-
@@ -13630,6 +13642,18 @@
   sfw: unknown
   timestring: ten thirty
   title: Reprieve
+- author: Bram Stoker
+  quote: >-
+    You can get away, if you are in a hurry, by the 10.30 train, which will bring you to
+    Paddington by 2.35.
+  timestring: '10.30'
+  title: Dracula
+- author: Bram Stoker
+  quote: >-
+    As you go by the 10.30 train, you will not have time to read them; but I shall get
+    the bundle of papers.
+  timestring: '10.30'
+  title: Dracula
 '10:31':
 - author: Agatha Christie
   quote: >-
@@ -15175,6 +15199,13 @@
   sfw: unknown
   timestring: '11:30'
   title: Don't You Dare Read This, Mrs. Dunphrey
+- author: Bram Stoker
+  quote: >-
+    ‘Jonathan will be here at half-past eleven, and you must come to lunch with us and see 
+    him then; you could catch the quick 3.34 train, which will leave you at Paddington
+    before eight.’
+  timestring: half-past eleven
+  title: Dracula
 '11:31':
 - author: Tom Clancy
   quote: >-
@@ -18899,6 +18930,12 @@
   sfw: unknown
   timestring: 2:35 p.m.
   title: Post Office
+- author: Bram Stoker
+  quote: >-
+    You can get away, if you are in a hurry, by the 10.30 train, which will bring you to
+    Paddington by 2.35.
+  timestring: '2.35'
+  title: Dracula
 '14:36':
 - author: Haruki Murakami
   quote: >-
@@ -19696,6 +19733,12 @@
   sfw: unknown
   timestring: three o’clock
   title: The Wedding Officer
+- author: Bram Stoker
+  quote: >-
+    At three tomorrow the diligence will start for Bukovina: a place on it is kept 
+    for you.
+  timestring: three
+  title: Dracula
 '15:01':
 - author: Mark Twain
   quote: >-
@@ -26241,6 +26284,12 @@
   sfw: nsfw
   timestring: eight o’clock
   title: The Hasheesh Eater
+- author: Bram Stoker
+  quote: >-
+    About eight o'clock he began to get excited and to sniff about as a dog does when
+    setting.
+  timestring: eight o'clock
+  title: Dracula
 '20:01':
 - author: Kurt Vonnegut
   quote: >-
@@ -26804,7 +26853,8 @@
   title: Bridget Jones's Diary
 - author: Bram Stoker
   quote: >-
-    Left Munich at 8.35 p.m. on 1st May, arriving at Vienna early the next morning
+    Left Munich at 8.35 p.m. on 1st May, arriving at Vienna early the next morning;
+    should have arrived at 6.46, but train was an hour late.
   timestring: 8.35 p.m.
   title: Dracula
 - author: Agatha Christie
@@ -27455,6 +27505,11 @@
   sfw: nsfw
   timestring: nine o’clock
   title: The Hasheesh Eater
+- author: Bram Stoker
+  quote: >-
+    The combination is a dreadful one. At nine o'clock I visited him myself.
+  timestring: nine o'clock
+  title: Dracula
 '21:01':
 - author: Franz Kafka
   quote: >-
@@ -28882,6 +28937,13 @@
   sfw: unknown
   timestring: Ten eighteen
   title: The Quiet American
+- author: Bram Stoker
+  quote: >-
+    I have this moment, while writing, had a wire from Jonathan saying that he leaves
+    by the 6.25 tonight from Launceston and will be here at 10.18, so that I shall
+    have no fear tonight.
+  timestring: '10.18'
+  title: Dracula
 '22:19':
 - author: Helen Fielding
   quote: >-
