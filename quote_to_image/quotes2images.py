@@ -159,7 +159,8 @@ class Quote2Image:
     def __del__(self):
         print(f"quotes: {self.quotes}")
         print(f"iterations: {self.iterations}")
-        print(f"iterations per quote: {self.iterations / self.quotes}")
+        if self.quotes > 0:
+            print(f"iterations per quote: {self.iterations / self.quotes}")
 
 
 if __name__ == "__main__":
