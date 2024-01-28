@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import html
 from argparse import ArgumentParser
+from sortedcontainers import SortedDict
 from pathlib import Path
 import cairocffi
 import pangocffi
@@ -12,6 +13,8 @@ from common import get_quotes, minute_to_timestr
 DEFAULT_MARGIN = 26
 ANNOTATION_MARGIN = 100
 CREDIT_FONT_SIZE = 18
+FONT_SIZE_MIN = 20
+FONT_SIZE_MAX = None
 
 
 def get_arguments():
@@ -54,6 +57,8 @@ class Quote2Image:
 
         self.iterations = 0
         self.quotes = 0
+
+        self.sizes = SortedDict()
 
     def add_quote(self, quote: str, timestr: str):
         self.quotes += 1
@@ -113,6 +118,14 @@ class Quote2Image:
 
         if best is None:
             raise Quote2ImageException(f"Could not find font_size for {quote}")
+
+        if FONT_SIZE_MIN and best < FONT_SIZE_MIN:
+            raise Quote2ImageException(f"font size {best} too small for {quote}")
+
+        if FONT_SIZE_MAX and best > FONT_SIZE_MAX:
+            raise Quote2ImageException(f"font size {best} too large for {quote}")
+
+        self.sizes[best] = self.sizes.get(best, 0) + 1
         return best
 
     def _predict_font_size(self, _length):
@@ -161,6 +174,9 @@ class Quote2Image:
         print(f"iterations: {self.iterations}")
         if self.quotes > 0:
             print(f"iterations per quote: {self.iterations / self.quotes}")
+
+        for s, c in self.sizes.items():
+            print(f"{s}: {c}x")
 
 
 if __name__ == "__main__":
