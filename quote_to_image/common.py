@@ -1,3 +1,5 @@
+import re
+
 import yaml
 
 
@@ -23,7 +25,7 @@ def write_yaml(content, dst_file):
         yaml.dump(content, yaml_file, allow_unicode=True)
 
 
-def get_quotes(src_file, collect_errors=False):
+def get_quotes(src_file, collect_errors=False, fix_timestring_case=False):
     with open(src_file, newline='\n', encoding="utf8") as yaml_file:
         result = yaml.safe_load(yaml_file)
 
@@ -41,14 +43,19 @@ def get_quotes(src_file, collect_errors=False):
 
             timestring, quote = dataset['timestring'], dataset['quote']
             if timestring not in quote:
-                e = Exception(f"Timestring '{timestring}' not found in quote '{quote}'")
-                if collect_errors:
-                    exceptions.append(e)
+                if fix_timestring_case:
+                    search_result = re.search(timestring, quote, re.IGNORECASE)
+                    if search_result:
+                        dataset['timestring'] = search_result.group()
                 else:
-                    raise e
+                    e = Exception(f"Timestring '{timestring}' not found in quote '{quote}'")
+                    if collect_errors:
+                        exceptions.append(e)
+                    else:
+                        raise e
 
-    if exceptions:
-        es = '\n'.join([str(e) for e in exceptions])
-        raise Exception(f"{len(exceptions)} Errors in quotes:\n{es}")
+    if not exceptions or fix_timestring_case:
+        return result
 
-    return result
+    es = '\n'.join([str(e) for e in exceptions])
+    raise Exception(f"{len(exceptions)} Errors in quotes:\n{es}")
