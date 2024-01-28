@@ -31,6 +31,10 @@ def get_arguments():
     return vars(parsed)
 
 
+class Quote2ImageException(Exception):
+    pass
+
+
 class Quote2Image:
     FONT_SIZE_PRECISION = 0.5  # precision of font size search
     FONT_SIZE_START = 40
@@ -108,6 +112,8 @@ class Quote2Image:
             # overstepped
             step = self._get_step(delta, step)
 
+        if best is None:
+            raise Quote2ImageException(f"Could not find font_size for {quote}")
         return best
 
     def _predict_font_size(self, _length):
