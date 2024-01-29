@@ -31,6 +31,18 @@ def read_csv(src_file):
     with open(src_file, newline='\n', encoding="utf8") as csvfile:
         reader = DictReader(csvfile, delimiter='|')
         result = list(reader)
+    result_num = len(result)
+
+    # count lines of csv
+    with open(src_file, "rb") as f:
+        csv_num = sum(1 for _ in f) - 1
+
+    if result_num != csv_num:
+        suspicious = []
+        for record in result:
+            if len(record['quote']) > 700 or '|' in record['quote']:
+                suspicious.append(record)
+        raise Exception(f"Parsed result has {result_num} records - expected {csv_num}. Suspicious: {suspicious}")
 
     return result
 
