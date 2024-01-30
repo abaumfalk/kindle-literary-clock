@@ -43,6 +43,7 @@ class Quote2Image:
     FONT_SIZE_PRECISION = 0.5  # precision of font size search
     FONT_SIZE_START = 40
     FONT_SIZE_STEPS = 3  # determines the initial step size of the search algorithm
+    MAX_STEP = FONT_SIZE_PRECISION * 2 ** FONT_SIZE_STEPS
 
     def __init__(self, width: int, height: int, font="Sans", margin=DEFAULT_MARGIN,
                  meta_font='', meta_margin=ANNOTATION_MARGIN, meta_width_ratio=0.7, statistics=False):
@@ -93,22 +94,26 @@ class Quote2Image:
                 'iterations': self.iterations - iterations_before,
             })
 
+    def _check_font_size(self, layout, quote, font_size, max_height, max_width):
+        height, width = self._get_extents(layout, quote, font_size)
+        return height <= max_height and width <= max_width
+
     def _find_font_size(self, layout, quote, quote_len):
         max_height = self.height - self.margin - self.meta_margin
         max_width = self.width - 2 * self.margin
 
         # the initial guess decides if we iterate upwards or downwards
         font_size = self._predict_font_size(quote_len)
-        height, width = self._get_extents(layout, quote, font_size)
+        font_size_ok = self._check_font_size(layout, quote, font_size, max_height, max_width)
 
-        step = self._get_step(max_height - height, max_width - width)
-        best = None if height > max_height or width > max_width else font_size
+        step = self.MAX_STEP * 1 if font_size_ok else -1
+        best = font_size if font_size_ok else None
 
         while abs(step) >= self.FONT_SIZE_PRECISION:
             font_size += step
             while True:
-                height, width = self._get_extents(layout, quote, font_size)
-                if height > max_height or width > max_width:
+                font_size_ok = self._check_font_size(layout, quote, font_size, max_height, max_width)
+                if not font_size_ok:
                     if step > 0:
                         break
                 else:
@@ -119,7 +124,7 @@ class Quote2Image:
 
             # overstepped
             font_size -= step
-            step = self._get_step(max_height - height, max_width - width, step=step)
+            step /= 2
 
         if best is None:
             raise Quote2ImageException(f"Could not find font_size for {quote}")
@@ -146,15 +151,6 @@ class Quote2Image:
                 return 25
             return 20
         return self.FONT_SIZE_START
-
-    def _get_step(self, delta_height, delta_width, step=None):
-        # TODO: use current delta to find a better step size
-        if step is None:
-            step = self.FONT_SIZE_PRECISION * 2 ** self.FONT_SIZE_STEPS
-            if delta_width > 0 and delta_height > 0:
-                return step
-            return -step
-        return step / 2
 
     def _get_extents(self, layout, quote, font_size):
         self.iterations += 1
