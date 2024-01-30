@@ -110,19 +110,15 @@ class Quote2Image:
                 height, width = self._get_extents(layout, quote, font_size)
                 if height > max_height or width > max_width:
                     if step > 0:
-                        font_size -= step
                         break
-                    else:
-                        font_size += step
                 else:
                     best = font_size
-                    if step > 0:
-                        font_size += step
-                    else:
-                        font_size -= step
+                    if step < 0:
                         break
+                font_size += step
 
             # overstepped
+            font_size -= step
             step = self._get_step(max_height - height, max_width - width, step=step)
 
         if best is None:
