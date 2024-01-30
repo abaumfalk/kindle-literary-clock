@@ -80,8 +80,7 @@ class Quote2Image:
         quote = html.escape(quote, quote=False)
         quote = quote.replace(timestr, f"<span foreground='black' font_desc='bold'>{timestr}</span>")
 
-        iterations_before = self.iterations
-        font_size = self._find_font_size(layout, quote, quote_len)
+        font_size, iterations = self._find_font_size(layout, quote, quote_len)
         layout.apply_markup(self._get_markup(quote, font_size))
 
         context.move_to(self.margin, self.margin)
@@ -91,7 +90,8 @@ class Quote2Image:
             self.statistics.append({
                 'quote_len': quote_len,
                 'font_size': font_size,
-                'iterations': self.iterations - iterations_before,
+                'iteration_count': len(iterations),
+                'iterations': iterations,
             })
 
     def _check_font_size(self, layout, quote, font_size, max_height, max_width):
@@ -101,10 +101,12 @@ class Quote2Image:
     def _find_font_size(self, layout, quote, quote_len):
         max_height = self.height - self.margin - self.meta_margin
         max_width = self.width - 2 * self.margin
+        iterations = []
 
         # the initial guess decides if we iterate upwards or downwards
         font_size = self._predict_font_size(quote_len)
         font_size_ok = self._check_font_size(layout, quote, font_size, max_height, max_width)
+        iterations.append(font_size)
 
         step = self.MAX_STEP * 1 if font_size_ok else -1
         best = font_size if font_size_ok else None
@@ -113,6 +115,7 @@ class Quote2Image:
             font_size += step
             while True:
                 font_size_ok = self._check_font_size(layout, quote, font_size, max_height, max_width)
+                iterations.append(font_size)
                 if not font_size_ok:
                     if step > 0:
                         break
@@ -135,7 +138,7 @@ class Quote2Image:
         if FONT_SIZE_MAX and best > FONT_SIZE_MAX:
             raise Quote2ImageException(f"font size {best} too large for {quote}")
 
-        return best
+        return best, iterations
 
     def _predict_font_size(self, length):
         if self.width == 600 and self.height == 800:
