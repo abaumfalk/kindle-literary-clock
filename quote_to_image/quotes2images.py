@@ -101,12 +101,12 @@ class Quote2Image:
     def _find_font_size(self, layout, quote, quote_len):
         max_height = self.height - self.margin - self.meta_margin
         max_width = self.width - 2 * self.margin
-        iterations = []
+        iterations = {}
 
         # the initial guess decides if we iterate upwards or downwards
         font_size = self._predict_font_size(quote_len)
-        font_size_ok = self._check_font_size(layout, quote, font_size, max_height, max_width)
-        iterations.append(font_size)
+        font_size_ok = iterations.setdefault(
+            font_size, self._check_font_size(layout, quote, font_size, max_height, max_width))
 
         step = self.MAX_STEP * 1 if font_size_ok else -1
         best = font_size if font_size_ok else None
@@ -114,8 +114,8 @@ class Quote2Image:
         while abs(step) >= self.FONT_SIZE_PRECISION:
             font_size += step
             while True:
-                font_size_ok = self._check_font_size(layout, quote, font_size, max_height, max_width)
-                iterations.append(font_size)
+                font_size_ok = iterations.setdefault(
+                    font_size, self._check_font_size(layout, quote, font_size, max_height, max_width))
                 if not font_size_ok:
                     if step > 0:
                         break
