@@ -13,7 +13,7 @@ from common import get_quotes, minute_to_timestr
 DEFAULT_MARGIN = 26
 ANNOTATION_MARGIN = 100
 CREDIT_FONT_SIZE = 18
-FONT_SIZE_MIN = 20
+FONT_SIZE_MIN = 19
 FONT_SIZE_MAX = None
 
 
@@ -136,8 +136,19 @@ class Quote2Image:
 
         return best
 
-    def _predict_font_size(self, _length):
-        # TODO: make a good prediction by learning from previous attempts
+    def _predict_font_size(self, length):
+        if self.width == 600 and self.height == 800:
+            if length < 50:
+                return 70
+            if length < 100:
+                return 50
+            if length < 200:
+                return 40
+            if length < 400:
+                return 30
+            if length < 600:
+                return 25
+            return 20
         return self.FONT_SIZE_START
 
     def _get_step(self, delta_height, delta_width, step=None):
