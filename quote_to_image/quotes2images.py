@@ -46,7 +46,7 @@ class Quote2Image:
     MAX_STEP = FONT_SIZE_PRECISION * 2 ** FONT_SIZE_STEPS
 
     def __init__(self, width: int, height: int, font="Sans", margin=DEFAULT_MARGIN,
-                 meta_font='', meta_margin=ANNOTATION_MARGIN, meta_width_ratio=0.7, statistics=False):
+                 meta_font='', meta_margin=ANNOTATION_MARGIN, meta_width_ratio=0.7):
         self.width = width
         self.height = height
         self.font = font
@@ -57,13 +57,12 @@ class Quote2Image:
 
         self.surface = None
 
-        self.statistics = None
-        if statistics:
-            self.statistics = []
-
-        self.iterations = 0
+        self.iterations = {}
+        self.quote_len = None
+        self.font_size = None
 
     def add_quote(self, quote: str, timestr: str):
+        self.iterations = {}
         self.surface = cairocffi.ImageSurface(cairocffi.FORMAT_ARGB32, self.width, self.height)
 
         context = cairocffi.Context(self.surface)
@@ -76,36 +75,28 @@ class Quote2Image:
         layout.wrap = pangocffi.WrapMode.WORD
         layout.width = units_from_double(self.width - 2 * self.margin)
 
-        quote_len = len(quote)
+        self.quote_len = len(quote)
         quote = html.escape(quote, quote=False)
         quote = quote.replace(timestr, f"<span foreground='black' font_desc='bold'>{timestr}</span>")
 
-        font_size, iterations = self._find_font_size(layout, quote, quote_len)
-        layout.apply_markup(self._get_markup(quote, font_size))
+        self._find_font_size(layout, quote)
+        layout.apply_markup(self._get_markup(quote, self.font_size))
 
         context.move_to(self.margin, self.margin)
         pangocairocffi.show_layout(context, layout)
-
-        if self.statistics is not None:
-            self.statistics.append({
-                'quote_len': quote_len,
-                'font_size': font_size,
-                'iteration_count': len(iterations),
-                'iterations': iterations,
-            })
 
     def _check_font_size(self, layout, quote, font_size, max_height, max_width):
         height, width = self._get_extents(layout, quote, font_size)
         return height <= max_height and width <= max_width
 
-    def _find_font_size(self, layout, quote, quote_len):
+    def _find_font_size(self, layout, quote):
         max_height = self.height - self.margin - self.meta_margin
         max_width = self.width - 2 * self.margin
         iterations = {}
 
         # the initial guess decides if we iterate upwards or downwards
-        font_size = self._predict_font_size(quote_len)
-        font_size_ok = iterations.setdefault(
+        font_size = self._predict_font_size()
+        font_size_ok = self.iterations.setdefault(
             font_size, self._check_font_size(layout, quote, font_size, max_height, max_width))
 
         step = self.MAX_STEP * 1 if font_size_ok else -1
@@ -114,7 +105,7 @@ class Quote2Image:
         while abs(step) >= self.FONT_SIZE_PRECISION:
             font_size += step
             while True:
-                font_size_ok = iterations.setdefault(
+                font_size_ok = self.iterations.setdefault(
                     font_size, self._check_font_size(layout, quote, font_size, max_height, max_width))
                 if not font_size_ok:
                     if step > 0:
@@ -138,25 +129,24 @@ class Quote2Image:
         if FONT_SIZE_MAX and best > FONT_SIZE_MAX:
             raise Quote2ImageException(f"font size {best} too large for {quote}")
 
-        return best, iterations
+        self.font_size = best
 
-    def _predict_font_size(self, length):
+    def _predict_font_size(self):
         if self.width == 600 and self.height == 800:
-            if length < 50:
+            if self.quote_len < 50:
                 return 70
-            if length < 100:
+            if self.quote_len < 100:
                 return 50
-            if length < 200:
+            if self.quote_len < 200:
                 return 40
-            if length < 400:
+            if self.quote_len < 400:
                 return 30
-            if length < 600:
+            if self.quote_len < 600:
                 return 25
             return 20
         return self.FONT_SIZE_START
 
     def _get_extents(self, layout, quote, font_size):
-        self.iterations += 1
         layout.apply_markup(self._get_markup(quote, font_size))
         _, ext = layout.get_extents()
         return units_to_double(ext.height), units_to_double(ext.width)
@@ -183,33 +173,46 @@ class Quote2Image:
         context.move_to(pos_x, pos_y)
         pangocairocffi.show_layout(context, layout)
 
+
+class Statistics:
+    def __init__(self):
+        self.iterations = 0
+        self.statistics = []
+
+    def add(self, q2i: Quote2Image):
+        iter_count = len(q2i.iterations)
+        self.statistics.append({
+            'quote_len': q2i.quote_len,
+            'font_size': q2i.font_size,
+            'iteration_count': count,
+            'iterations': q2i.iterations,
+        })
+        self.iterations += iter_count
+
     def __del__(self):
-        if self.statistics is not None:
-            print("statistics:")
-            self.statistics = sorted(self.statistics, key=lambda x: x['quote_len'])
-            for record in self.statistics:
-                print(record)
+        print("statistics:")
+        self.statistics = sorted(self.statistics, key=lambda x: x['quote_len'])
+        for record in self.statistics:
+            print(record)
 
-            print("\ncount of font sizes:")
-            sizes = SortedDict()
-            for record in self.statistics:
-                font_size = record['font_size']
-                sizes[font_size] = sizes.get(font_size, 0) + 1
-            for s, c in sizes.items():
-                print(f"{s}: {c}x")
+        print("\ncount of font sizes:")
+        sizes = SortedDict()
+        for record in self.statistics:
+            font_size = record['font_size']
+            sizes[font_size] = sizes.get(font_size, 0) + 1
+        for s, c in sizes.items():
+            print(f"{s}: {c}x")
 
-            print("\nsummary:")
-            quotes = len(self.statistics)
-            print(f"  quotes: {quotes}")
-            print(f"  iterations: {self.iterations}")
-            if quotes > 0:
-                print(f"  iterations per quote: {self.iterations / quotes}")
+        print("\nsummary:")
+        quotes = len(self.statistics)
+        print(f"  quotes: {quotes}")
+        print(f"  iterations: {self.iterations}")
+        if quotes > 0:
+            print(f"  iterations per quote: {self.iterations / quotes}")
 
 
 if __name__ == "__main__":
     args = get_arguments()
-    q2i = Quote2Image(args['width'], args['height'], font=args['text_font'], meta_font=args['meta_font'],
-                      statistics=args['statistics'])
 
     # prepare destination folders
     dst = args['dst']
@@ -219,24 +222,34 @@ if __name__ == "__main__":
 
     quotes_dict = get_quotes(args['src'])
 
+    statistics = Statistics() if args['statistics'] else None
+
     missing = []
     for minute in range(0, 60 * 24):  # iterate through all minutes of the day
         current_time = minute_to_timestr(minute)
         print(f"{current_time}: ", end='')
         quotes = quotes_dict.get(current_time)
+
         if quotes is None:
             missing.append(current_time)
             print("missing!")
             continue
+
         for count, data in enumerate(quotes):
             print(".", end='', flush=True)
             basename = f"quote_{current_time.replace(':', '')}_{count - 1}"
+
+            q2i = Quote2Image(args['width'], args['height'], font=args['text_font'], meta_font=args['meta_font'])
 
             q2i.add_quote(data['quote'], data['timestring'])
             q2i.surface.write_to_png(str(dst / f'{basename}.png'))
 
             q2i.add_annotations(data['title'], data['author'])
             q2i.surface.write_to_png(str(meta_dst / f'{basename}_credits.png'))
+
+            if statistics is not None:
+                statistics.add(q2i)
+
         print()
 
     if missing:
