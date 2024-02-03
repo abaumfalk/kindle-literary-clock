@@ -196,8 +196,9 @@ class Statistics:
         self.iterations += iter_count
 
     def __del__(self):
-        print("statistics:")
-        self.statistics = sorted(self.statistics, key=lambda x: x['quote_len'])
+        sort_key = 'font_size'
+        print(f"statistics sorted by {sort_key}:")
+        self.statistics = sorted(self.statistics, key=lambda x: x[sort_key])
         for record in self.statistics:
             print(record)
 
