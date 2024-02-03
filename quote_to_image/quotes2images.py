@@ -183,9 +183,10 @@ class Statistics:
         self.iterations = 0
         self.statistics = []
 
-    def add(self, q2i: Quote2Image):
+    def add(self, q2i: Quote2Image, name):
         iter_count = len(q2i.iterations)
         self.statistics.append({
+            'name': name,
             'timestr': q2i.timestr,
             'quote_start': f"{q2i.quote[0:15]}...",
             'quote_len': q2i.quote_len,
@@ -255,7 +256,7 @@ if __name__ == "__main__":
             q2i.surface.write_to_png(str(meta_dst / f'{basename}_credits.png'))
 
             if statistics is not None:
-                statistics.add(q2i)
+                statistics.add(q2i, basename)
 
         print()
 
