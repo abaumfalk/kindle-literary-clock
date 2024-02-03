@@ -55,6 +55,7 @@ class Quote2Image:
         self.meta_margin = meta_margin
         self.meta_width_ratio = meta_width_ratio
 
+        self.layout = None
         self.surface = None
 
         self.iterations = {}
@@ -75,25 +76,25 @@ class Quote2Image:
             context.set_source_rgb(1, 1, 1)  # white
             context.paint()
 
-        layout = pangocairocffi.create_layout(context)
-        layout.wrap = pangocffi.WrapMode.WORD
-        layout.width = units_from_double(self.width - 2 * self.margin)
+        self.layout = pangocairocffi.create_layout(context)
+        self.layout.wrap = pangocffi.WrapMode.WORD
+        self.layout.width = units_from_double(self.width - 2 * self.margin)
 
         self.quote_len = len(quote)
         quote = html.escape(quote, quote=False)
         quote = quote.replace(timestr, f"<span foreground='black' font_desc='bold'>{timestr}</span>")
 
-        self._find_font_size(layout, quote)
-        layout.apply_markup(self._get_markup(quote, self.font_size))
+        self._find_font_size()
+        self.layout.apply_markup(self._get_markup(quote, self.font_size))
 
         context.move_to(self.margin, self.margin)
-        pangocairocffi.show_layout(context, layout)
+        pangocairocffi.show_layout(context, self.layout)
 
-    def _check_font_size(self, layout, quote, font_size, max_height, max_width):
-        height, width = self._get_extents(layout, quote, font_size)
+    def _check_font_size(self, font_size, max_height, max_width):
+        height, width = self._get_extents(font_size)
         return height <= max_height and width <= max_width
 
-    def _find_font_size(self, layout, quote):
+    def _find_font_size(self):
         max_height = self.height - self.margin - self.meta_margin
         max_width = self.width - 2 * self.margin
         iterations = {}
@@ -101,7 +102,7 @@ class Quote2Image:
         # the initial guess decides if we iterate upwards or downwards
         font_size = self._predict_font_size()
         font_size_ok = self.iterations.setdefault(
-            font_size, self._check_font_size(layout, quote, font_size, max_height, max_width))
+            font_size, self._check_font_size(font_size, max_height, max_width))
 
         step = self.MAX_STEP * 1 if font_size_ok else -1
         best = font_size if font_size_ok else None
@@ -110,7 +111,7 @@ class Quote2Image:
             font_size += step
             while True:
                 font_size_ok = self.iterations.setdefault(
-                    font_size, self._check_font_size(layout, quote, font_size, max_height, max_width))
+                    font_size, self._check_font_size(font_size, max_height, max_width))
                 if not font_size_ok:
                     if step > 0:
                         break
@@ -125,13 +126,13 @@ class Quote2Image:
             step /= 2
 
         if best is None:
-            raise Quote2ImageException(f"Could not find font_size for {quote}")
+            raise Quote2ImageException(f"Could not find font_size for {self.quote}")
 
         if FONT_SIZE_MIN and best < FONT_SIZE_MIN:
-            raise Quote2ImageException(f"font size {best} too small for {quote}")
+            raise Quote2ImageException(f"font size {best} too small for {self.quote}")
 
         if FONT_SIZE_MAX and best > FONT_SIZE_MAX:
-            raise Quote2ImageException(f"font size {best} too large for {quote}")
+            raise Quote2ImageException(f"font size {best} too large for {self.quote}")
 
         self.font_size = best
 
@@ -150,9 +151,9 @@ class Quote2Image:
             return 20
         return self.FONT_SIZE_START
 
-    def _get_extents(self, layout, quote, font_size):
-        layout.apply_markup(self._get_markup(quote, font_size))
-        _, ext = layout.get_extents()
+    def _get_extents(self, font_size):
+        self.layout.apply_markup(self._get_markup(self.quote, font_size))
+        _, ext = self.layout.get_extents()
         return units_to_double(ext.height), units_to_double(ext.width)
 
     def _get_markup(self, quote, font_size):
