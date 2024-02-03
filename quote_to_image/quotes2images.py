@@ -165,7 +165,7 @@ class Quote2Image:
         layout.width = units_from_double(self.width * self.meta_width_ratio)
         layout.alignment = pangocffi.Alignment.RIGHT
 
-        layout.apply_markup(f'<span font_desc="{CREDIT_FONT_SIZE} italic">—{title}, {author}</span>')
+        layout.apply_markup(f'<span font_desc="{self.meta_font} {CREDIT_FONT_SIZE}">—{title}, {author}</span>')
         _, ext = layout.get_extents()
 
         pos_x = self.width * (1 - self.meta_width_ratio) - self.margin
