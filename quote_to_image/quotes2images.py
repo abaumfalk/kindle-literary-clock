@@ -59,9 +59,13 @@ class Quote2Image:
 
         self.iterations = {}
         self.quote_len = None
+        self.quote = None
+        self.timestr = None
         self.font_size = None
 
     def add_quote(self, quote: str, timestr: str):
+        self.quote = quote
+        self.timestr = timestr
         self.iterations = {}
         self.surface = cairocffi.ImageSurface(cairocffi.FORMAT_ARGB32, self.width, self.height)
 
@@ -182,6 +186,8 @@ class Statistics:
     def add(self, q2i: Quote2Image):
         iter_count = len(q2i.iterations)
         self.statistics.append({
+            'timestr': q2i.timestr,
+            'quote_start': f"{q2i.quote[0:15]}...",
             'quote_len': q2i.quote_len,
             'font_size': q2i.font_size,
             'iteration_count': count,
