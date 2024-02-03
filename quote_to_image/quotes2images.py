@@ -245,7 +245,7 @@ if __name__ == "__main__":
 
         for count, data in enumerate(quotes):
             print(".", end='', flush=True)
-            basename = f"quote_{current_time.replace(':', '')}_{count - 1}"
+            basename = f"quote_{current_time.replace(':', '')}_{count}"
 
             q2i = Quote2Image(args['width'], args['height'], font=args['text_font'], meta_font=args['meta_font'])
 
