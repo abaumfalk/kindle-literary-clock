@@ -9,7 +9,7 @@
 - author: James Joyce
   quote: >-
     "But wait till I tell you," he said. :We had a midnight lunch too after all the
-    jollification and when we sallied forth it was blue o'clock the morning after
+    jollification and when we sallied forth it was blue o’clock the morning after
     the night before"
   timestring: midnight
   title: Ulysses
@@ -179,9 +179,9 @@
 - author: Charles Dickens
   quote: >-
     To begin my life with the beginning of my life, I record that I was born (as I
-    have been informed an believe) on a Friday, at twelve o'clock at night. It was
+    have been informed an believe) on a Friday, at twelve o’clock at night. It was
     remarked that the clock began to strike, and I began to cry, simultaneously.
-  timestring: twelve o'clock
+  timestring: twelve o’clock
   title: David Copperfield
 - author: William Shakespeare
   quote: >-
@@ -529,10 +529,10 @@
 00:03:
 - author: Robert Tressell
   quote: >-
-    It was after twelve o'clock when Easton came home. Ruth recognised his footsteps
+    It was after twelve o’clock when Easton came home. Ruth recognised his footsteps
     before he reached the house, and her heart seemed to stop beating when she heard
     the clang of the gate, as it closed after he had passed through.
-  timestring: after twelve o'clock
+  timestring: after twelve o’clock
   title: The Ragged Trousered Philanthropists
 - author: George Jean Nathan
   quote: >-
@@ -583,11 +583,11 @@
   title: Infinite Jest
 - author: Robert Tressell
   quote: >-
-    It was after twelve o'clock when Easton came home. Ruth recognised his footsteps
+    It was after twelve o’clock when Easton came home. Ruth recognised his footsteps
     before he reached the house, and her heart seemed to stop beating when she heard
     the clang of the gate, as it closed after he had passed through.
   sfw: unknown
-  timestring: after twelve o'clock
+  timestring: after twelve o’clock
   title: The Ragged Trousered Philanthropists
 00:06:
 - author: Glenn Shirley
@@ -1320,12 +1320,12 @@
 - author: Wilkie Collins
   quote: >-
     I looked attentively at her, as she put that singular question to me. It was then
-    nearly one o'clock. All I could discern distinctly by the moonlight was a colourless,
+    nearly one o’clock. All I could discern distinctly by the moonlight was a colourless,
     youthful face, meagre and sharp to look at about the cheeks and chin; large, grave,
     wistfully attentive eyes; nervous, uncertain lips; and light hair of a pale, brownish-yellow
     hue.
   sfw: unknown
-  timestring: nearly one o'clock
+  timestring: nearly one o’clock
   title: The Woman in White
 01:00:
 - author: Rosamund Lupton
@@ -1347,11 +1347,11 @@
 - author: Wilkie Collins
   quote: >-
     I looked attentively at her, as she put that singular question to me. It was then
-    nearly one o'clock. All I could discern distinctly by the moonlight was a colourless,
+    nearly one o’clock. All I could discern distinctly by the moonlight was a colourless,
     youthful face, meagre and sharp to look at about the cheeks and chin; large, grave,
     wistfully attentive eyes; nervous, uncertain lips; and light hair of a pale, brownish-yellow
     hue.
-  timestring: nearly one o'clock
+  timestring: nearly one o’clock
   title: The Woman in White
 - author: Graham Swift
   quote: >-
@@ -1379,11 +1379,11 @@
 - author: Douglas Adams
   quote: >-
     The station was more crowded than he had expected to find it at - what was it?
-    he looked up at the clock - one o'clock in the morning. What in the name of God
-    was he doing on King's Cross station at one o'clock in the morning, with no cigarette
+    he looked up at the clock - one o’clock in the morning. What in the name of God
+    was he doing on King's Cross station at one o’clock in the morning, with no cigarette
     and no home that he could reasonably expect to get into without being hacked to
     death by a homicidal bird?
-  timestring: one o'clock in the morning
+  timestring: one o’clock in the morning
   title: The Long Dark Tea-time of the Soul
 - author: C.S. Lewis
   quote: >-
@@ -1483,7 +1483,7 @@
   title: Freedom
 - author: Louis Joseph Vance
   quote: >-
-    Thus it was that at one minute past one o'clock, when a preternaturally self-respecting
+    Thus it was that at one minute past one o’clock, when a preternaturally self-respecting
     porter dispassionately ascertained that nothing more would be required of him
     till morning and shut himself out of her presence, the girl subsided upon the
     edge of a bed of such sybaritic character as amply to warrant the designation
@@ -1492,7 +1492,7 @@
     stared at the young woman who blankly stared back from a long mirror framed in
     the door.
   sfw: sfw
-  timestring: one minute past one o'clock
+  timestring: one minute past one o’clock
   title: Nobody
 01:02:
 - author: Amanda Bonilla
@@ -1606,7 +1606,7 @@
   quote: >-
     They made an unostentatious exit from their coach, finding themselves, when the
     express had rolled on into the west, upon a station platform in a foreign city
-    at nine minutes past one o'clock in the morning - but at length without their
+    at nine minutes past one o’clock in the morning - but at length without their
     shadow.
   timestring: nine minutes past one
   title: The Black Bag
@@ -1705,7 +1705,7 @@
 - author: James Thurber
   quote: >-
     I am sorry, therefore, as I have said, that I ever paid any attention to the footsteps.
-    They began about a quarter past one o'clock in the morning, a rhythmic, quick-cadenced
+    They began about a quarter past one o’clock in the morning, a rhythmic, quick-cadenced
     walking around the dining-room table.
   timestring: quarter past one
   title: 'My Life and Hard Times: "The Night the Ghost Got In"'
@@ -1722,7 +1722,7 @@
     walking, and go to bed. Its advent caused my mother to throw a shoe through a
     window of the house next door and ended up with my grandfather shooting a patrolman.
     I am sorry, therefore, as I have said, that I ever paid any attention to the footsteps.
-    They began about a quarter past one o'clock in the morning, a rhythmic, quick-cadenced
+    They began about a quarter past one o’clock in the morning, a rhythmic, quick-cadenced
     walking around the dining-room table.
   timestring: quarter past one
   title: 'My Life and Hard Times: "The Night the Ghost Got In"'
@@ -1821,7 +1821,7 @@
     "Well!" she said, looking like a minor female prophet about to curse the sins
     of the people. "May I trespass on your valuable time long enough to ask what in
     the name of everything bloodsome you think you're playing at, young piefaced Bertie?
-    It is now some twenty minutes past one o'clock in the morning, and not a spot
+    It is now some twenty minutes past one o’clock in the morning, and not a spot
     of action on your part."
   timestring: twenty minutes past one
   title: Jeeves and the Feudal Spirit
@@ -1885,7 +1885,7 @@
 - author: Wilkie Collins
   quote: >-
     He made a last effort; he tried to rise, and sank back. His head fell on the sofa
-    cushions. It was then twenty-five minutes past one o'clock.
+    cushions. It was then twenty-five minutes past one o’clock.
   timestring: twenty-five minutes past one
   title: The Moonstone
 01:26:
@@ -2321,8 +2321,8 @@
   title: Dead in the water
 - author: Victor Hugo
   quote: >-
-    As two o'clock pealed from the cathedral bell, Jean Valjean awoke.
-  timestring: two o'clock
+    As two o’clock pealed from the cathedral bell, Jean Valjean awoke.
+  timestring: two o’clock
   title: Les Miserables
 - author: J. Updike
   quote: >-
@@ -2350,10 +2350,10 @@
   title: Notes from the underground
 - author: Fyodor Dostoyevsky
   quote: >-
-    When all had grown quiet and Fyodor Pavlovich went to bed at around two o'clock,
+    When all had grown quiet and Fyodor Pavlovich went to bed at around two o’clock,
     Ivan Fyodorovich also went to bed with the firm resolve of falling quickly asleep,
     as he felt horribly exhausted.'
-  timestring: two o'clock
+  timestring: two o’clock
   title: The Brothers Karamazov
 - author: Lee Strobel
   quote: >-
@@ -3386,8 +3386,8 @@
 03:00:
 - author: Virginia Woolf
   quote: >-
-    "She died this morning, very early, about three o'clock."
-  timestring: three o'clock
+    "She died this morning, very early, about three o’clock."
+  timestring: three o’clock
   title: The Voyage Out
 - author: Ray Bradbury
   quote: >-
@@ -3397,9 +3397,9 @@
   title: Something Wicked This Way Comes
 - author: Douglas Adams
   quote: >-
-    According to her watch it was shortly after three o'clock, and according to everything
+    According to her watch it was shortly after three o’clock, and according to everything
     else it was night-time.
-  timestring: three o'clock
+  timestring: three o’clock
   title: The Long Dark Tea-time of the Soul
 - author: Raymond Chandler
   quote: >-
@@ -3433,9 +3433,9 @@
     a private, secluded sound, pure as rain, and grows to a steady, solipsistic bubbling.
     Not till she has had one cup of tea, so weak that it has a colour accidentally
     golden, can she begin her day. She is an insomniac. Her nights are wide-eyed and
-    excited with worry. Even at three o'clock in the morning one might hear her eating
+    excited with worry. Even at three o’clock in the morning one might hear her eating
     a Bain Marie biscuit in the kitchen.
-  timestring: three o'clock
+  timestring: three o’clock
   title: Afternoon Raag
 - author: Dan Holloway
   quote: >-
@@ -3445,8 +3445,8 @@
   title: Songs from the Other Side of the Wall
 - author: F. Scott Fitzgerald
   quote: >-
-    In a real dark night of the soul it is always 3 o'clock in the morning.
-  timestring: 3 o'clock
+    In a real dark night of the soul it is always 3 o’clock in the morning.
+  timestring: 3 o’clock
   title: The Crack-Up
 - author: Philip Roth
   quote: >-
@@ -3464,11 +3464,11 @@
   title: Solar
 - author: Max Frisch
   quote: >-
-    Once I saw a figure I shall never forget. It was three o'clock at night, as I
+    Once I saw a figure I shall never forget. It was three o’clock at night, as I
     was going home from Blacky as usual; it was a short-cut for me, and there would
     be nobody in the street at this time of night, I thought, especially not in this
     frightful cold.
-  timestring: three o'clock at night
+  timestring: three o’clock at night
   title: I'm Not Stiller
 - author: Philip K Dick
   quote: >-
@@ -3526,12 +3526,12 @@
     Worst of all was that Henrick used such pointed and mercilessly concrete examples.
     If he was preaching about mercy, he would describe the lot of the poor in such
     a way that the people could picture someone of the captain's many crofters leaving
-    his home at three o'clock in the morning with a sack of grain on his back, how
+    his home at three o’clock in the morning with a sack of grain on his back, how
     he slaved in the fields, how he often must go without the noon meal in order to
     get to the mill at last after thirteen hours of labor and after picking up his
     flour, return home through the woods, carrying his heavy load.
   sfw: unknown
-  timestring: three o'clock in the morning
+  timestring: three o’clock in the morning
   title: The Hammer of God
 - author: Ian Fleming
   quote: >-
@@ -3804,10 +3804,10 @@
   quote: >-
     Not till she has had one cup of tea, so weak that it has a colour accidentally
     golden, can she begin her day. She is an insomniac. Her nights are wide-eyed and
-    excited with worry. Even at three o'clock in the morning one might hear her eating
+    excited with worry. Even at three o’clock in the morning one might hear her eating
     a Bain Marie biscuit in the kitchen.
   sfw: unknown
-  timestring: three o'clock
+  timestring: three o’clock
   title: Afternoon Raag
 - author: Jerome K. Jerome
   quote: >-
@@ -3821,10 +3821,10 @@
 03:01:
 - author: Ernest Hemingway
   quote: >-
-    It was now about three o'clock in the morning and Francis Macomber, who had been
+    It was now about three o’clock in the morning and Francis Macomber, who had been
     asleep a little while after he had stopped thinking about the lion, wakened and
     then slept again.
-  timestring: about three o'clock
+  timestring: about three o’clock
   title: The Short Happy Life of Francis Macomber
 - author: Ginny Kochis
   quote: >-
@@ -3887,7 +3887,7 @@
   title: The Corrections
 - author: Jim Butcher
   quote: >-
-    Five minutes ago it was three o'clock, Murphy said. "I can't be certain, but I
+    Five minutes ago it was three o’clock, Murphy said. "I can't be certain, but I
     theorize that it must now be about three-oh-five."\n I folded my arms. "I don't
     usually do stakeouts."
   sfw: sfw
@@ -3934,7 +3934,7 @@
     The mist was thinning now and he could just discern the Grange itself - a substantial,
     dark shadow marked by blurs of lights from the windows. His watch showed that
     it was eight minutes past three. So they would all be closeted now in solitary
-    meditation waiting for the four o'clock summons to announce their final votes.
+    meditation waiting for the four o’clock summons to announce their final votes.
   sfw: sfw
   timestring: eight minutes past three
   title: The Black Tower
@@ -4606,9 +4606,9 @@
 04:00:
 - author: F. Scott Fitzgerald
   quote: >-
-    "Nothing happened," he said wanly. "I waited, and about four o'clock she came
+    "Nothing happened," he said wanly. "I waited, and about four o’clock she came
     to the window and stood there for a minute and then turned out the light."
-  timestring: four o'clock
+  timestring: four o’clock
   title: The Great Gatsby
 - author: Marian Keyes
   quote: >-
@@ -4627,9 +4627,9 @@
   title: Atomised
 - author: Emily Dickinson
   quote: >-
-    The Birds begun at Four o'clock— Their period for Dawn—
-  timestring: Four o'clock
-  title: The Birds begun at Four o'clock
+    The Birds begun at Four o’clock— Their period for Dawn—
+  timestring: Four o’clock
+  title: The Birds begun at Four o’clock
 - author: Roberto Bolano
   quote: >-
     The night before Albert Kessler arrived in Santa Teresa, at four in the morning,
@@ -4655,13 +4655,13 @@
   title: The Tea Rose
 - author: C.S. Lewis
   quote: >-
-    At four o'clock Mark sat in the Fairy's office rereading the last two articles
+    At four o’clock Mark sat in the Fairy's office rereading the last two articles
     he had written-one for the most respectable of our papers, the other for a more
     popular organ. This was the only part of the night's work which had anything in
     it to flatter literary vanity. The earlier hours had been spent in the sterner
     labor of concocting the news itself.
   sfw: unknown
-  timestring: four o'clock
+  timestring: four o’clock
   title: That Hideous Strength
 - author: Margaret Atwood
   quote: >-
@@ -4836,10 +4836,10 @@
   title: Pomegranate Soup
 - author: Emily Dickinson
   quote: >-
-    The Birds begun at Four o'clock \n Their period for Dawn
+    The Birds begun at Four o’clock \n Their period for Dawn
   sfw: unknown
-  timestring: Four o'clock
-  title: The Birds Begun at Four o'clock
+  timestring: Four o’clock
+  title: The Birds Begun at Four o’clock
 - author: Fitz Hugh Ludlow
   quote: >-
     It was now four o’clock of a midsummer morning, and the western hills, that I
@@ -4881,7 +4881,7 @@
 - author: Cirilo Villaverde
   quote: >-
     Four minutes after four! It's still very early and to get from here to there won't
-    take me more than 15 minutes, even walking slowly. She told me around five o'clock.
+    take me more than 15 minutes, even walking slowly. She told me around five o’clock.
     Wouldn't it be better to wait on the corner?
   timestring: Four minutes after four!
   title: Angel Hill
@@ -5592,18 +5592,18 @@
 05:00:
 - author: Charlotte Brontë
   quote: >-
-    Five o'clock had hardly struck on the morning of the 19th of January, when Bessie
+    Five o’clock had hardly struck on the morning of the 19th of January, when Bessie
     brought a candle into my closet and found me already up and nearly dressed.
-  timestring: Five o'clock
+  timestring: Five o’clock
   title: Jane Eyre
 - author: Charlotte Brontë
   quote: >-
-    Five o'clock had hardly struck on the morning of the 19th of January, when Bessie
+    Five o’clock had hardly struck on the morning of the 19th of January, when Bessie
     brought a candle into my closet and found me already up and nearly dressed. I
     had risen half-an-hour before her entrance, and had washed my face, and put on
     my clothes by the light of a half-moon just setting, whose rays streamed through
     the narrow window near my crib.
-  timestring: Five o'clock
+  timestring: Five o’clock
   title: Jane Eyre
 - author: H.P. Lovecraft
   quote: >-
@@ -5616,10 +5616,10 @@
   title: The Dunwich Horror
 - author: Rose Tremain
   quote: >-
-    Just after five o'clock on this chill September morning, the fishmonger's cart,
+    Just after five o’clock on this chill September morning, the fishmonger's cart,
     containing Kirsten and Emilia and such possessions as they have been able to assemble
     in the time allowed to them, is driven out of the gates of Rosenborg?
-  timestring: five o'clock
+  timestring: five o’clock
   title: Music and Silence
 - author: James Thurber
   quote: >-
@@ -5632,9 +5632,9 @@
   title: The 13 Clocks
 - author: Emily Dickinson
   quote: >-
-    The day came slow, till five o'clock. Then sprang before the hills. Like hindered
+    The day came slow, till five o’clock. Then sprang before the hills. Like hindered
     rubies, or the light. A sudden musket spills
-  timestring: five o'clock
+  timestring: five o’clock
   title: The Day Came Slow, Till Five O' Clock
 - author: Fleur Adcock
   quote: >-
@@ -5648,9 +5648,9 @@
 - author: William Makepeace Thackeray
   quote: >-
     What causes young people to "come out," but the noble ambition of matrimony? What
-    sends them trooping to watering-places? What keeps them dancing till five o'clock
+    sends them trooping to watering-places? What keeps them dancing till five o’clock
     in the morning through a whole mortal season?
-  timestring: five o'clock
+  timestring: five o’clock
   title: Vanity Fair
 - author: Roxanne Veletzos
   quote: >-
@@ -5800,10 +5800,10 @@
   title: The clocks
 - author: Rose Tremain
   quote: >-
-    Just after five o'clock on this chill September morning, the fishmonger's cart,
+    Just after five o’clock on this chill September morning, the fishmonger's cart,
     containing Kirsten and Emilia and such possessions as they have been able to assemble
     in the time allowed to them, is driven out of the gates of Rosenborg?
-  timestring: after five o'clock
+  timestring: after five o’clock
   title: Music and Silence
 05:02:
 - author: Brenda Joyce
@@ -5953,11 +5953,11 @@
 05:12:
 - author: Herbert Asbury
   quote: >-
-    At twelve minutes and six seconds past five o'clock on the morning of April 18th,
+    At twelve minutes and six seconds past five o’clock on the morning of April 18th,
     1906, the San francisco peninsula began to shiver in the grip of an earthquake
     which, when its ultimate consequences are considered, was the most disastrous
     in the recorded history of the North American continent.
-  timestring: twelve minutes and six seconds past five o'clock
+  timestring: twelve minutes and six seconds past five o’clock
   title: Slummer's Paradise
 05:13:
 - author: Nakia D Johnson
@@ -6089,12 +6089,12 @@
 - author: Garth Nix
   quote: >-
     On the morning of the ninth instant, that is to say, yesterday, at twenty-one
-    minutes past five o'clock in the morning, P.C. Whitstable was proceeding upon
+    minutes past five o’clock in the morning, P.C. Whitstable was proceeding upon
     his usual beat and had reached the corner of Clarges Street and Piccadilly, when
     he heard a shout on the other side of the road, at the point where a path exits
     from The Green Park.
   sfw: sfw
-  timestring: twenty-one minutes past five o'clock in the morning
+  timestring: twenty-one minutes past five o’clock in the morning
   title: The Curious Case of the Moondawn Daffodils Murder
 05:22:
 - author: Wilbur Smith
@@ -6279,7 +6279,7 @@
 05:33:
 - author: Margaret Peterson Haddix
   quote: >-
-    It was five thirty-three when we left. Is it six o'clock now? Six thirty? And
+    It was five thirty-three when we left. Is it six o’clock now? Six thirty? And
     Mark's still in his cage and I'm scared to drive very fast. . . what if we don't
     get there in time?
   sfw: unknown
@@ -6547,13 +6547,13 @@
 05:51:
 - author: Adrian Goldsworthy
   quote: >-
-    It was nine minutes to six o'clock and an hour before dawn. The brigade was not
+    It was nine minutes to six o’clock and an hour before dawn. The brigade was not
     due to move today, and so, just as they did every other day, along with every
     British corps in the field, the four battalions stood to arms in case of attack.
     Each company paraded and then marched to form with its battalion at its alarm
     post.
   sfw: sfw
-  timestring: nine minutes to six o'clock
+  timestring: nine minutes to six o’clock
   title: Whose Business is to Die
 05:52:
 - author: Mark Fuhrman
@@ -6718,9 +6718,9 @@
   title: Hunger
 - author: Gustave Flaubert
   quote: >-
-    On the 15th of September 1840, about six o'clock in the morning, the Ville-de-Montereau,
+    On the 15th of September 1840, about six o’clock in the morning, the Ville-de-Montereau,
     ready to depart, pouring out great whirls of smoke by the quai Saint-Bernard.
-  timestring: six o'clock
+  timestring: six o’clock
   title: L'Education sentimentale
 - author: F. Scott Fitzgerald
   quote: >-
@@ -7435,7 +7435,7 @@
 06:40:
 - author: Douglas Adams
   quote: >-
-    At eleven o'clock the phone rang, and still the figure did not respond, any more
+    At eleven o’clock the phone rang, and still the figure did not respond, any more
     than it has responded when the phone had rung at twenty-five to seven in the morning,
     and again at twenty to seven
   timestring: twenty to seven
@@ -7746,9 +7746,9 @@
 07:00:
 - author: Franz Kafka
   quote: >-
-    "Seven o'clock, already", he said to himself when the clock struck again, "seven
-    o'clock, and there's still a fog like this."
-  timestring: seven o'clock
+    "Seven o’clock, already", he said to himself when the clock struck again, "seven
+    o’clock, and there's still a fog like this."
+  timestring: seven o’clock
   title: Metamorphosis
 - author: Arthur Koestler
   quote: >-
@@ -7773,8 +7773,8 @@
 - author: Fyodor Dostoyevsky
   quote: >-
     She locked herself in, made no reply to my bonjour through the door; she was up
-    at seven o'clock, the samovar was taken in to her from the kitchen.
-  timestring: seven o'clock
+    at seven o’clock, the samovar was taken in to her from the kitchen.
+  timestring: seven o’clock
   title: Crime and Punishment
 - author: Terry Pratchett
   quote: >-
@@ -8004,9 +8004,9 @@
   quote: >-
     He really couldn't believe that the old woman who'd phoned him last night would
     show up this morning, as she'd said she would. He decided he'd wait until five
-    minutes after seven o'clock, and then he'd call in, take the day off, and make
+    minutes after seven o’clock, and then he'd call in, take the day off, and make
     every effort in the book to locate someone reliable.
-  timestring: five minutes after seven o'clock
+  timestring: five minutes after seven o’clock
   title: Where I'm Calling From
 - author: Haruki Murakami
   quote: >-
@@ -8067,13 +8067,13 @@
 - author: Lee Child
   quote: >-
     Reacher had no watch but he figured when he saw Gregory it must have been between
-    eight and nine minutes after seven o'clock.
-  timestring: between eight and nine minutes after seven o'clock
+    eight and nine minutes after seven o’clock.
+  timestring: between eight and nine minutes after seven o’clock
   title: The Hard Way
 07:09:
 - author: Ray Bradbury
   quote: >-
-    In the living room the voice-clock sang, Tick-tock, seven o'clock, time to get
+    In the living room the voice-clock sang, Tick-tock, seven o’clock, time to get
     up, time to get up, seven o 'clock! as if it were afraid that nobody would. The
     morning house lay empty. The clock ticked on, repeating and repeating its sounds
     into the emptiness. Seven-nine, breakfast time, seven-nine!
@@ -8159,7 +8159,7 @@
   quote: >-
     At twelve minutes past seven, in the kitchen, Kimberly was becoming anxious. She
     had been told by Sister Holland that Miss Gradwyn had asked for her early-morning
-    tea tray to be brought up at seven o'clock.
+    tea tray to be brought up at seven o’clock.
   sfw: sfw
   timestring: twelve minutes past seven
   title: The Private Patient
@@ -9031,11 +9031,11 @@
   title: Paths of Glory
 - author: P.D. James
   quote: >-
-    It was right at eight o'clock, maybe a minute before. I went into the demo room
+    It was right at eight o’clock, maybe a minute before. I went into the demo room
     to see if I'd left my tin of polish there. And there was this bottle of milk on
     the trolley and I drank some of it. Just a bit off the top.
   sfw: sfw
-  timestring: eight o'clock, maybe a minute before
+  timestring: eight o’clock, maybe a minute before
   title: Shroud for a Nightingale
 08:00:
 - author: Joan Didion
@@ -9051,15 +9051,15 @@
   title: The Curious Incident of the Dog in the Night-time
 - author: Douglas Adams
   quote: >-
-    At 8 o'clock on Thursday morning Arthur didn't feel very good.
-  timestring: 8 o'clock
+    At 8 o’clock on Thursday morning Arthur didn't feel very good.
+  timestring: 8 o’clock
   title: Hitch-Hikers Guide to the Galaxy
 - author: Douglas Adams
   quote: >-
-    At eight o'clock on Thursday morning Arthur didn't feel very good. He woke up
+    At eight o’clock on Thursday morning Arthur didn't feel very good. He woke up
     blearily, got up, wandered blearily round his room, opened a window, saw a bulldozer,
     found his slippers and stomped off to the bathroom to wash.
-  timestring: eight o'clock
+  timestring: eight o’clock
   title: Hitch-hikers guide to the galaxy
 - author: Jules Verne
   quote: >-
@@ -9070,20 +9070,20 @@
   title: Journey to the Centre of the Earth
 - author: Paul Auster
   quote: >-
-    But for now it was still eight o'clock, and as I walked along the avenue under
+    But for now it was still eight o’clock, and as I walked along the avenue under
     that brilliant blue sky, I was happy, my friends, as happy as any man who had
     ever lived.
-  timestring: eight o'clock
+  timestring: eight o’clock
   title: Brooklyn Follies
 - author: Paul Auster
   quote: >-
-    By eight o'clock Stillman would come out, always in his long brown overcoat, carrying
+    By eight o’clock Stillman would come out, always in his long brown overcoat, carrying
     a large, old-fashioned carpet bag. For two weeks this routine did not vary. The
     old man would wander through the streets of the neighbourhood, advancing slowly,
     sometimes by the merest of increments, pausing, moving on again, pausing once
     more, as though each step had to be weighed and measured before it could take
     its place among the sum total of steps.
-  timestring: eight o'clock
+  timestring: eight o’clock
   title: City of Glass
 - author: Ian McEwan
   quote: >-
@@ -9103,25 +9103,25 @@
   title: One Flew Over the Cuckoo's Nest
 - author: Jane Austen
   quote: >-
-    It was dated from Rosings, at eight o'clock in the morning, and was as follows:
+    It was dated from Rosings, at eight o’clock in the morning, and was as follows:
     - "Be not alarmed, madam, on receiving this letter, by the apprehension of its
     containing any repetition of those sentiments or renewal of those offerings which
     were last night so disgusting to you.
-  timestring: eight o'clock
+  timestring: eight o’clock
   title: Pride and Prejudice
 - author: Charles Dickens
   quote: >-
-    Mr. Pumblechook and I breakfasted at eight o'clock in the parlour behind the shop,
+    Mr. Pumblechook and I breakfasted at eight o’clock in the parlour behind the shop,
     while the shopman took his mug of tea and hunch of bread-and-butter on a sack
     of peas in the front premises.
-  timestring: eight o'clock
+  timestring: eight o’clock
   title: Great Expectations
 - author: Charlotte Brontë
   quote: >-
     Mrs. Rochester! She did not exist: she would not be born till to-morrow, some
-    time after eight o'clock a.m.; and I would wait to be assured she had come into
+    time after eight o’clock a.m.; and I would wait to be assured she had come into
     the world alive, before I assigned to her all that property.
-  timestring: eight o'clock a.m.
+  timestring: eight o’clock a.m.
   title: Jane Eyre
 - author: A E Housman
   quote: >-
@@ -9133,8 +9133,8 @@
   quote: >-
     Someone must have been telling lies about Joseph K. for without having done anything
     wrong he was arrested one fine morning. His landlady's cook, who always brought
-    him breakfast at eight o'clock, failed to appear on this occasion.
-  timestring: eight o'clock
+    him breakfast at eight o’clock, failed to appear on this occasion.
+  timestring: eight o’clock
   title: The Trial
 - author: Anthony Burgess
   quote: >-
@@ -9147,9 +9147,9 @@
   quote: >-
     Three days after the quarrel, Prince Stepan Arkadyevitch Oblonsky--Stiva, as he
     was called in the fashionable world-- woke up at his usual hour, that is, at eight
-    o'clock in the morning, not in his wife's bedroom, but on the leather-covered
+    o’clock in the morning, not in his wife's bedroom, but on the leather-covered
     sofa in his study.
-  timestring: eight o'clock
+  timestring: eight o’clock
   title: Anna Karenina
 - author: P.G. Wodehouse
   quote: >-
@@ -9194,11 +9194,11 @@
   title: Bright Valley of Love
 - author: Edna Hong
   quote: >-
-    School had started at eight o'clock and Gunther was late. Mr. Kunze, the teacher,
+    School had started at eight o’clock and Gunther was late. Mr. Kunze, the teacher,
     greeted him briefly with "Aha, a new bird!" and motioned the brother to wheel
     his chair over by the window nearest to him.
   sfw: unknown
-  timestring: eight o'clock
+  timestring: eight o’clock
   title: Bright Valley of Love
 - author: Franz Kafka
   quote: >-
@@ -9412,7 +9412,7 @@
 08:01:
 - author: Ray Bradbury
   quote: >-
-    Eight-one, tick-tock, eight-one o'clock, off to school, off to work, run, run,
+    Eight-one, tick-tock, eight-one o’clock, off to school, off to work, run, run,
     eight-one!
   timestring: eight-one
   title: There Will Come Soft Rains
@@ -10024,7 +10024,7 @@
   title: Long Day's Journey Into Night
 - author: Christoph Ransmayr
   quote: >-
-    On July 25th, 8:30 a.m. the bitch Novaya dies whelping. At 10 o'clock she is lowered
+    On July 25th, 8:30 a.m. the bitch Novaya dies whelping. At 10 o’clock she is lowered
     into her cool grave, at 7:30 that same evening we see our first floes and greet
     them wishing they were the last.
   timestring: 8:30 a.m.
@@ -10670,8 +10670,8 @@
 08:56:
 - author: George Orwell
   quote: >-
-    It was nearly nine o'clock and the sun was fiercer every minute.'
-  timestring: nearly nine o'clock
+    It was nearly nine o’clock and the sun was fiercer every minute.'
+  timestring: nearly nine o’clock
   title: Burmese Days
 - author: Miranda James
   quote: >-
@@ -10697,7 +10697,7 @@
     a worthy citizen of Wrychester, Martin by name, had left a sum of money to the
     Dean and Chapter of the Cathedral on condition that as long as ever the Cathedral
     stood, they should cause to be rung a bell from its smaller bell-tower for three
-    minutes before nine o'clock every morning, all the year round.
+    minutes before nine o’clock every morning, all the year round.
   timestring: three minutes before nine
   title: The Paradise Mystery
 - author: Roberts Goldsborough
@@ -10764,14 +10764,14 @@
 09:00:
 - author: John Kennedy Toole
   quote: >-
-    'I could never get all the way down there before nine o'clock.'
-  timestring: nine o'clock
+    'I could never get all the way down there before nine o’clock.'
+  timestring: nine o’clock
   title: A Confederacy of Dunces
 - author: John Kennedy Toole
   quote: >-
-    'Look. Ignatius. I'm beat. I've been on the road since nine o'clock yesterday
+    'Look. Ignatius. I'm beat. I've been on the road since nine o’clock yesterday
     morning.'
-  timestring: nine o'clock
+  timestring: nine o’clock
   title: A Confederacy of Dunces
 - author: Charles Dickens
   quote: >-
@@ -10810,9 +10810,9 @@
   title: A Single Pebble
 - author: F. Scott Fitzgerald
   quote: >-
-    At nine o'clock, one morning late in July, Gatsby's gorgeous car lurched up the
+    At nine o’clock, one morning late in July, Gatsby's gorgeous car lurched up the
     rocky drive to my door and gave out a burst of melody from its three-noted horn
-  timestring: nine o'clock
+  timestring: nine o’clock
   title: The Great Gatsby
 - author: Anthony Trollope
   quote: >-
@@ -10823,14 +10823,14 @@
 - author: Lewis Carroll
   quote: >-
     He won't stand beating. Now, if you only kept on good terms with him, he'd do
-    almost anything you liked with the clock. For instance, suppose it were nine o'clock
+    almost anything you liked with the clock. For instance, suppose it were nine o’clock
     in the morning, just time to begin lessons: you'd only have to whisper a hint
     to Time, and round goes the clock in a twinkling! Half-past one, time for dinner!
-  timestring: nine o'clock
+  timestring: nine o’clock
   title: Alice's Adventures in Wonderland
 - author: Kazuo Ishiguro
   quote: >-
-    It was around nine o'clock that I crossed the border into Cornwall. This was at
+    It was around nine o’clock that I crossed the border into Cornwall. This was at
     least three hours before the rain began and the clouds were still all of a brilliant
     white. In fact, many of the sights that greeted me this morning were among the
     most charming I have so far encountered. It was unfortunate, then, that I could
@@ -10838,7 +10838,7 @@
     as well declare it, one was in a condition of some preoccupation with the thought
     that - barring some unseen complication - one would be meeting Miss Kenton again
     before the day's end.
-  timestring: nine o'clock
+  timestring: nine o’clock
   title: The Remains of the Day
 - author: Thomas Mann
   quote: >-
@@ -10890,14 +10890,14 @@
   title: Bright Valley of Love
 - author: Bo Giertz
   quote: >-
-    At nine o'clock the parsonage buggy carried them south on the highway toward Ravelunda.
+    At nine o’clock the parsonage buggy carried them south on the highway toward Ravelunda.
     Fridfeldt felt more at home north of the church hamlet. There the revival had
     been more evident. Down here at Vänneberga it had one of its last outposts. Beyond
     it lay Sörbygden where the spiritual life was of another type. There one could
     both smoke and confess the Savior; there the doctrine of total sinful depravity
     was preached, and it was said whisky might be found also among the awakened.
   sfw: unknown
-  timestring: nine o'clock
+  timestring: nine o’clock
   title: The Hammer of God
 - author: L. Frank Baum
   quote: >-
@@ -11530,7 +11530,7 @@
 - author: Susanna Kaysen
   quote: >-
     I'll compromise by saying that I left home at eight and spent an hour travelling
-    to a nine o'clock appointment. Twenty minutes later is nine-twenty.
+    to a nine o’clock appointment. Twenty minutes later is nine-twenty.
   timestring: nine-twenty
   title: Girl, Interrupted
 - author: P.G. Wodehouse
@@ -11620,7 +11620,7 @@
 09:25:
 - author: Anne Enright
   quote: >-
-    A man I would cross the street to avoid at nine o'clock - by nine twenty-five
+    A man I would cross the street to avoid at nine o’clock - by nine twenty-five
     I wanted to fuck him until he wept. My legs trembled with it. My voice floated
     out of my mouth when I opened it to speak. The glass wall of the meeting room
     was huge and suddenly too transparent.
@@ -11731,7 +11731,7 @@
   title: Death in Holy Orders
 - author: Bo Giertz
   quote: >-
-    It was almost half past nine. At ten o'clock the morning service at the church
+    It was almost half past nine. At ten o’clock the morning service at the church
     would begin. It was time he was on his way.
   sfw: sfw
   timestring: almost half past nine
@@ -12002,11 +12002,11 @@
 09:38:
 - author: Bo Giertz
   quote: >-
-    Twenty-two minutes remained [until ten o'clock]. He was just turning in upon the
+    Twenty-two minutes remained [until ten o’clock]. He was just turning in upon the
     footpath behind the swine shed. It would take ten minutes to get to the church.
     He had less than fifteen minutes in which to get ready.
   sfw: unknown
-  timestring: Twenty-two minutes remained [until ten o'clock]
+  timestring: Twenty-two minutes remained [until ten o’clock]
   title: The Hammer of God
 09:39:
 - author: Benedict Jacka
@@ -12605,9 +12605,9 @@
     ––In assaying to put on his regimental coat and waistcoat, my uncle Toby found
     the same objection in his wig, ––so that went off too: ––So that with one thing
     and what with another, as always falls out when a man is in the most haste, ––'twas
-    ten o'clock, which was half an hour later than his usual time before my uncle
+    ten o’clock, which was half an hour later than his usual time before my uncle
     Toby sallied out.
-  timestring: ten o'clock
+  timestring: ten o’clock
   title: Tristram Shandy
 - author: William Shakespeare
   quote: >-
@@ -12619,7 +12619,7 @@
     For some seconds the light went on becoming brighter and brighter, and she saw
     everything more and more clearly and the clock ticked louder and louder until
     there was a terrific explosion right in her ear. Orlando leapt as if she had been
-    violently struck on the head. Ten times she was struck. In fact it was ten o'clock
+    violently struck on the head. Ten times she was struck. In fact it was ten o’clock
     in the morning. It was the eleventh of October. It was 1928. It was the present
     moment.
   timestring: 'ten '
@@ -12640,9 +12640,9 @@
   title: Kafka on the shore
 - author: John Steinbeck
   quote: >-
-    At about ten o'clock in the morning the sun threw a bright dust-laden bar through
+    At about ten o’clock in the morning the sun threw a bright dust-laden bar through
     one of the side windows, and in and out of the beam flies shot like rushing stars.
-  timestring: ten o'clock
+  timestring: ten o’clock
   title: Of Mice And Men
 - author: Russell Hoban
   quote: >-
@@ -12653,15 +12653,15 @@
 - author: Jane Austen
   quote: >-
     If Wednesday should ever come! It did come, and exactly when it might be reasonably
-    looked for. It came - it was fine - and Catherine trod on air. By ten o'clock,
+    looked for. It came - it was fine - and Catherine trod on air. By ten o’clock,
     the chaise and four conveyed the two from the abbey; and, after an agreeable drive
     of almost twenty miles, they entered Woodston, a large and populous village, in
     a situation not unpleasant.
-  timestring: ten o'clock
+  timestring: ten o’clock
   title: Northanger Abbey
 - author: William Shakespeare
   quote: >-
-    King Richard: Well, but what's o'clock? Buckingham: Upon the stroke of ten.
+    King Richard: Well, but what's o’clock? Buckingham: Upon the stroke of ten.
   timestring: ten
   title: Richard III
 - author: Samuel Pepys
@@ -12672,10 +12672,10 @@
   title: The Diary of Samuel Pepys
 - author: Christoph Ransmayr
   quote: >-
-    On July 25th, 8:30 a.m. the bitch Novaya dies whelping. At 10 o'clock she is lowered
+    On July 25th, 8:30 a.m. the bitch Novaya dies whelping. At 10 o’clock she is lowered
     into her cool grave, at 7:30 that same evening we see our first floes and greet
     them wishing they were the last.
-  timestring: 10 o'clock
+  timestring: 10 o’clock
   title: The Terrors of Ice and Darkness
 - author: Akhil Sharma
   quote: >-
@@ -12917,7 +12917,7 @@
   title: The Wedding Officer
 - author: William Shakespeare
   quote: >-
-    King Richard: Well, but what's o'clock?\nBuckingham: Upon the stroke of ten.
+    King Richard: Well, but what's o’clock?\nBuckingham: Upon the stroke of ten.
   sfw: unknown
   timestring: ten
   title: Richard III
@@ -12935,9 +12935,9 @@
 '10:01':
 - author: John Steinbeck
   quote: >-
-    At about ten o'clock in the morning the sun threw a bright dust-laden bar through
+    At about ten o’clock in the morning the sun threw a bright dust-laden bar through
     one of the side windows, and in and out of the beam flies shot like rushing stars.'
-  timestring: about ten o'clock
+  timestring: about ten o’clock
   title: Of Mice And Men
 - author: Jeffrey Archer
   quote: >-
@@ -13362,7 +13362,7 @@
 - author: Jeffrey Archer
   quote: >-
     Pacey hummed to himself as he walked slowly toward Abel's office for their daily
-    ten o'clock meeting. It was seventeen minutes past ten.
+    ten o’clock meeting. It was seventeen minutes past ten.
   sfw: sfw
   timestring: seventeen minutes past ten
   title: Kane & Abel
@@ -14176,7 +14176,7 @@
 '10:58':
 - author: Helen DeWitt
   quote: >-
-    One day Joe was sitting in the office waiting for his 11 o'clock appointment,
+    One day Joe was sitting in the office waiting for his 11 o’clock appointment,
     and at 10:58 this black gal came in.
   timestring: '10:58'
   title: Lightning Rods
@@ -14207,15 +14207,15 @@
 - author: Virginia Woolf
   quote: >-
     'Who can - what can -” asked Mrs Dalloway (thinking it was outrageous to be interrupted
-    at eleven o'clock on the morning of the day she was giving a party), hearing a
+    at eleven o’clock on the morning of the day she was giving a party), hearing a
     step on the stairs.
-  timestring: eleven o'clock
+  timestring: eleven o’clock
   title: Mrs Dalloway
 - author: Scarlett Thomas
   quote: >-
-    "By 11 o'clock I have finished the first chapter of Mr Y. The winter sun is peeping
+    "By 11 o’clock I have finished the first chapter of Mr Y. The winter sun is peeping
     meekly through the thin curtains and I decide to get up"
-  timestring: 11 o'clock
+  timestring: 11 o’clock
   title: The End of Mr Y
 - author: Rosamond Lehmann
   quote: >-
@@ -14227,9 +14227,9 @@
   title: The Weather in the Streets
 - author: Evelyn Waugh
   quote: >-
-    As her husband had told him, she was still in bed although it was past 11 o'clock.
+    As her husband had told him, she was still in bed although it was past 11 o’clock.
     Her normally mobile face was encased in clay, rigid and menacing as an Aztec mask.
-  timestring: 11 o'clock
+  timestring: 11 o’clock
   title: Scoop
 - author: Virginia Woolf
   quote: >-
@@ -14241,33 +14241,33 @@
   title: Mrs. Dalloway
 - author: Jo Nesbo
   quote: >-
-    At eleven o'clock in the morning, large flakes had appeared from a colourless
+    At eleven o’clock in the morning, large flakes had appeared from a colourless
     sky and invaded the fields, gardens and lawns of Romerike like an armada from
     outer space.
-  timestring: eleven o'clock
+  timestring: eleven o’clock
   title: The Snowman
 - author: Douglas Adams
   quote: >-
-    At eleven o'clock the phone rang, and still the figure did not respond, any more
+    At eleven o’clock the phone rang, and still the figure did not respond, any more
     than it had responded when the phone had rung at twenty-five to seven, and again
     for ten minutes continuously starting at five to seven...
-  timestring: eleven o'clock
+  timestring: eleven o’clock
   title: The Long Dark Tea-Time of the Soul
 - author: Virginia Woolf
   quote: >-
-    Big Ben was striking as she stepped out into the street. It was eleven o'clock
+    Big Ben was striking as she stepped out into the street. It was eleven o’clock
     and the unused hour was fresh as if issued to children on a beach.
-  timestring: eleven o'clock
+  timestring: eleven o’clock
   title: Mrs Dalloway
 - author: Raymond Chandler
   quote: >-
-    It was about eleven o'clock in the morning, mid October, with the sun not shining
+    It was about eleven o’clock in the morning, mid October, with the sun not shining
     and a look of hard wet rain in the clearness of the foothills. I was wearing my
     powder-blue suit, with dark blue shirt, tie and display handkerchief, black brogues,
     black wool socks with dark blue clocks on them. I was neat, clean, shaved and
     sober, and I didn't care who knew it. I was everything the well-dressed private
     detective ought to be. I was calling on four millon dollars.
-  timestring: eleven o'clock
+  timestring: eleven o’clock
   title: The big sleep
 - author: Patsy Hickman
   quote: >-
@@ -14283,21 +14283,21 @@
     ON the morning following the events just narrated, Mrs. Arlington was seated at
     breakfast in a sweet little parlour of the splendid mansion which the Earl of
     Warrington had taken and fitted up for her in Dover Street, Piccadilly. It was
-    about eleven o'clock; and the Enchantress was attired in a delicious deshabillé.
+    about eleven o’clock; and the Enchantress was attired in a delicious deshabillé.
     With her little feet upon an ottoman near the fender, and her fine form reclining
     in a luxurious large arm-chair, she divided her attention between her chocolate
     and the columns of the Morning Herald. She invariably prolonged the morning's
     repast as much as possible, limply because it served to wile away the time until
     the hour for dressing arrived.
-  timestring: eleven o'clock
+  timestring: eleven o’clock
   title: The Mysteries of London
 - author: George Augustus Sala
   quote: >-
-    Quiet as I am, I become at Eleven o'Clock in the Morning on every day of the week
+    Quiet as I am, I become at Eleven o’clock in the Morning on every day of the week
     save Sunday a raving, ranting maniac -- a dangerous lunatic, panting with insane
     desires to do, not only myself but other people, a mischief, and possessed less
     by hallucination than by rabies.
-  timestring: Eleven o'Clock
+  timestring: Eleven o’clock
   title: Twice Around the Clock
 - author: Alan Hollinghurst
   quote: >-
@@ -14324,19 +14324,19 @@
   title: Three Men in a Boat
 - author: Mary Shelley
   quote: >-
-    We passed a few sad hours until eleven o'clock, when the trial was to commence.
+    We passed a few sad hours until eleven o’clock, when the trial was to commence.
     My father and the rest of the family being obliged to attend as witnesses, I accompanied
     them to the court. During the whole of this wretched mockery of justice I suffered
     living torture.
-  timestring: eleven o'clock
+  timestring: eleven o’clock
   title: Frankenstein
 - author: Margaret Peterson Haddix
   quote: >-
-    The Population Police require your attendance at a meeting at eleven o'clock in
+    The Population Police require your attendance at a meeting at eleven o’clock in
     the town square. You will be issued a new identity card. No other cards or papers
     will be valid after these cards are issued, Luke said in a rush.
   sfw: sfw
-  timestring: eleven o'clock
+  timestring: eleven o’clock
   title: Among the Free
 - author: Eileen Chang
   quote: >-
@@ -14555,12 +14555,12 @@
     ON the morning following the events just narrated, Mrs. Arlington was seated at
     breakfast in a sweet little parlour of the splendid mansion which the Earl of
     Warrington had taken and fitted up for her in Dover Street, Piccadilly. It was
-    about eleven o'clock; and the Enchantress was attired in a delicious deshabillé.
+    about eleven o’clock; and the Enchantress was attired in a delicious deshabillé.
     With her little feet upon an ottoman near the fender, and her fine form reclining
     in a luxurious large arm-chair, she divided her attention between her chocolate
     and the columns of the Morning Herald.
   sfw: unknown
-  timestring: eleven o'clock
+  timestring: eleven o’clock
   title: The Mysteries of London
 '11:01':
 - author: Justin Cronin
@@ -14623,9 +14623,9 @@
 '11:04':
 - author: Evelyn Waugh
   quote: >-
-    As her husband had told him, she was still in bed although it was past 11 o'clock.
+    As her husband had told him, she was still in bed although it was past 11 o’clock.
     Her normally mobile face was encased in clay, rigid and menacing as an Aztec mask.
-  timestring: past 11 o'clock
+  timestring: past 11 o’clock
   title: Scoop
 - author: Jeffrey Archer
   quote: >-
@@ -15564,7 +15564,7 @@
 '11:51':
 - author: James Thurber
   quote: >-
-    The next day, at nine minutes to twelve o'clock noon, the last clock ran down
+    The next day, at nine minutes to twelve o’clock noon, the last clock ran down
     and stopped. It was then placed in the town museum, as a collector's item, or
     museum piece, with proper ceremonies, addresses, and the like.
   timestring: nine minutes to twelve
@@ -15573,14 +15573,14 @@
 - author: Anna Sewell
   quote: >-
     At any rate, we whirled into the station with many more, just as the great clock
-    pointed to eight minutes to twelve o'clock. "Thank God! We are in time," said
+    pointed to eight minutes to twelve o’clock. "Thank God! We are in time," said
     the young man, "and thank you, too, my friend, and your good horse..."
   timestring: eight minutes to twelve
   title: Black Beauty
 - author: P.D. James
   quote: >-
     He walked back to Delaney Street at eight minutes to twelve and pretended to browse
-    the bookshop. At twelve o'clock Monty called to his neighbor and, a second or
+    the bookshop. At twelve o’clock Monty called to his neighbor and, a second or
     two later, appeared from the back of the shop wearing his denim jacket and went
     across to the Blind Beggar.
   sfw: sfw
@@ -15816,21 +15816,21 @@
   title: The Woman Who Had Two Navels
 - author: Virginia Woolf
   quote: >-
-    It was precisely twelve o'clock; twelve by Big Ben; whose stroke was wafted over
+    It was precisely twelve o’clock; twelve by Big Ben; whose stroke was wafted over
     the northern part of London; blent with that of other clocks, mixed in a thin
     ethereal way with the clouds and wisps of smoke and died up there among the seagulls,
-    twelve o'clock struck as Clarissa Dalloway laid her green dress on her bed and
+    twelve o’clock struck as Clarissa Dalloway laid her green dress on her bed and
     the Warren Smiths walked down Harley Street. Twelve was the hour of their appointment.
-  timestring: twelve o'clock
+  timestring: twelve o’clock
   title: Mrs Dalloway
 - author: Virginia Woolf
   quote: >-
-    It was precisely twelve o'clock; twelve by Big Ben; whose stroke was wafted over
+    It was precisely twelve o’clock; twelve by Big Ben; whose stroke was wafted over
     the northern part of London; blent with that of other clocks, mixed in a thin
     ethereal way wth the clouds and wisps of smoke and died up there among the seagulls
-    - twelve o'clock struck as Clarissa Dalloway laid her green dress on the bed,
+    - twelve o’clock struck as Clarissa Dalloway laid her green dress on the bed,
     and the Warren Smiths walked down Harley Street.
-  timestring: twelve o'clock
+  timestring: twelve o’clock
   title: Mrs Dalloway
 - author: Virginia Woolf
   quote: >-
@@ -15869,10 +15869,10 @@
   title: The Great Gatsby
 - author: Emily Dickinson
   quote: >-
-    The Birds begun at Four o'clock — Their period for Dawn — A Music numerous as
+    The Birds begun at Four o’clock — Their period for Dawn — A Music numerous as
     space — But neighboring as Noon —
   timestring: Noon
-  title: The Birds begun at Four o'clock
+  title: The Birds begun at Four o’clock
 - author: Thomas Hardy
   quote: >-
     The Oxen Christmas Eve, and twelve of the clock. "Now they are all on their knees,"
@@ -15950,7 +15950,7 @@
   quote: >-
     Guess what! said Klaus as he spooned lentil soup into Gunther's mouth at the noon
     meal in Gaza. "I have the honor of being the first man in Gaza to meet the medical
-    examiners. At one o'clock sharp in Hebron."
+    examiners. At one o’clock sharp in Hebron."
   sfw: sfw
   timestring: noon
   title: Bright Valley of Love
@@ -16002,20 +16002,20 @@
   title: The Name of the Rose
 - author: Bo Giertz
   quote: >-
-    At twelve o'clock the bus came, and Torvik stood at the post office to meet it.
+    At twelve o’clock the bus came, and Torvik stood at the post office to meet it.
     Pastor Bengtsson alighted. He was a short, stocky man, with alert black eyes and
     rather thick rustic lips.
   sfw: unknown
-  timestring: twelve o'clock
+  timestring: twelve o’clock
   title: The Hammer of God
 - author: Bo Giertz
   quote: >-
-    At twelve o'clock the bus would be leaving with the morning mail. It was the last
+    At twelve o’clock the bus would be leaving with the morning mail. It was the last
     opportunity for the day to post the letter. He really ought not wait any longer
     with the application. But did he really dare take this step before he was sure
     of God's will? He prayed afresh.
   sfw: unknown
-  timestring: twelve o'clock
+  timestring: twelve o’clock
   title: The Hammer of God
 - author: Stephen King
   quote: >-
@@ -16143,11 +16143,11 @@
   title: Wuthering Heights
 - author: Emily Dickinson
   quote: >-
-    The Birds begun at Four o'clock\nTheir period for Dawn\nA Music numerous
+    The Birds begun at Four o’clock\nTheir period for Dawn\nA Music numerous
     as space\nBut neighboring as Noon
   sfw: unknown
   timestring: Noon
-  title: The Birds Begun at Four o'clock
+  title: The Birds Begun at Four o’clock
 - author: Thomas Hardy
   quote: >-
     Christmas Eve, and twelve of the clock.\n"Now they are all on their knees,"\nAn
@@ -16214,12 +16214,12 @@
 '12:02':
 - author: Lewis Carroll
   quote: >-
-    It had struck twelve o'clock two minutes and a quarter. The Baron's footman hastily
+    It had struck twelve o’clock two minutes and a quarter. The Baron's footman hastily
     seized a large goblet, and gasped with terror as he filled it with hot, spiced
     wine. "Tis past the hour, 'tis past," he groaned in anguish, "and surely I shall
     now get the red hot poker the Baron hath so often promised me, oh! Woe is me!
     Would that I had prepared the Baron's lunch before!"
-  timestring: twelve o'clock two minutes and a quarter
+  timestring: twelve o’clock two minutes and a quarter
   title: Crundle Castle
 - author: Stephen King
   quote: >-
@@ -16231,13 +16231,13 @@
   title: Billy Summers
 - author: Lewis Carroll
   quote: >-
-    It had struck twelve o'clock two minutes and a quarter. The Baron's footman hastily
+    It had struck twelve o’clock two minutes and a quarter. The Baron's footman hastily
     seized a large goblet, and gasped with terror as he filled it with hot, spiced
     wine.\n"Tis past the hour, 'tis past," he groaned in anguish, "and surely I
     shall now get the red hot poker the Baron hath so often promised me, oh! Woe is
     me! Would that I had prepared the Baron's lunch before!"
   sfw: unknown
-  timestring: twelve o'clock two minutes and a quarter
+  timestring: twelve o’clock two minutes and a quarter
   title: Crundle Castle
 '12:03':
 - author: Michael Chabon
@@ -17081,7 +17081,7 @@
 '12:56':
 - author: Bernard Cornwell
   quote: >-
-    If he was ignored till one o'clock, he promised himself, he would leave. He watched
+    If he was ignored till one o’clock, he promised himself, he would leave. He watched
     the filigreed minute hand jerk from five minutes to four minutes to one.
   sfw: sfw
   timestring: four minutes to one
@@ -17142,13 +17142,13 @@
   title: The Scarlet Pimpernel
 - author: Terry Pratchett
   quote: >-
-    "One o'clock pee em! Hello, Insert Name Here!" Said by the Disorganizer
-  timestring: One o'clock
+    "One o’clock pee em! Hello, Insert Name Here!" Said by the Disorganizer
+  timestring: One o’clock
   title: Jingo
 - author: Bram Stoker
   quote: >-
-    “Czarina Catherine reported entering Galatz at one o'clock today.”
-  timestring: one o'clock
+    “Czarina Catherine reported entering Galatz at one o’clock today.”
+  timestring: one o’clock
   title: Dracula
 - author: Mark Haddon
   quote: >-
@@ -17157,8 +17157,8 @@
   title: The Curious Incident of the Dog in the Night-time
 - author: Susanna Kaysen
   quote: >-
-    After 1 o'clock checks, Gretta always goes out for a smoke.
-  timestring: 1 o'clock
+    After 1 o’clock checks, Gretta always goes out for a smoke.
+  timestring: 1 o’clock
   title: Girl, Interrupted
 - author: Michel Houellebecq
   quote: >-
@@ -17170,7 +17170,7 @@
   title: Platform
 - author: Sybille Bedford
   quote: >-
-    I got to Schmidt's early, feeling horribly nervous. At one o'clock sharp: Toni.
+    I got to Schmidt's early, feeling horribly nervous. At one o’clock sharp: Toni.
     She was looking at the menu she knew well - Schmorbraten? Schnitzel? - when he
     loomed over her. I had seen him come in. She looked up, through him, at me. 'Traitor.'
     Jamie, hovering, looking very big, said her pet name, a German diminutive chosen
@@ -17178,7 +17178,7 @@
     waiter that I am not sharing my table with this gentleman.' Jamie heard, said
     her name again, turned to go, I rose to go with him. Toni - with that concentration
     of will - said, 'YOU are lunching with me.'
-  timestring: one o'clock
+  timestring: one o’clock
   title: Jigsaw
 - author: George Orwell
   quote: >-
@@ -17187,9 +17187,9 @@
   title: Nineteen Eighty-Four
 - author: Roma Tearne
   quote: >-
-    It was one o'clock. I bought some apples and a small pork pie and drove across
+    It was one o’clock. I bought some apples and a small pork pie and drove across
     the bridge to the other side of the riverbank in the direction of Orford Ness.
-  timestring: one o'clock
+  timestring: one o’clock
   title: The Swimmer
 - author: Spike Milligan
   quote: >-
@@ -17199,16 +17199,16 @@
   title: Silly Old Baboon
 - author: Arthur Ransome
   quote: >-
-    That day it was one o'clock before John and Roger rowed across and went up to
+    That day it was one o’clock before John and Roger rowed across and went up to
     Dixon's farm for the milk and a new supply of eggs and butter.
-  timestring: one o'clock
+  timestring: one o’clock
   title: Swallows and Amazons
 - author: Ken Kesey
   quote: >-
-    The day-room floor gets cleared of tables and at one o'clock the doctor comes
+    The day-room floor gets cleared of tables and at one o’clock the doctor comes
     out of his office down the hall, nods once at the nurse as he goes past where
     he's watching out of her window, sits in his chair just to the left of the door.
-  timestring: one o'clock
+  timestring: one o’clock
   title: One Flew Over the Cuckoo's Nest
 - author: C.S. Lewis
   quote: >-
@@ -17221,16 +17221,16 @@
   quote: >-
     Guess what! said Klaus as he spooned lentil soup into Gunther's mouth at the noon
     meal in Gaza. "I have the honor of being the first man in Gaza to meet the medical
-    examiners. At one o'clock sharp in Hebron."
+    examiners. At one o’clock sharp in Hebron."
   sfw: unknown
-  timestring: one o'clock sharp
+  timestring: one o’clock sharp
   title: Bright Valley of Love
 - author: Bo Giertz
   quote: >-
-    Tomorrow at one o'clock Anders will be here with the sleigh, and then you two
+    Tomorrow at one o’clock Anders will be here with the sleigh, and then you two
     will make the rounds according to the list and leave a basket at each place.
   sfw: sfw
-  timestring: one o'clock
+  timestring: one o’clock
   title: The Hammer of God
 - author: Stephen King
   quote: >-
@@ -17342,19 +17342,19 @@
   title: The Scarlet Pimpernel
 - author: Terry Pratchett
   quote: >-
-    One o'clock pee em! Hello, Insert Name Here!
+    One o’clock pee em! Hello, Insert Name Here!
   sfw: unknown
-  timestring: One o'clock
+  timestring: One o’clock
   title: Jingo
 - author: Sybille Bedford
   quote: >-
-    I got to Schmidt's early, feeling horribly nervous. At one o'clock sharp: Toni.
+    I got to Schmidt's early, feeling horribly nervous. At one o’clock sharp: Toni.
     She was looking at the menu she knew well - Schmorbraten? Schnitzel? - when he
     loomed over her. I had seen him come in. She looked up, through him, at me. "Traitor."
     Jamie, hovering, looking very big, said her pet name, a German diminutive chosen
     by her.
   sfw: unknown
-  timestring: one o'clock
+  timestring: one o’clock
   title: Jigsaw
 '13:01':
 - author: James Joyce
@@ -17365,23 +17365,23 @@
   title: Ulysses
 - author: George Orwell
   quote: >-
-    At about one o'clock the overseer arrived and told them he had no jobs for them.
+    At about one o’clock the overseer arrived and told them he had no jobs for them.
   sfw: unknown
-  timestring: about one o'clock
+  timestring: about one o’clock
   title: A Clergyman's Daughter
 - author: Kenneth Fearing
   quote: >-
-    It was a little after one o'clock when I got there, time for lunch, so I had it.
+    It was a little after one o’clock when I got there, time for lunch, so I had it.
     The food was awful. But it would go on the expense account, and after I'd eaten
     I got out my notebook and put it down. Lunch $1.50. Taxi $1.00.
   sfw: unknown
-  timestring: a little after one o'clock
+  timestring: a little after one o’clock
   title: The Big Clock
 '13:02':
 - author: George Orwell
   quote: >-
-    At about one o'clock the overseer arrived and told them he had no jobs for them
-  timestring: about one o'clock
+    At about one o’clock the overseer arrived and told them he had no jobs for them
+  timestring: about one o’clock
   title: A Clergyman's Daughter
 - author: L.E. Modesitt Jr.
   quote: >-
@@ -17395,10 +17395,10 @@
 '13:03':
 - author: Kenneth Fearing
   quote: >-
-    It was a little after one o'clock when I got there, time for lunch, so I had it.
+    It was a little after one o’clock when I got there, time for lunch, so I had it.
     The food was awful. But it would go on the expense account, and after I'd eaten
     I got out my notebook and put it down. Lunch $1.50. Taxi $1.00.
-  timestring: a little after one o'clock
+  timestring: a little after one o’clock
   title: The Big Clock
 - author: Thomas Hoover
   quote: >-
@@ -18066,7 +18066,7 @@
 - author: Agatha Christie
   quote: >-
     The best train of the day was the one-fifty from Paddington which reached Polgarwith
-    just after seven o'clock.
+    just after seven o’clock.
   timestring: one-fifty
   title: The Cornish Mystery
 - author: Stephen King
@@ -18199,15 +18199,15 @@
 - author: John Kennedy Toole
   quote: >-
     'She could have fired the jig, and he could have kept on picking up his packages
-    at the old time, two o'clock. As it was, he had almost been arrested.'
-  timestring: two o'clock
+    at the old time, two o’clock. As it was, he had almost been arrested.'
+  timestring: two o’clock
   title: A Confederacy of Dunces
 - author: Albert Camus
   quote: >-
     "The old people's home is at Marengo, fifty miles from Algiers. I'll catch the
-    two o'clock bus and get there in the afternoon.".... "I caught the two o'clock
+    two o’clock bus and get there in the afternoon.".... "I caught the two o’clock
     bus. It was very hot."
-  timestring: two o'clock
+  timestring: two o’clock
   title: The Outsider
 - author: David Mitchell
   quote: >-
@@ -18217,9 +18217,9 @@
   title: Black Swan Green
 - author: F. Scott Fitzgerald
   quote: >-
-    At two o'clock Gatsby put on his bathing suit and left word with the butler that
+    At two o’clock Gatsby put on his bathing suit and left word with the butler that
     if any one phoned word was to be brought to him at the pool.
-  timestring: two o'clock
+  timestring: two o’clock
   title: The Great Gatsby
 - author: Jo Nesbo
   quote: >-
@@ -18228,18 +18228,18 @@
   title: The Snowman
 - author: Albert Camus
   quote: >-
-    I caught the two o'clock bus. It was very hot. I ate at Céleste's restaurant as
+    I caught the two o’clock bus. It was very hot. I ate at Céleste's restaurant as
     usual. They all felt very sorry for me and Céleste told me, 'There's no one like
     a mother'.
-  timestring: two o'clock
+  timestring: two o’clock
   title: The Outsider
 - author: Albert Camus
   quote: >-
     The Home for Aged Persons is at Marengo, some fifty miles from Algiers. With the
-    two o'clock bus I should get there well before nightfall. Then I can spend the
+    two o’clock bus I should get there well before nightfall. Then I can spend the
     night there, keeping the usual vigil beside the body, and be back here by tomorrow
     evening.
-  timestring: two o'clock
+  timestring: two o’clock
   title: The Outsider
 - author: Stieg Larsson
   quote: >-
@@ -18273,13 +18273,13 @@
   title: The Voyage of the Dawn Treader
 - author: Bo Giertz
   quote: >-
-    Mrs. Karlsson's eyes were big with surprise when at two o'clock she saw the pastor
+    Mrs. Karlsson's eyes were big with surprise when at two o’clock she saw the pastor
     coming to dinner in this civilian elegance, which besides the suit and red tie,
     included colored socks and tan shoes. He offered no word of explanation. As usual,
     he carried under his arm a book with some unintelligible title, and from which
     he read the entire meal.
   sfw: unknown
-  timestring: two o'clock
+  timestring: two o’clock
   title: The Hammer of God
 - author: Sarah J. Maas
   quote: >-
@@ -18435,8 +18435,8 @@
     The next day was Saturday and, now that Moon was done, I decided to bring the
     job to its end. So I sent word that I shouldn't be able to umpire for the team
     at Steeple Sinderby and, after working through the morning, came down about two
-    o'clock.
-  timestring: about two o'clock
+    o’clock.
+  timestring: about two o’clock
   title: A Month in the Country
 - author: Arnold Bennet
   quote: >-
@@ -18571,10 +18571,10 @@
 - author: William Faulkner
   quote: >-
     The clock inlaid with mother-of-pearl, which would not run, stopped at some fourteen
-    minutes past two o'clock of a dead and forgotten day and time, which had been
+    minutes past two o’clock of a dead and forgotten day and time, which had been
     his mother's dowry.
   sfw: sfw
-  timestring: fourteen minutes past two o'clock
+  timestring: fourteen minutes past two o’clock
   title: Barn Burning
 '14:15':
 - author: Vladimir Nabokov
@@ -18626,7 +18626,7 @@
 - author: Louis Tracy
   quote: >-
     I only know that she used to go every Tuesday and Thursday by the seventeen minutes
-    past two train from Baker St., and be back by six o'clock, so it couldn't have
+    past two train from Baker St., and be back by six o’clock, so it couldn't have
     been very far.
   sfw: sfw
   timestring: seventeen minutes past two
@@ -18850,17 +18850,17 @@
   title: Millie
 - author: Bram Stoker
   quote: >-
-    It was half-past two o'clock when the knock came. I took my courage a deux mains
+    It was half-past two o’clock when the knock came. I took my courage a deux mains
     and waited. In a few minutes Mary opened the door, and announced "Dr. Van Helsing".
   timestring: half-past two
   title: Dracula
 - author: Dorothy Wordsworth
   quote: >-
-    May 14th 1800. Wm and John set off into Yorkshire after dinner at 1/2 past 2 o'clock,
+    May 14th 1800. Wm and John set off into Yorkshire after dinner at 1/2 past 2 o’clock,
     cold pork in their pockets. I left them at the turning of the Low-wood bay under
     the trees. My heart was so full that I could barely speak to W. when I gave him
     a farewell kiss.
-  timestring: 1/2 past 2 o'clock
+  timestring: 1/2 past 2 o’clock
   title: The Journals of Dorothy Wordsworth
 - author: Maj Sjöwall & Per Wahlöö
   quote: >-
@@ -19079,7 +19079,7 @@
 - author: P.D. James
   quote: >-
     Right! Let's get on with it. You know what we want, a full account of where you
-    were, what you were doing, and whom you saw between one o'clock when lunch was
+    were, what you were doing, and whom you saw between one o’clock when lunch was
     over and two-forty-three when Miss Gray found the body.
   sfw: sfw
   timestring: two-forty-three
@@ -19391,13 +19391,13 @@
 '15:00':
 - author: John Kennedy Toole
   quote: >-
-    'I gotta get uptown by three o'clock.'
-  timestring: three o'clock
+    'I gotta get uptown by three o’clock.'
+  timestring: three o’clock
   title: A Confederacy of Dunces
 - author: Arthur Ransome
   quote: >-
-    "Remember," they shouted, "battle at three o'clock sharp. There's no time to lose."
-  timestring: three o'clock
+    "Remember," they shouted, "battle at three o’clock sharp. There's no time to lose."
+  timestring: three o’clock
   title: Swallows and Amazons
 - author: Virginia Woolf
   quote: >-
@@ -19409,10 +19409,10 @@
   title: Mrs Dalloway
 - author: Guy de Maupassant
   quote: >-
-    At three o'clock on the afternoon of that same day, he called on her. She held
+    At three o’clock on the afternoon of that same day, he called on her. She held
     out her two hands, smiling in her usual charming, friendly way; and for a few
     seconds they looked deep into each other's eyes.
-  timestring: three o'clock
+  timestring: three o’clock
   title: Bel-Ami
 - author: Sir Arthur Conan Doyle
   quote: >-
@@ -19435,10 +19435,10 @@
   title: Essays in Love
 - author: Paul Auster
   quote: >-
-    He walks into the Hospital for Broken Things at three o'clock on Monday afternoon.
-    That was the arrangement. If he came in after six o'clock, he was to head straight
+    He walks into the Hospital for Broken Things at three o’clock on Monday afternoon.
+    That was the arrangement. If he came in after six o’clock, he was to head straight
     for the house in Sunset Park.
-  timestring: three o'clock
+  timestring: three o’clock
   title: Sunset Park
 - author: T.C. Boyle
   quote: >-
@@ -19451,13 +19451,13 @@
   title: Achates McNeil
 - author: George Eliot
   quote: >-
-    It was three o'clock in the beautiful breezy autumn day when Mr. Casaubon drove
+    It was three o’clock in the beautiful breezy autumn day when Mr. Casaubon drove
     off to his Rectory at Lowick, only five miles from Tipton; and Dorothea, who had
     on her bonnet and shawl, hurried along the shrubbery and across the park that
     she might wander through the bordering wood with no other visible companionship
     than that of Monk, the Great St. Bernard dog, who always took care of the young
     ladies in their walks
-  timestring: three o'clock
+  timestring: three o’clock
   title: Middlemarch
 - author: Harper Lee
   quote: >-
@@ -19467,16 +19467,16 @@
   title: To kill a mockingbird
 - author: Victor Hugo
   quote: >-
-    M. Madeleine usually came at three o'clock, and as punctuality was kindness, he
+    M. Madeleine usually came at three o’clock, and as punctuality was kindness, he
     was punctual.
-  timestring: three o'clock
+  timestring: three o’clock
   title: Les Miserables
 - author: Gustave Flaubert
   quote: >-
-    On Wednesday at three o'clock, Monsieur and Madame Bovary, seated in their dog-cart,
+    On Wednesday at three o’clock, Monsieur and Madame Bovary, seated in their dog-cart,
     set out for Vaubyessard, with a great trunk strapped on behind and a bonnet-box
     in front of the apron. Besides these Charles held a bandbox between his knees.
-  timestring: three o'clock
+  timestring: three o’clock
   title: Madame Bovary
 - author: Ian Fleming
   quote: >-
@@ -19488,22 +19488,22 @@
   title: Casino Royale
 - author: Jean-Paul Sartre
   quote: >-
-    Three o'clock is always too late or too early for anything you want to do.
-  timestring: Three o'clock
+    Three o’clock is always too late or too early for anything you want to do.
+  timestring: Three o’clock
   title: Nausea
 - author: Jonathan Trigell
   quote: >-
-    Three o'clock is the perfect time in Cham, because anything is possible. You can
+    Three o’clock is the perfect time in Cham, because anything is possible. You can
     still ski, but also respectably start drinking, the shops have just reopened,
-    the sun is still up. Three o'clock is never too late or too early.
-  timestring: Three o'clock
+    the sun is still up. Three o’clock is never too late or too early.
+  timestring: Three o’clock
   title: Cham
 - author: David Lodge
   quote: >-
     Today was the day Alex had appointed for her 'punishment'. I became increasingly
-    nervous as the hour of three o'clock approached. I was alone in the house, and
+    nervous as the hour of three o’clock approached. I was alone in the house, and
     paced restlessly from room to room, glancing at the clocks in each of them.
-  timestring: three o'clock
+  timestring: three o’clock
   title: Deaf Sentence
 - author: Vanessa Rasanen
   quote: >-
@@ -19516,10 +19516,10 @@
 - author: Edna Hong
   quote: >-
     Gunther's two conflicting feelings about Christmas almost rubbed each other out
-    on the First Sunday in Advent. By three o'clock the fear feeling had practically
+    on the First Sunday in Advent. By three o’clock the fear feeling had practically
     vanished.
   sfw: unknown
-  timestring: three o'clock
+  timestring: three o’clock
   title: Bright Valley of Love
 - author: Stephen King
   quote: >-
@@ -19743,7 +19743,7 @@
   title: A Connecticut Yankee in King Arthur's Court
 - author: David Mitchell
   quote: >-
-    There'll be twenty pallets' worth by three o'clock tomorrow, see, comes a man's
+    There'll be twenty pallets' worth by three o’clock tomorrow, see, comes a man's
     voice from the office down the hall, "and if your truck isn't here at one minute
     past three, then the lot'll be going to the Fine Fare depot in Aylesford."
   sfw: sfw
@@ -19805,7 +19805,7 @@
   title: In Cold Blood
 - author: Jim Butcher
   quote: >-
-    Five minutes ago it was three o'clock, Murphy said. "I can't be certain, but I
+    Five minutes ago it was three o’clock, Murphy said. "I can't be certain, but I
     theorize that it must now be about three-oh-five."\n I folded my arms. "I don't
     usually do stakeouts."
   sfw: sfw
@@ -19857,7 +19857,7 @@
     The mist was thinning now and he could just discern the Grange itself - a substantial,
     dark shadow marked by blurs of lights from the windows. His watch showed that
     it was eight minutes past three. So they would all be closeted now in solitary
-    meditation waiting for the four o'clock summons to announce their final votes.
+    meditation waiting for the four o’clock summons to announce their final votes.
   sfw: sfw
   timestring: eight minutes past three
   title: The Black Tower
@@ -20188,7 +20188,7 @@
 - author: Ray Bradbury
   quote: >-
     The next afternoon Mr. Underhill finished at the office early and took the three
-    o'clock train, arriving out in Green Town at three twenty-five, in plenty of time
+    o’clock train, arriving out in Green Town at three twenty-five, in plenty of time
     to drink in the brisk rays of the autumnal sun.
   sfw: unknown
   timestring: three twenty-five
@@ -20259,7 +20259,7 @@
 - author: Roald Dahl
   quote: >-
     "Before I am rrroasting the alarm-clock, I am setting it to go off, not at nine
-    o'clock the next morning, but at half-past thrrree the next afternoon. Vhich means
+    o’clock the next morning, but at half-past thrrree the next afternoon. Vhich means
     half-past thrrree this afternoon. And that", she said, glancing at her wrist-watch,
     "is in prrree-cisely seven minutes' time!"
   timestring: half-past thrrree
@@ -20594,10 +20594,10 @@
 '15:51':
 - author: Mark Twain
   quote: >-
-    Date of the telegram, Rome, November 24, ten minutes before twenty-three o'clock.
+    Date of the telegram, Rome, November 24, ten minutes before twenty-three o’clock.
     The telegram seems to say, "The Sovereigns and the Royal Children expect themselves
-    at Rome tomorrow at fifty-one minutes after fifteen o'clock."
-  timestring: fifty-one minutes after fifteen o'clock
+    at Rome tomorrow at fifty-one minutes after fifteen o’clock."
+  timestring: fifty-one minutes after fifteen o’clock
   title: Italian Without a Master
 '15:52':
 - author: Frederick Forsyth
@@ -20656,11 +20656,11 @@
 '15:58':
 - author: Victor Hugo
   quote: >-
-    Towards four o'clock the condition of the English army was serious. The Prince
+    Towards four o’clock the condition of the English army was serious. The Prince
     of Orange was in command of the centre, Hill of the right wing, Picton of the
     left wing. The Prince of Orange, desperate and intrepid, shouted to the Hollando-Belgians:
     "Nassau! Brunswick! Never retreat!"
-  timestring: Towards four o'clock
+  timestring: Towards four o’clock
   title: Les Miserables
 - author: Jeffrey Archer
   quote: >-
@@ -20709,21 +20709,21 @@
   title: The Adventures of Sherlock Holmes
 - author: Victor Hugo
   quote: >-
-    Towards four o'clock the condition of the English army was serious. The Prince
+    Towards four o’clock the condition of the English army was serious. The Prince
     of Orange was in command of the centre, Hill of the right wing, Picton of the
     left wing. The Prince of Orange, desperate and intrepid, shouted to the Hollando-Belgians:
     "Nassau! Brunswick! Never retreat!"
   sfw: unknown
-  timestring: Towards four o'clock
+  timestring: Towards four o’clock
   title: Les Misérables
 '16:00':
 - author: Jane Austen
   quote: >-
-    ... when they all sat down to table at four o'clock, about three hours after his
+    ... when they all sat down to table at four o’clock, about three hours after his
     arrival, he had secured his lady, engaged her mother's consent, and was not only
     in the rapturous profession of the lover, but, in the reality of reason and truth,
     one of the happiest of men.
-  timestring: four o'clock
+  timestring: four o’clock
   title: Sense and Sensibility
 - author: Philip Larkin
   quote: >-
@@ -20739,10 +20739,10 @@
 - author: Val McDermid
   quote: >-
     As he turned off towards the fishing village of Cellardyke, the familiar pips
-    announced the four o'clock news. The comforting voice of the newsreader began
+    announced the four o’clock news. The comforting voice of the newsreader began
     the bulletin. 'The convicted serial killer and former TV chat show host Jacko
     Vance has begun his appeal against conviction.
-  timestring: four o'clock
+  timestring: four o’clock
   title: The Last Temptation
 - author: Muriel Spark
   quote: >-
@@ -20759,15 +20759,15 @@
   title: Atomised
 - author: Philip Larkin
   quote: >-
-    Four o'clock: wedge-shaped gardens lie Under a cavernous, a wind-picked sky.
-  timestring: Four o'clock
+    Four o’clock: wedge-shaped gardens lie Under a cavernous, a wind-picked sky.
+  timestring: Four o’clock
   title: Sad Steps
 - author: Howard Jacobson
   quote: >-
-    Four o'clock: when time in the city quivers on its axis - the day not yet spent,
+    Four o’clock: when time in the city quivers on its axis - the day not yet spent,
     the wheels of evening just beginning to turn. The handover hour, was how Marius
     liked to think of it.
-  timestring: Four o'clock
+  timestring: Four o’clock
   title: The Act of Love
 - author: Walter Hartwright VII
   quote: >-
@@ -20785,9 +20785,9 @@
   title: The Woman in White - The Story Continued
 - author: Steven Galloway
   quote: >-
-    He played for twenty-two days, just as he said he would. Every day at four o'clock
+    He played for twenty-two days, just as he said he would. Every day at four o’clock
     in the afternoon, regardless of how much fighting was going on around him.
-  timestring: four o'clock
+  timestring: four o’clock
   title: The Cellist Of Sarajevo
 - author: Susan May Gudge
   quote: >-
@@ -20799,18 +20799,18 @@
 - author: Anthony Trollope
   quote: >-
     I doubt whether anyone was commissioned to send the news along the actual telegraph,
-    and yet Mrs. Proudie knew it before four o'clock. But she did not know it quite
+    and yet Mrs. Proudie knew it before four o’clock. But she did not know it quite
     accurately.'Bishop', she said, standing at her husband's study door. 'They have
     committed that man to gaol. There was no help for them unless they had forsworn
     themselves.'
-  timestring: four o'clock
+  timestring: four o’clock
   title: The Last Chronicle of Barset
 - author: Susan May Gudge
   quote: >-
-    I only found out much later that those flowers were called Four O’clock, and were
+    I only found out much later that those flowers were called Four o’clock, and were
     not magic at all. The magic was in the seed, waiting to be watered and cared for,
     the real magic was life.
-  timestring: Four O’clock
+  timestring: Four o’clock
   title: Ghost Generations
 - author: Douglas Adams
   quote: >-
@@ -20833,17 +20833,17 @@
 - author: David Lodge
   quote: >-
     It was my turn to cook the evening meal so I didn't linger in the common room.
-    It was exactly 4 o'clock as I made my way out of the building, and doors opened
+    It was exactly 4 o’clock as I made my way out of the building, and doors opened
     behind and before me, discharging salvos of vocal babble and the noise of chair-legs
     scraping on wooden floors.
-  timestring: 4 o'clock
+  timestring: 4 o’clock
   title: Deaf Sentence
 - author: James Joyce
   quote: >-
     Miss Douce took Boylan's coin, struck boldly the cashregister. It clanged. Clock
     clacked. Fair one of Egypt teased and sorted in the till and hummed and handed
     coins in change. Look to the west. A clack. For me. —What time is that? asked
-    Blazes Boylan. Four? O'clock. Lenehan, small eyes ahunger on her humming, bust
+    Blazes Boylan. Four? o’clock. Lenehan, small eyes ahunger on her humming, bust
     ahumming, tugged Blazes Boylan's elbowsleeve. —Let's hear the time, he said.
   timestring: Four
   title: Ulysses
@@ -21068,12 +21068,12 @@
 - author: Anthony Trollope
   quote: >-
     I doubt whether anyone was commissioned to send the news along the actual telegraph,
-    and yet Mrs. Proudie knew it before four o'clock. But she did not know it quite
+    and yet Mrs. Proudie knew it before four o’clock. But she did not know it quite
     accurately.\n"Bishop", she said, standing at her husband's study door. "They
     have committed that man to gaol. There was no help for them unless they had forsworn
     themselves."
   sfw: unknown
-  timestring: four o'clock
+  timestring: four o’clock
   title: The Last Chronicle of Barset
 - author: Aldous Leonard Huxley
   quote: >-
@@ -21092,12 +21092,12 @@
   title: 101 Reykjavik
 - author: Rebecca Miller
   quote: >-
-    A little after four o'clock, Pippa meandered over to Dot's house carrying a bottle
+    A little after four o’clock, Pippa meandered over to Dot's house carrying a bottle
     of wine she had been keeping in reserve and wondering if she could possibly be
     pregnant in spite of the vestigial coil still lodged in her uterus like astronaut
     litter abandoned on the moon.
   sfw: unknown
-  timestring: A little after four o'clock
+  timestring: A little after four o’clock
   title: The Private Lives of Pippa Lee
 '16:02':
 - author: Carolyn G Hart
@@ -21131,11 +21131,11 @@
 '16:04':
 - author: Rebecca Miller
   quote: >-
-    A little after four o'clock, Pippa meandered over to Dot's house carrying a bottle
+    A little after four o’clock, Pippa meandered over to Dot's house carrying a bottle
     of wine she had been keeping in reserve and wondering if she could possibly be
     pregnant in spite of the vestigial coil still lodged in her uterus like astronaut
     litter abandoned on the moon.
-  timestring: A little after four o'clock
+  timestring: A little after four o’clock
   title: The Private Lives of Pippa Lee
 - author: Jeffrey Archer
   quote: >-
@@ -22046,7 +22046,7 @@
 '16:52':
 - author: Henry De Montherlant
   quote: >-
-    The corrida was to begin at five o'clock. The five-footed beasts make a point
+    The corrida was to begin at five o’clock. The five-footed beasts make a point
     of arriving at the latest at eight or seven minutes to: ritual again. At eight
     minutes to five, there they were. The urchins gave them a tap on the shoulder:
     another bit of ritual.
@@ -22062,7 +22062,7 @@
 '16:54':
 - author: Charlotte Armstrong
   quote: >-
-    At six minutes before five o'clock, Daisy Robinson, about to reach her own apartment
+    At six minutes before five o’clock, Daisy Robinson, about to reach her own apartment
     door, paused to look and to listen. Something was out of order. Tess Rogan's door
     was standing wide open and, from within, Daisy could hear something being broken.
   timestring: six minutes before five
@@ -22204,11 +22204,11 @@
   title: The People With the Dogs
 - author: William Maxwell
   quote: >-
-    At five o'clock that afternoon, while Barbara waited in a taxi, Harold went into
+    At five o’clock that afternoon, while Barbara waited in a taxi, Harold went into
     the convent in Auteuil and explained to the nun who sat in the concierge's glass
     cage that Mme. Straus-Muguet was expecting them. He assumed that men were not
     permitted any further, and that they would all three go out for tea.
-  timestring: five o'clock
+  timestring: five o’clock
   title: The Chateau
 - author: H. P. Lovecraft
   quote: >-
@@ -22221,58 +22221,58 @@
   title: The Horror at Red Hook
 - author: Scarlett Thomas
   quote: >-
-    But I took the mixture at five o'clock in the afternoon. I run my tongue over
+    But I took the mixture at five o’clock in the afternoon. I run my tongue over
     my dry mouth. I feel dizzy. I know this dizziness: it's because I haven't had
     a cigarette for hours.
-  timestring: five o'clock
+  timestring: five o’clock
   title: The End of Mr Y
 - author: Charlotte Brontë
   quote: >-
-    ERE THE HALF-HOUR ended, five o'clock struck; school was dismissed, and all were
+    ERE THE HALF-HOUR ended, five o’clock struck; school was dismissed, and all were
     gone into the refectory to tea. I now ventured to descend; it was deep dusk; I
     retired into a corner and sat down on the floor.
-  timestring: five o'clock
+  timestring: five o’clock
   title: Jane Eyre
 - author: Henry James
   quote: >-
-    From five o'clock to eight is on certain occasions a little eternity; but on such
+    From five o’clock to eight is on certain occasions a little eternity; but on such
     an occasion as this the interval could be only an eternity of pleasure.
-  timestring: five o'clock
+  timestring: five o’clock
   title: The Portrait of a Lady
 - author: JK Rowling
   quote: >-
     He found it harder to concentrate on drills that afternoon and when he left the
-    building at five o'clock, he was still so worried that he walked straight into
+    building at five o’clock, he was still so worried that he walked straight into
     someone just outside the door.
-  timestring: five o'clock
+  timestring: five o’clock
   title: Harry Potter and the Philosopher's Stone
 - author: Henry James
   quote: >-
     She had not seen her yet, as Osmond had given her to understand that it was too
-    soon to begin. She drove at five o'clock to a high floor in a narrow street in
+    soon to begin. She drove at five o’clock to a high floor in a narrow street in
     the quarter of the Piazza Navona, and was admitted by the portress of the convent,
     a genial and obsequious person. Isabel had been at this institution before; she
     had come with Pansy to see the sisters.
-  timestring: five o'clock
+  timestring: five o’clock
   title: The Portrait of a Lady
 - author: Sandor Marai
   quote: >-
-    Until five o'clock there was no sign of life from the room. Then he rang for his
+    Until five o’clock there was no sign of life from the room. Then he rang for his
     servant and ordered a cold bath.
-  timestring: five o'clock
+  timestring: five o’clock
   title: Embers
 - author: Daphne du Maurier
   quote: >-
     We motored, I remember, leaving London in the morning in a heavy shower of rain,
-    coming to Manderley about five o'clock, in time for tea. I can see myself now,
+    coming to Manderley about five o’clock, in time for tea. I can see myself now,
     unsuitably dressed as usual, although a bride of seven weeks, in a tan-coloured
     stockinette frock, a small fur known as a stone marten round my neck, and over
     all a shapeless mackintosh, far too big for me and dragging to my ankles.
-  timestring: five o'clock
+  timestring: five o’clock
   title: Rebecca
 - author: C.S. Lewis
   quote: >-
-    The gloomy five o'clock sky was such as you might see on any autumn afternoon.
+    The gloomy five o’clock sky was such as you might see on any autumn afternoon.
     The few houses and the clumps of red or yellowish trees were in no way remarkable.
     Who could imagine that a little farther on in the quiet landscape I should meet
     and shake by the hand a man who had lived and eaten and drunk in a world forty
@@ -22280,7 +22280,7 @@
     like a mere point of green fire, and who had spoken with a creature whose life
     began before our own planet was inhabitable?
   sfw: unknown
-  timestring: five o'clock
+  timestring: five o’clock
   title: Perelandra
 - author: Oscar Wilde
   quote: >-
@@ -22464,10 +22464,10 @@
   quote: >-
     I haven't been to church in over a year.\n"Finally worried about your soul?"\n"Please,"
     Cork said\n"Of course we can talk. When?"\n"Tomorrow. Late afternoon maybe.
-    Say five o'clock?"\n"Make it six," the priest suggested. "My office."\n"I'll
+    Say five o’clock?"\n"Make it six," the priest suggested. "My office."\n"I'll
     be there," Cork promised.
   sfw: sfw
-  timestring: five o'clock
+  timestring: five o’clock
   title: Iron Lake
 '17:01':
 - author: Tip "T.I." Harris with David Ritz
@@ -22639,7 +22639,7 @@
 - author: George MacDonald
   quote: >-
     Didna ye hear the pipes, my leddy? he rejoined. \n "Yes, well enough; but a
-    whole regiment of pipes can't make it six o'clock when my watch says ten minutes
+    whole regiment of pipes can't make it six o’clock when my watch says ten minutes
     past five."
   sfw: unknown
   timestring: ten minutes past five
@@ -22996,12 +22996,12 @@
 '17:32':
 - author: Thomas W. Hanshew
   quote: >-
-    It was exactly thirty-two minutes past five o'clock on the evening of Friday,
+    It was exactly thirty-two minutes past five o’clock on the evening of Friday,
     December 9th, when the station-master at Anerly received the following communication
     by wire from the signal box at Froest Hill: 5.28 down from London Bridge just
     passed.
   sfw: sfw
-  timestring: thirty-two minutes past five o'clock
+  timestring: thirty-two minutes past five o’clock
   title: Cleek, the Master Detective
 '17:33':
 - author: Lydia Davis
@@ -23020,7 +23020,7 @@
   title: A Taste for Death
 - author: Margaret Peterson Haddix
   quote: >-
-    It was five thirty-three when we left. Is it six o'clock now? Six thirty? And
+    It was five thirty-three when we left. Is it six o’clock now? Six thirty? And
     Mark's still in his cage and I'm scared to drive very fast. . . what if we don't
     get there in time?
   sfw: unknown
@@ -23307,10 +23307,10 @@
 '17:52':
 - author: Hugh S. Fullerton
   quote: >-
-    It was eight minutes to six o'clock. "I must get him," he told the telephone girl
+    It was eight minutes to six o’clock. "I must get him," he told the telephone girl
     for the dozenth time.\n "Sorry- no one will answer," she said wearily.
   sfw: sfw
-  timestring: eight minutes to six o'clock
+  timestring: eight minutes to six o’clock
   title: Jimmy Kirkland and the Plot for a Pennant
 '17:53':
 - author: Talbot Baines Reed
@@ -23368,10 +23368,10 @@
 '17:57':
 - author: Bram Stoker
   quote: >-
-    When he arrived it was nearly six o'clock, and the sun was setting full and warm,
+    When he arrived it was nearly six o’clock, and the sun was setting full and warm,
     and the red light streamed in through the window and gave more colour to the pale
     cheeks.
-  timestring: nearly six o'clock
+  timestring: nearly six o’clock
   title: Dracula
 - author: Jeffrey Archer
   quote: >-
@@ -23406,10 +23406,10 @@
 '17:58':
 - author: George Orwell
   quote: >-
-    It was nearly six o'clock in the evening, and the absurd bell in the six-foot
+    It was nearly six o’clock in the evening, and the absurd bell in the six-foot
     tin steeple of the church went clank-clank, clank- clank! as old Mattu pulled
     the rope within.'
-  timestring: nearly six o'clock
+  timestring: nearly six o’clock
   title: Burmese Days
 - author: David Mitchell
   quote: >-
@@ -23422,10 +23422,10 @@
 '17:59':
 - author: Bram Stoker
   quote: >-
-    When he arrived it was nearly six o'clock, and the sun was setting full and warm,
+    When he arrived it was nearly six o’clock, and the sun was setting full and warm,
     and the red light streamed in through the window and gave more colour to the pale
     cheeks.
-  timestring: nearly six o'clock
+  timestring: nearly six o’clock
   title: Dracula
 - author: Jeffrey Archer
   quote: >-
@@ -23437,11 +23437,11 @@
   title: Honor Among Thieves
 - author: George Orwell
   quote: >-
-    It was nearly six o'clock in the evening, and the absurd bell in the six-foot
+    It was nearly six o’clock in the evening, and the absurd bell in the six-foot
     tin steeple of the church went clank-clank, clank- clank! as old Mattu pulled
     the rope within.
   sfw: unknown
-  timestring: nearly six o'clock
+  timestring: nearly six o’clock
   title: Burmese Days
 '18:00':
 - author: Mark Haddon
@@ -23451,47 +23451,47 @@
   title: The Curious Incident of the Dog in the Night-time
 - author: Théophile Gautier
   quote: >-
-    Although it was only six o'clock, the night was already dark. The fog, made thicker
+    Although it was only six o’clock, the night was already dark. The fog, made thicker
     by its proximity to the Seine, blurred every detail with its ragged veils, punctured
     at various distances by the reddish glow of lanterns and bars of light escaping
     from illuminated windows.
-  timestring: six o'clock
+  timestring: six o’clock
   title: Le Club des Hachichins
 - author: L.P. Hartley
   quote: >-
     Did you go down to the farm while I was away?' 'No,' I said 'but I saw Ted.' 'Did
     he have a message for me ?' she asked. 'He said today was no good as he was going
-    to Norwich. But Friday at six o'clock, same as usual.' 'Are you sure he said six
-    o'clock?' she asked, puzzled. 'Quite sure.'
-  timestring: six o'clock
+    to Norwich. But Friday at six o’clock, same as usual.' 'Are you sure he said six
+    o’clock?' she asked, puzzled. 'Quite sure.'
+  timestring: six o’clock
   title: The Go-Between
 - author: William Shakespeare
   quote: >-
-    King Richard: What is o'clock? Catesby: It is six o'clock, full supper time. King
+    King Richard: What is o’clock? Catesby: It is six o’clock, full supper time. King
     Richard: I will not sup tonight. Give me some ink and paper.
-  timestring: six o'clock
+  timestring: six o’clock
   title: Richard III
 - author: Gustave Flaubert
   quote: >-
-    Leon waited all day for six o'clock to arrive; when he got to the inn, he found
+    Leon waited all day for six o’clock to arrive; when he got to the inn, he found
     no one there but Monsieur Binet, already at the table.
-  timestring: six o'clock
+  timestring: six o’clock
   title: Madame Bovary
 - author: Thornton Wilder
   quote: >-
-    Oh oh oh. Six o'clock and the master not home yet.
-  timestring: Six o'clock
+    Oh oh oh. Six o’clock and the master not home yet.
+  timestring: Six o’clock
   title: The skin of our teeth
 - author: Muriel Spark
   quote: >-
-    The newspaper snaked through the door and there was suddenly a six o'clock feeling
+    The newspaper snaked through the door and there was suddenly a six o’clock feeling
     in the house
-  timestring: six o'clock
+  timestring: six o’clock
   title: The Prime of Miss Jean Brodie
 - author: T S Eliot
   quote: >-
-    The winter evening settles down With smell of steaks in passageways. Six o'clock.
-  timestring: Six o'clock
+    The winter evening settles down With smell of steaks in passageways. Six o’clock.
+  timestring: Six o’clock
   title: Preludes
 - author: Jed Rubenfeld
   quote: >-
@@ -23503,7 +23503,7 @@
   quote: >-
     I haven't been to church in over a year.\n"Finally worried about your soul?"\n"Please,"
     Cork said\n"Of course we can talk. When?"\n"Tomorrow. Late afternoon maybe.
-    Say five o'clock?"\n"Make it six," the priest suggested. "My office."\n"I'll
+    Say five o’clock?"\n"Make it six," the priest suggested. "My office."\n"I'll
     be there," Cork promised.
   sfw: sfw
   timestring: six
@@ -23700,17 +23700,17 @@
   quote: >-
     Did you go down to the farm while I was away?\n"No," I said "but I saw Ted."\n"Did
     he have a message for me?" she asked. "He said today was no good as he was going
-    to Norwich. But Friday at six o'clock, same as usual."\n"Are you sure he said
-    six o'clock?" she asked, puzzled.\n"Quite sure."
+    to Norwich. But Friday at six o’clock, same as usual."\n"Are you sure he said
+    six o’clock?" she asked, puzzled.\n"Quite sure."
   sfw: unknown
-  timestring: six o'clock
+  timestring: six o’clock
   title: The Go-Between
 - author: William Shakespeare
   quote: >-
-    King Richard: What is o'clock?\nCatesby: It is six o'clock, full supper time.\nKing
+    King Richard: What is o’clock?\nCatesby: It is six o’clock, full supper time.\nKing
     Richard: I will not sup tonight. Give me some ink and paper.
   sfw: unknown
-  timestring: six o'clock
+  timestring: six o’clock
   title: Richard III
 '18:01':
 - author: Jeffrey Archer
@@ -24151,7 +24151,7 @@
   title: The Go-Between
 - author: Jane Austen
   quote: >-
-    At five o'clock the two ladies retired to dress, and at half past six Elizabeth
+    At five o’clock the two ladies retired to dress, and at half past six Elizabeth
     was summoned to dinner.
   timestring: half past six
   title: Pride and Prejudice
@@ -24307,9 +24307,9 @@
   quote: >-
     Come to the Gray's-Inn Coffee-House, Pinto said, "and I will tell you how the
     notch came to the ax." And we walked down Holborn at about thirty-seven minutes
-    past six o'clock.
+    past six o’clock.
   sfw: sfw
-  timestring: thirty-seven minutes past six o'clock
+  timestring: thirty-seven minutes past six o’clock
   title: The Notch on the Ax
 '18:38':
 - author: Gareth P. Jones
@@ -24456,10 +24456,10 @@
   quote: >-
     We were soon dashing quickly along the streets. I did not know Liverpool well,
     and consequently could not tell exactly where the man was going. When I got into
-    the hansom it wanted twelve minutes to seven o'clock; these minutes were quickly
+    the hansom it wanted twelve minutes to seven o’clock; these minutes were quickly
     flying, and still no station.
   sfw: sfw
-  timestring: twelve minutes to seven o'clock
+  timestring: twelve minutes to seven o’clock
   title: A Master of Mysteries
 '18:49':
 - author: Hans Hellmut Kirst
@@ -24484,13 +24484,13 @@
 - author: Robert R. McCammon
   quote: >-
     It was time to go see the Lady. When we arrived at her house at ten minutes before
-    seven o'clock, Damaronde answered the door.
+    seven o’clock, Damaronde answered the door.
   timestring: ten minutes before seven
   title: Boy's Life
 - author: Robert R. McCammon
   quote: >-
     It was time to go see the Lady. When we arrived at her house at ten minutes before
-    seven o'clock, Damaronde answered the door.
+    seven o’clock, Damaronde answered the door.
   timestring: ten minutes before seven
   title: Boy's Life
 - author: Jeffrey Archer
@@ -24522,19 +24522,19 @@
 '18:52':
 - author: Edward P. Jones
   quote: >-
-    It was near on seven o'clock when I got to Mr. and Mrs. Fleming's house on 6th
+    It was near on seven o’clock when I got to Mr. and Mrs. Fleming's house on 6th
     Street, where I was renting a room. It was late September, and though there was
     some sun left, I didn't want to visit a dead man's place with night coming on.
   sfw: unknown
-  timestring: near on seven o'clock
+  timestring: near on seven o’clock
   title: All Aunt Hagar's Children
 '18:53':
 - author: Edward P Jones
   quote: >-
-    It was near on seven o'clock when I got to Mr. and Mrs. Fleming's house on 6th
+    It was near on seven o’clock when I got to Mr. and Mrs. Fleming's house on 6th
     Street, where I was renting a room. It was late September, and though there was
     some sun left, I didn't want to visit a dead man's place with night coming on.
-  timestring: near on seven o'clock
+  timestring: near on seven o’clock
   title: All Aunt Hagar's Children
 - author: Jeffrey Archer
   quote: >-
@@ -24572,7 +24572,7 @@
   title: The Quiet American
 - author: Jeffrey Eugenides
   quote: >-
-    The play was set to begin at seven o'clock and finish before sunset. It was 6:55.
+    The play was set to begin at seven o’clock and finish before sunset. It was 6:55.
     Beyond the flats we could hear the hockey field filling up. the low rumble got
     steadily louder - voices, footsteps, the creaking of bleachers, the slamming of
     car doors in the parking lot.
@@ -24682,8 +24682,8 @@
     surroundings, detached and solitary against its shadowy background, the bare minimum
     of scenery necessary .. to the drama of my undressing, as though all Combray had
     consisted of but two floors joined by a slender staircase, and as though there
-    had been no time there but seven o'clock at night.
-  timestring: seven o'clock
+    had been no time there but seven o’clock at night.
+  timestring: seven o’clock
   title: 'In Search of Lost Time: Swann''s Way'
 - author: Ray Bradbury
   quote: >-
@@ -24699,10 +24699,10 @@
   title: The Curious Incident of the Dog in the Night-time
 - author: F. Scott Fitzgerald
   quote: >-
-    By seven o'clock the orchestra has arrived--no thin five-piece affair but a whole
+    By seven o’clock the orchestra has arrived--no thin five-piece affair but a whole
     pitful of oboes and trombones and saxophones and viols and cornets and piccolos
     and low and high drums.
-  timestring: seven o'clock
+  timestring: seven o’clock
   title: The Great Gatsby
 - author: Stephenie Meyer
   quote: >-
@@ -24713,18 +24713,18 @@
   title: New Moon
 - author: George Eliot
   quote: >-
-    It was seven o'clock and by this time she was not very far from Raveloe, but she
+    It was seven o’clock and by this time she was not very far from Raveloe, but she
     was not familiar enough with those monotonous lanes to know how near she was to
     her journey's end. She needed comfort, and she knew but one comforter - the familiar
     demon in her bosom; but she hesitated a moment, after drawing out the black remnant,
     before she raised it to her lips.
-  timestring: seven o'clock
+  timestring: seven o’clock
   title: Silas Marner
 - author: F. Scott Fitzgerald
   quote: >-
-    It was seven o'clock when we got into the coupé with him and started for Long
+    It was seven o’clock when we got into the coupé with him and started for Long
     Island. [...] So we drove on toward death through the cooling twilight.
-  timestring: seven o'clock
+  timestring: seven o’clock
   title: The Great Gatsby
 - author: J.L. Carr
   quote: >-
@@ -24882,9 +24882,9 @@
 '19:02':
 - author: William McGonagall
   quote: >-
-    Twas about seven o'clock at night, And the wind it blew with all its might, And
+    Twas about seven o’clock at night, And the wind it blew with all its might, And
     the rain came pouring down, And the dark clouds seem'd to frown,
-  timestring: about seven o'clock
+  timestring: about seven o’clock
   title: The Tay Bridge Disaster
 - author: Ed McBain
   quote: >-
@@ -24895,10 +24895,10 @@
   title: Killer's Wedge
 - author: William McGonagall
   quote: >-
-    Twas about seven o'clock at night,\nAnd the wind it blew with all its might,\n
+    Twas about seven o’clock at night,\nAnd the wind it blew with all its might,\n
     And the rain came pouring down,\nAnd the dark clouds seem'd to frown,
   sfw: unknown
-  timestring: about seven o'clock
+  timestring: about seven o’clock
   title: The Tay Bridge Disaster
 '19:03':
 - author: P.D. James
@@ -25085,7 +25085,7 @@
 - author: Jules Verne
   quote: >-
     The train arrived at Kizil Arvat, two hundred and forty-two versts from the Caspian,
-    at thirteen minutes past seven in the evening instead of seven o'clock. The slight
+    at thirteen minutes past seven in the evening instead of seven o’clock. The slight
     delay provoked thirteen objurgations from the baron, one for each minute.
   sfw: sfw
   timestring: thirteen minutes past seven
@@ -25286,7 +25286,7 @@
   quote: >-
     It was 7:22 p.m. by the wall clock when he soldered the final connection. Eric
     estimated a half hour delay before the little generator had taken over, put the
-    time actually at near eight o'clock. He found himself hesitant, strangely unwilling
+    time actually at near eight o’clock. He found himself hesitant, strangely unwilling
     to test the completed machine.
   sfw: unknown
   timestring: 7:22 p.m.
@@ -25420,7 +25420,7 @@
   title: Crime and Punishment
 - author: Christoph Ransmayr
   quote: >-
-    On July 25th, 8:30 a.m. the bitch Novaya dies whelping. At 10 o'clock she is lowered
+    On July 25th, 8:30 a.m. the bitch Novaya dies whelping. At 10 o’clock she is lowered
     into her cool grave, at 7:30 that same evening we see our first floes and greet
     them wishing they were the last.
   timestring: '7:30'
@@ -26055,11 +26055,11 @@
   title: The Thirteenth Tale
 - author: P.D. James
   quote: >-
-    It was right at eight o'clock, maybe a minute before. I went into the demo room
+    It was right at eight o’clock, maybe a minute before. I went into the demo room
     to see if I'd left my tin of polish there. And there was this bottle of milk on
     the trolley and I drank some of it. Just a bit off the top.
   sfw: sfw
-  timestring: eight o'clock, maybe a minute before
+  timestring: eight o’clock, maybe a minute before
   title: Shroud for a Nightingale
 - author: Ginny Kochis
   quote: >-
@@ -26079,10 +26079,10 @@
 '20:00':
 - author: William Wordsworth
   quote: >-
-    'TIS eight o'clock,--a clear March night, The moon is up,--the sky is blue, The
+    'TIS eight o’clock,--a clear March night, The moon is up,--the sky is blue, The
     owlet, in the moonlight air, Shouts from nobody knows where; He lengthens out
     his lonely shout, Halloo! halloo! a long halloo!
-  timestring: eight o'clock
+  timestring: eight o’clock
   title: The Idiot Boy
 - author: Chuck Palahniuk
   quote: >-
@@ -26097,16 +26097,16 @@
 - author: Douglas Adams
   quote: >-
     Arthur thought he could even bear to listen to the album of bagpipe music he had
-    won. It was eight o'clock and he decided he would make himself, force himself,
+    won. It was eight o’clock and he decided he would make himself, force himself,
     to listen to the whole record before he phoned her.
-  timestring: eight o'clock
+  timestring: eight o’clock
   title: So Long, and Thanks for All the Fish
 - author: Salman Rushdie
   quote: >-
-    At eight o'clock that evening, a Saturday, Pamela Chamcha stood with Jumpy Joshi
+    At eight o’clock that evening, a Saturday, Pamela Chamcha stood with Jumpy Joshi
     - who had refused to let her go unaccompanied - next to the Photo-Me machine in
     a corner of the main concourse of Euston station, feeling ridiculously conspiratorial.
-  timestring: eight o'clock
+  timestring: eight o’clock
   title: Satanic Verses
 - author: Jed Rubenfeld
   quote: >-
@@ -26118,19 +26118,19 @@
   quote: >-
     I have been drunk just twice in my life, and the second time was that afternoon;
     so everything that happened has a dim, hazy cast over it. although until after
-    eight o'clock the apartment was full of cheerful sun.
-  timestring: eight o'clock
+    eight o’clock the apartment was full of cheerful sun.
+  timestring: eight o’clock
   title: The Great Gatsby
 - author: Georges Perec
   quote: >-
-    It's the twenty-third of June nineteen seventy-five, and it is eight o'clock in
+    It's the twenty-third of June nineteen seventy-five, and it is eight o’clock in
     the evening, seated at his jigsaw puzzle, Bartlebooth has just died.
-  timestring: eight o'clock
+  timestring: eight o’clock
   title: 'Life: A User''s Manual'
 - author: F. Scott Fitzgerald
   quote: >-
-    She looked at her watch- it was eight o'clock
-  timestring: eight o'clock
+    She looked at her watch- it was eight o’clock
+  timestring: eight o’clock
   title: The Beautiful and Damned
 - author: Victor Hugo
   quote: >-
@@ -26150,11 +26150,11 @@
   title: Sense and Sensibility
 - author: Dodie Smith
   quote: >-
-    It was still only eight o‘clock. “Missis!” he cried. “We shall get home tonight!
+    It was still only eight o’clock. “Missis!” he cried. “We shall get home tonight!
     We shall be home for Christmas!”\n“Yes, Pongo,” said Missis gaily. But she
     did not feel as gay as she sounded.
   sfw: sfw
-  timestring: eight o‘clock
+  timestring: eight o’clock
   title: The 101 Dalmatians
 - author: Peter Rennebohm
   quote: >-
@@ -26288,16 +26288,16 @@
   title: The Hasheesh Eater
 - author: Bram Stoker
   quote: >-
-    About eight o'clock he began to get excited and to sniff about as a dog does when
+    About eight o’clock he began to get excited and to sniff about as a dog does when
     setting.
-  timestring: eight o'clock
+  timestring: eight o’clock
   title: Dracula
 '20:01':
 - author: Kurt Vonnegut
   quote: >-
-    It was only a little after eight o'clock, so all the shows were about silliness
+    It was only a little after eight o’clock, so all the shows were about silliness
     or murder.
-  timestring: a little after eight o'clock
+  timestring: a little after eight o’clock
   title: Slaughterhouse 5
 '20:02':
 - author: Leo Tolstoy
@@ -26473,12 +26473,12 @@
 '20:12':
 - author: Daniel Silva
   quote: >-
-    At twelve minutes past eight o'clock, the embassy's security gate slid open, and
+    At twelve minutes past eight o’clock, the embassy's security gate slid open, and
     a black Mercedes sedan nosed into view. It turned left and passed within a few
     inches of the camera - so close, in fact, that Gabriel felt as though he could
     reach out and pluck the single passenger from the backseat.
   sfw: sfw
-  timestring: twelve minutes past eight o'clock
+  timestring: twelve minutes past eight o’clock
   title: The Fallen Angel
 '20:13':
 - author: Thomas Hoover
@@ -27243,7 +27243,7 @@
     above most men, but when the clock strikes I am afraid. Stay by me until then.
     This woman shall be yours. You have the word of the hereditary Prince of Valleluna.
     On the day of your marriage I will give you $100,000 and a palace on the Hudson.
-    But there must be no clocks in that palace--they measure our follies and limit
+    But there must be no’clocks in that palace--they measure our follies and limit
     our pleasures. Do you agree to that?"\n "Of course," said the young man, cheerfully,
     "they're a nuisance, anyway--always ticking and striking and getting you late
     for dinner." He glanced again at the clock in the tower. The hands stood at three
@@ -27303,17 +27303,17 @@
   title: Infinite Jest
 - author: Arthur Conan Doyle
   quote: >-
-    It was nine o'clock at night upon the second of August—the most terrible August
+    It was nine o’clock at night upon the second of August—the most terrible August
     in the history of the world. One might have thought already that God's curse hung
     heavy over a degenerate world, for there was an awesome hush and a feeling of
     vague expectancy in the sultry and stagnant air
-  timestring: nine o'clock
+  timestring: nine o’clock
   title: His Last Bow An Epilogue of Sherlock Holmes
 - author: Franz Kafka
   quote: >-
-    On the evening before K.'s thirty-first birthday - it was about nine o'clock,
+    On the evening before K.'s thirty-first birthday - it was about nine o’clock,
     when there is a lull in the streets - two gentlemen came to his apartment.
-  timestring: nine o'clock
+  timestring: nine o’clock
   title: The Trial
 - author: Katherine Mansfield
   quote: >-
@@ -27326,18 +27326,18 @@
   title: A Marriage of Passion
 - author: Leo Tolstoy
   quote: >-
-    Shortly after nine o'clock that evening, Weyrother drove with his plans to Kutuzov's
+    Shortly after nine o’clock that evening, Weyrother drove with his plans to Kutuzov's
     quarters where the council of war was to be held. All the commanders of columns
     were summoned to the commander in chief's and with the exception of Prince Bagration,
     who declined to come, were all there at the appointed time.
-  timestring: nine o'clock
+  timestring: nine o’clock
   title: War and Peace
 - author: Michael Chabon
   quote: >-
     Standing in the chrome-and-tile desolation of the Polar-Shtern Kafeteria at nine
-    o'clock on a Friday night, in a snowstorm, he's the loneliest Jew in the Sitka
+    o’clock on a Friday night, in a snowstorm, he's the loneliest Jew in the Sitka
     District.
-  timestring: nine o'clock
+  timestring: nine o’clock
   title: The Yiddish Policemen's Union
 - author: Bernstein & Woodward
   quote: >-
@@ -27347,25 +27347,25 @@
 - author: Antonio Tabucchi
   quote: >-
     Then he put on a grey jacket and left the flat to make his way to Praca da Alegria.
-    It was already nine o'clock, Pereira maintains.
-  timestring: nine o'clock
+    It was already nine o’clock, Pereira maintains.
+  timestring: nine o’clock
   title: Pereira Maintains
 - author: Mervyn Peake
   quote: >-
-    This time, the putting on of her best hat at nine o'clock at night with the idea
+    This time, the putting on of her best hat at nine o’clock at night with the idea
     of sallying forth from the castle, down the long drive and then northwards along
     the acacia avenue, had been enough to send her to her own doorway as though she
     suspected someone might be there, someone who was listening to her thoughts.
-  timestring: nine o'clock
+  timestring: nine o’clock
   title: Titus Groan
 - author: Edna Hong
   quote: >-
     They who had to go to bed so punctually, for whom the lights went out at nine
-    o'clock, could stay at Obermeier Farm until the fireflies and the stars came out-until
+    o’clock, could stay at Obermeier Farm until the fireflies and the stars came out-until
     the Chinese lanterns were lit and they could walk once more about the farm with
     their jovial host and hostess with these beautiful, swaying, colored lights.
   sfw: unknown
-  timestring: nine o'clock
+  timestring: nine o’clock
   title: Bright Valley of Love
 - author: Stephen King
   quote: >-
@@ -27487,10 +27487,10 @@
   title: And Then There Were None
 - author: Margaret Peterson Haddix
   quote: >-
-    I got home from working at Burger Boy tonight about nine o'clock, and I was kind
+    I got home from working at Burger Boy tonight about nine o’clock, and I was kind
     of surprised because the whole house was dark.
   sfw: unknown
-  timestring: nine o'clock
+  timestring: nine o’clock
   title: Don't You Dare Read This, Mrs. Dunphrey
 - author: Fitz Hugh Ludlow
   quote: >-
@@ -27503,15 +27503,15 @@
   title: The Hasheesh Eater
 - author: Bram Stoker
   quote: >-
-    The combination is a dreadful one. At nine o'clock I visited him myself.
-  timestring: nine o'clock
+    The combination is a dreadful one. At nine o’clock I visited him myself.
+  timestring: nine o’clock
   title: Dracula
 '21:01':
 - author: Franz Kafka
   quote: >-
-    On the evening before K.'s thirty-first birthday - it was about nine o'clock,
+    On the evening before K.'s thirty-first birthday - it was about nine o’clock,
     when there is a lull in the streets - two gentlemen came to his apartment.
-  timestring: about nine o'clock
+  timestring: about nine o’clock
   title: The Trial
 - author: James Han Mattson
   quote: >-
@@ -27663,7 +27663,7 @@
   title: Mightier Than the Sword
 - author: P.D. James
   quote: >-
-    She liked to swim most nights just after the nine o'clock news; everyone knew
+    She liked to swim most nights just after the nine o’clock news; everyone knew
     that - at least, everyone who knew her. And the news on Sunday was at 9.10.
   sfw: sfw
   timestring: '9.10'
@@ -27838,7 +27838,7 @@
     between seventeen minutes after eight and twenty-one minutes past nine on the
     night of September 23 over a year before; but where they had been and what they
     had done ten minutes earlier or ten minutes later, or where they were at nine
-    o'clock in the evening last Friday they couldn't for the lives of them remember.
+    o’clock in the evening last Friday they couldn't for the lives of them remember.
   sfw: sfw
   timestring: twenty-one minutes past nine
   title: The Mucker
@@ -27974,7 +27974,7 @@
 - author: Suzanne Berne
   quote: >-
     The light in Mr. Green's kitchen snapped off at nine-thirty, followed by the light
-    in his bedroom at his usual ten o'clock. His house was the first on the street
+    in his bedroom at his usual ten o’clock. His house was the first on the street
     to go dark.
   timestring: nine-thirty
   title: A crime in the neighborhood
@@ -28171,11 +28171,11 @@
 '21:44':
 - author: Charles Stough
   quote: >-
-    The island fell at sixteen minutes to ten o'clock that January night in 1671,
+    The island fell at sixteen minutes to ten o’clock that January night in 1671,
     with lots of shouting and screaming and firing of blank musket and arquebus charges,
     a minimum of rapine and breakage, some.
   sfw: nsfw
-  timestring: sixteen minutes to ten o'clock
+  timestring: sixteen minutes to ten o’clock
   title: Stone Flute
 '21:45':
 - author: T. C. Boyle
@@ -28423,9 +28423,9 @@
 - author: F. Scott Fitzgerald
   quote: >-
     Her body asserted itself with a restless movement of the knee, and she stood up.
-    'Ten o'clock,' she remarked, apparently finding the time on the ceiling. 'Time
+    'Ten o’clock,' she remarked, apparently finding the time on the ceiling. 'Time
     for this good girl to go to bed.'
-  timestring: Ten o'clock
+  timestring: Ten o’clock
   title: The Great Gatsby
 - author: Robert Louis Stevenson
   quote: >-
@@ -28439,17 +28439,17 @@
     I went back into the library, limp and exhausted. In a few minutes the telephone
     began ringing again. I did not do anything. I let it ring. I went and sat down
     at Maxim's feet. It went on ringing. I did not move. Presently it stopped, as
-    though cut suddenly in exasperation. The clock on the mantelpiece struck ten o'clock.
+    though cut suddenly in exasperation. The clock on the mantelpiece struck ten o’clock.
     Maxim put his arms round me and lifted me against him. We began to kiss one another,
     feverishly, desperately, like guilty lovers who have not kissed before.
-  timestring: ten o'clock
+  timestring: ten o’clock
   title: Rebecca
 - author: Louisa May Alcott
   quote: >-
-    No one wanted to go to bed when at ten o'clock Mrs. March put by the last finished
+    No one wanted to go to bed when at ten o’clock Mrs. March put by the last finished
     job, and said, "Come girls." Beth went to the piano and played the father's favorite
     hymn.
-  timestring: ten o'clock
+  timestring: ten o’clock
   title: Little Women
 - author: David Mitchell
   quote: >-
@@ -28459,24 +28459,24 @@
 - author: Suzanne Berne
   quote: >-
     The light in Mr. Green's kitchen snapped off at nine-thirty, followed by the light
-    in his bedroom at his usual ten o'clock. His house was the first on the street
+    in his bedroom at his usual ten o’clock. His house was the first on the street
     to go dark.
-  timestring: ten o'clock
+  timestring: ten o’clock
   title: A crime in the neighborhood
 - author: Ian McEwan
   quote: >-
     They were alone then, and theoretically free to do whatever they wanted, but they
     went on eating the dinner they had no appetite for. Florence set down her knife
     and reached for Edward's hand and squeezed. From downstairs they heard the wireless,
-    the chimes of Big Ben at the start of the ten o'clock news.
-  timestring: ten o'clock
+    the chimes of Big Ben at the start of the ten o’clock news.
+  timestring: ten o’clock
   title: On Chesil Beach
 - author: Anne Frank
   quote: >-
     We let our upstairs room to a certain Mr. Goudsmit, a divorced man in his thirties,
     who appeared to have nothing to do on this particular evening; we simply could
-    not get rid of him without being rude; he hung about until ten o'clock.
-  timestring: ten o'clock
+    not get rid of him without being rude; he hung about until ten o’clock.
+  timestring: ten o’clock
   title: 'Anne Frank: The Diary of a Young Girl'
 - author: Eileen Chang
   quote: >-
@@ -28724,9 +28724,9 @@
 - author: James Joyce
   quote: >-
     Of course, they had good reason to be fussy on such a night. And then it was long
-    after ten o'clock and yet there was no sign of Gabriel and his wife. Besides they
+    after ten o’clock and yet there was no sign of Gabriel and his wife. Besides they
     were dreadfully afraid that Freddy Malins might turn up screwed.
-  timestring: after ten o'clock
+  timestring: after ten o’clock
   title: The Dead
 - author: Annie Proulx
   quote: >-
@@ -29054,10 +29054,10 @@
   quote: >-
     Nevertheless, I love her. I loved her from the first moment I beheld her; and
     that was at an evening-party in Mayfair, at precisely twenty-four minutes past
-    ten o'clock on Thursday evening, the twenty-fourth of December, eighteen hundred
+    ten o’clock on Thursday evening, the twenty-fourth of December, eighteen hundred
     and sixty-two.
   sfw: sfw
-  timestring: twenty-four minutes past ten o'clock
+  timestring: twenty-four minutes past ten o’clock
   title: Miss Carew
 '22:25':
 - author: Helen Fielding
@@ -29134,11 +29134,11 @@
 '22:28':
 - author: Mari Passanant
   quote: >-
-    On Tuesday night, at twenty-eight minutes past ten o'clock, the Associated Press
+    On Tuesday night, at twenty-eight minutes past ten o’clock, the Associated Press
     calls New York City's most closely contested mayoral race in decades for Councilman
     O'Malley.
   sfw: sfw
-  timestring: twenty-eight minutes past ten o'clock
+  timestring: twenty-eight minutes past ten o’clock
   title: The Hazards of Hunting While Heartbroken
 '22:29':
 - author: Haruki Murakami
@@ -29260,7 +29260,7 @@
   quote: >-
     He looked at his watch: 10.33. He remembered being told, he couldn't recall when
     or by whom, that it was her practice to take her nightly swim shortly after nine
-    o'clock.
+    o’clock.
   sfw: sfw
   timestring: '10.33'
   title: Devices and Desires
@@ -29483,7 +29483,7 @@
     So the Lackadaisical Broadcasting Co. bids you farewell with the message that
     if you aren't grateful to be living in a world where so many things to be grateful
     for are yours as a matter of course. Why it is now five seconds until fifteen
-    minutes before eleven o'clock and you are just an old Trojan Horse.
+    minutes before eleven o’clock and you are just an old Trojan Horse.
   timestring: fifteen minutes before eleven
   title: Good Intentions
 - author: Gail Carson Levine
@@ -29618,11 +29618,11 @@
 '22:55':
 - author: Gaston Leroux
   quote: >-
-    "It is eleven o'clock! Eleven o'clock, all but five minutes!" "But which eleven
-    o'clock?" "The eleven o'clock that is to decide life or death!...He told me so
+    "It is eleven o’clock! Eleven o’clock, all but five minutes!" "But which eleven
+    o’clock?" "The eleven o’clock that is to decide life or death!...He told me so
     just before he went....He is terrible....He is quite mad: he tore off his mask
     and his yellow eyes shot flames!..."
-  timestring: Eleven o'clock, all but five minutes!
+  timestring: Eleven o’clock, all but five minutes!
   title: The Phantom of the Opera
 - author: P.D. James
   quote: >-
@@ -29641,12 +29641,12 @@
   title: The Shadow and Night
 - author: Gaston Leroux
   quote: >-
-    It is eleven o'clock! Eleven o'clock, all but five minutes!\n"But which eleven
-    o'clock?"\n"The eleven o'clock that is to decide life or death!...He told me
+    It is eleven o’clock! Eleven o’clock, all but five minutes!\n"But which eleven
+    o’clock?"\n"The eleven o’clock that is to decide life or death!...He told me
     so just before he went....He is terrible....He is quite mad: he tore off his mask
     and his yellow eyes shot flames!..."
   sfw: unknown
-  timestring: Eleven o'clock, all but five minutes!
+  timestring: Eleven o’clock, all but five minutes!
   title: The Phantom of the Opera
 - author: Agatha Christie
   quote: >-
@@ -29666,10 +29666,10 @@
   title: Farewell, My Lovely
 - author: Bo Giertz
   quote: >-
-    It was about eleven o'clock. The stars were shining. The wind blew softly and
+    It was about eleven o’clock. The stars were shining. The wind blew softly and
     carried the scent of decaying leaves and melting snow from the fields.
   sfw: unknown
-  timestring: about eleven o'clock
+  timestring: about eleven o’clock
   title: The Hammer of God
 '22:57':
 - author: Nevil Shute
@@ -29740,24 +29740,24 @@
   title: Smiley's People
 - author: Thomas Hardy
   quote: >-
-    At eleven o'clock that night, having secured a bed at one of the hotels and telegraphed
+    At eleven o’clock that night, having secured a bed at one of the hotels and telegraphed
     his address to his father immediately on his arrival, he walked out into the streets
     of Sandbourne.
-  timestring: eleven o'clock
+  timestring: eleven o’clock
   title: Tess of the d'Urbervilles
 - author: Wilkie Collins
   quote: >-
-    At eleven o'clock, I rang the bell for Betteredge, and told Mr. Blake that he
+    At eleven o’clock, I rang the bell for Betteredge, and told Mr. Blake that he
     might at last prepare himself for bed.
-  timestring: eleven o'clock
+  timestring: eleven o’clock
   title: The Moonstone
 - author: Italo Calvino
   quote: >-
     He says, "They've killed Jan. Clear out." "The suitcase?" I ask. "Take it away
-    again. We want nothing to do with it now. Catch the eleven o'clock express." "But
+    again. We want nothing to do with it now. Catch the eleven o’clock express." "But
     it doesn't stop here...." "It will. Go to track six. Opposite the freight station.
     You have three minutes." "But..." "Move, or I'll have to arrest you."
-  timestring: eleven o'clock
+  timestring: eleven o’clock
   title: If on a winter's night a traveller
 - author: Charlotte Brontë
   quote: >-
@@ -29785,13 +29785,13 @@
   title: Infinite Jest
 - author: JK Rowling
   quote: >-
-    When they reached the top of the Astronomy Tower at eleven o'clock, they found
+    When they reached the top of the Astronomy Tower at eleven o’clock, they found
     a perfect night for stargazing, cloudless and still.
-  timestring: eleven o'clock
+  timestring: eleven o’clock
   title: Harry Potter and the Order of the Phoenix
 - author: Dodie Smith
   quote: >-
-    At eleven o‘clock the dogs gave Mrs. Dearly’s hand one last kiss and took Mr.
+    At eleven o’clock the dogs gave Mrs. Dearly’s hand one last kiss and took Mr.
     Dearly out for his last run. Perdita joined them for this. She had spent the evening
     with the Nannies, feeling that Pongo and Missis might wish to be alone with their
     pets.
@@ -29949,12 +29949,12 @@
 - author: Italo Calvino
   quote: >-
     He says, "They've killed Jan. Clear out."\n"The suitcase?" I ask.\n"Take
-    it away again. We want nothing to do with it now. Catch the eleven o'clock express."\n
+    it away again. We want nothing to do with it now. Catch the eleven o’clock express."\n
     "But it doesn't stop here...."\n"It will. Go to track six. Opposite the freight
     station. You have three minutes."\n"But..."\n"Move, or I'll have to arrest
     you."
   sfw: unknown
-  timestring: eleven o'clock
+  timestring: eleven o’clock
   title: If on a Winter's Night a Traveller
 - author: Fitz Hugh Ludlow
   quote: >-
@@ -30071,9 +30071,9 @@
 - author: Dean Koontz
   quote: >-
     He looked at the large clock on the wall and saw that it was six minutes past
-    eleven o'clock, local time. That was as it should have been.
+    eleven o’clock, local time. That was as it should have been.
   sfw: sfw
-  timestring: six minutes past eleven o'clock
+  timestring: six minutes past eleven o’clock
   title: Lightning
 '23:07':
 - author: Michael Crichton
@@ -30215,7 +30215,7 @@
 - author: Helen Fielding
   quote: >-
     11.15pm. Humph. Mum just rang "Sorry, darling. It isn't Newsnigtht, it's Breakfast
-    News tomorrow. Could you set it for seven o'clock tomorrow morning, BBC1?"
+    News tomorrow. Could you set it for seven o’clock tomorrow morning, BBC1?"
   timestring: '11.15pm. '
   title: Bridget Jones's Diary
 - author: George and Weedon Grossmith
@@ -30247,7 +30247,7 @@
 - author: Helen Fielding
   quote: >-
     11:15 p.m. Humph. Mum just rang. "Sorry, darling. It isn't Newsnight, it's Breakfast
-    News tomorrow. Could you set it for seven o'clock tomorrow morning, BBC1?"
+    News tomorrow. Could you set it for seven o’clock tomorrow morning, BBC1?"
   sfw: sfw
   timestring: 11:15 p.m.
   title: Bridget Jones's Diary
@@ -30328,7 +30328,7 @@
 - author: Rudyard Kipling
   quote: >-
     Harvey looked at the clock, which marked twenty past eleven. "Then I'll sleep
-    here till three and catch the four o'clock freight. They let us men from the Fleet
+    here till three and catch the four o’clock freight. They let us men from the Fleet
     ride free as a rule."
   timestring: twenty past eleven
   title: Captains Courageous
@@ -30410,10 +30410,10 @@
   quote: >-
     To test the intensity of the light whose nature and cause he could not determine,
     he took out his watch to see if he could make out the figures on the dial. They
-    were plainly visible, and the hands indicated the hour of eleven o'clock and twenty-five
+    were plainly visible, and the hands indicated the hour of eleven o’clock and twenty-five
     minutes. At that moment the mysterious illumination suddenly flared to an intense,
     an almost blinding splendor…
-  timestring: eleven o'clock and twenty-five minutes
+  timestring: eleven o’clock and twenty-five minutes
   title: A Wireless Message
 - author: Justin Cartwright
   quote: >-
@@ -30529,7 +30529,7 @@
   quote: >-
     "This is the evening. This is the night. It is New Year´s Eve. In about twenty-eight
     minutes it will be midnight. I still have twenty-eight minutes left. I have to
-    recollect my thoughts. At twelve o´clock, I should be done thinking." He looked
+    recollect my thoughts. At twelve o’clock, I should be done thinking." He looked
     at his father. "Help those that are depressed and consider themselves lost in
     this world," he thought. "Old fart."
   timestring: In about twenty-eight minutes it will be midnight.
@@ -30546,7 +30546,7 @@
   quote: >-
     This is the evening. This is the night. It is New Year´s Eve. In about twenty-eight
     minutes it will be midnight. I still have twenty-eight minutes left. I have to
-    recollect my thoughts. At twelve o´clock, I should be done thinking.
+    recollect my thoughts. At twelve o’clock, I should be done thinking.
   sfw: unknown
   timestring: In about twenty-eight minutes it will be midnight.
   title: The Evenings
