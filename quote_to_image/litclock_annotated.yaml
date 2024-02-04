@@ -105,15 +105,6 @@
     called Alice) and its tired chime counts me into the world.
   timestring: midnight
   title: Behind the Scenes at the Museum
-- author: Emily Brontë
-  quote: >-
-    I took her hand in mine, and bid her be composed; for a succession of shudders
-    convulsed her frame, and she would keep straining her gaze towards the glass.
-    'There's nobody here!' I insisted. 'It was YOURSELF, Mrs. Linton: you knew it
-    a while since.' 'Myself!' she gasped, 'and the clock is striking twelve! It's
-    true, then! that's dreadful!'
-  timestring: twelve
-  title: Wuthering Heights
 - author: Salman Rushdie
   quote: >-
     I was born in the city of Bombay ... On the stroke of midnight, as a matter of
@@ -438,13 +429,6 @@
   sfw: sfw
   timestring: midnight
   title: Nights at the Circus
-- author: David Foster Wallace
-  quote: >-
-    Gately can hear the horns and raised voices and u-turn squeals way down below
-    on Wash. That indicates it's around 0000h., the switching hour.
-  sfw: unknown
-  timestring: 0000h
-  title: Infinite Jest
 - author: Edgar Allan Poe
   quote: >-
     Once upon a midnight dreary,<br/>while I pondered weak and weary,<br/>Over many
@@ -604,15 +588,6 @@
     a cat in a dream.
   timestring: seven minutes after midnight
   title: The Curious Incident of the Dog in the Night-Time
-- author: Mark Haddon
-  quote: >-
-    It was seven minutes after midnight. The dog was lying on the grass in the middle
-    of the lawn in front of Mrs. Shears's house. Its eyes were closed. It looked as
-    if it was running on its side, the way dogs run when they think they are chasing
-    a cat in a dream.
-  sfw: sfw
-  timestring: seven minutes after midnight
-  title: The Curious Incident of the Dog in the Night-Time
 00:08:
 - author: James Pascoe
   quote: >-
@@ -695,13 +670,6 @@
 - author: Robert Ludlum
   quote: >-
     It was exactly fourteen minutes past midnight when he completed the final call.
-    Among the men he had reched were honourable men. Their voices would be heard by
-    the President.
-  timestring: fourteen minutes past midnight
-  title: The Matarese Circle
-- author: Robert Ludlum
-  quote: >-
-    It was exactly fourteen minutes past midnight when he completed the final call.
     Among the men he had reached were honourable men. Their voices would be heard
     by the President.
   sfw: unknown
@@ -712,15 +680,6 @@
   quote: >-
     At twelve-fifteen he got out of the van. He tucked the pistol under the waistband
     of his trousers and crossed the silent, deserted street to the Hudston house.
-  timestring: twelve-fifteen
-  title: Watchers
-- author: Dean Koontz
-  quote: >-
-    At twelve-fifteen he got out of the van. He tucked the pistol under the waistband
-    of his trousers and crossed the silent, deserted street to the Hudston house.
-    He let himself through an unlocked wooden gate onto a side patio brightened only
-    by moonlight filtered through the leafy branches of an enormous sheltering coral
-    tree. He paused to pull on a pair of supple leather gloves.
   timestring: twelve-fifteen
   title: Watchers
 00:16:
@@ -1299,12 +1258,6 @@
 00:59:
 - author: Jonathan Frantzen
   quote: >-
-    ‘What time is it now?’ she said. ‘About one o’clock’. ‘In the morning?’ Herera’s
-    friend leered at her. ‘No, there’s a total eclipse of the sun’.
-  timestring: About one o’clock
-  title: Freedom
-- author: Jonathan Frantzen
-  quote: >-
     What time is it now? she said.<br/> "About one o’clock."<br/> "In the morning?"<br/>
     Herera’s friend leered at her. "No, there’s a total eclipse of the sun."
   sfw: unknown
@@ -1468,12 +1421,6 @@
   timestring: struck one
   title: And Then There Were None
 01:01:
-- author: Jonathan Frantzen
-  quote: >-
-    ‘What time is it now?’ she said. ‘About one o’clock’. ‘In the morning?’ Herera’s
-    friend leered at her. ‘No, there’s a total eclipse of the sun’.
-  timestring: About one o’clock
-  title: Freedom
 - author: Jonathan Frantzen
   quote: >-
     What time is it now? she said.<br/> "About one o’clock."<br/> "In the morning?"<br/>
@@ -1762,17 +1709,6 @@
     attracted by a distant hissing noise.
   timestring: seventeen minutes past one
   title: A voyage round the moon
-- author: Cormac McCarthy
-  quote: >-
-    The clocks stopped at 1:17. A long shear of light and then a series of low concussions.
-    He got up and went to the window. What is it? she said. He didnt answer. He went
-    into the bathroom and threw the lightswitch but the power was already gone. A
-    dull rose glow in the windowglass. He dropped to one knee and raised the lever
-    to stop the tub and then turned on both taps as far as they would go. She was
-    standing in the doorway in her nightwear, clutching the jamb, cradling her belly
-    in one hand. What is it? she said. What is happening?
-  timestring: '1:17'
-  title: The Road
 - author: Jeffrey Archer
   quote: >-
     “I don’t know how you feel, but I’m exhausted,” said Ted, bolting the kitchen
@@ -2160,13 +2096,6 @@
 01:46:
 - author: J.W. Stockton
   quote: >-
-    That particular phenomenom got Presto up at one forty-six a.m.; silently, he painted
-    his face and naked body with camouflage paint. He opened the door to his room
-    and stepped out into the common lobby.
-  timestring: one forty-six a.m.
-  title: Fardnock's Revenge
-- author: J.W. Stockton
-  quote: >-
     That particular phenomenon got Presto up at one forty-six a.m.; silently, he painted
     his face and naked body with camouflage paint. He opened the door to his room
     and stepped out into the common lobby.
@@ -2536,13 +2465,6 @@
   timestring: 2.01am.
   title: The Selected Works of T.S. Spivet
 02:02:
-- author: David Foster Wallace
-  quote: >-
-    "Wake up." "Having the worst dream." "I should certainly say you were." "It was
-    awful. It just went on and on." "I shook you and shook you and." "Time is it."
-    "It's nearly - almost 2:04.”
-  timestring: almost 2:04
-  title: Oblivion
 - author: Carola Dunn
   quote: >-
     The middle of the night? Alec asked sharply. "Can you be more definite?"<br/>
@@ -2559,22 +2481,7 @@
   sfw: sfw
   timestring: three minutes past two
   title: The Bourne Identity
-- author: David Foster Wallace
-  quote: >-
-    Wake up.<br>"Having the worst dream."<br>"I should certainly say you were."<br>"It
-    was awful. It just went on and on."<br>"I shook you and shook you and."<br>"Time
-    is it."<br>"It's nearly - almost 2:04."
-  sfw: unknown
-  timestring: almost 2:04
-  title: Oblivion
 02:04:
-- author: David Foster Wallace
-  quote: >-
-    "Wake up." "Having the worst dream." "I should certainly say you were." "It was
-    awful. It just went on and on." "I shook you and shook you and." "Time is it."
-    "It's nearly - almost 2:04.”
-  timestring: '2:04'
-  title: Oblivion
 - author: David Foster Wallace
   quote: >-
     Wake up.<br>"Having the worst dream."<br />"I should certainly say you were."<br
@@ -2589,16 +2496,6 @@
     At 2.05 the fizzy tights came crackling off.
   timestring: '2.05'
   title: London Fields
-- author: Oscar Wilde
-  quote: >-
-    Then he began ringing the bell. In about ten minutes his valet appeared, half
-    dressed, and looking very drowsy. ‘I am sorry to have had to wake you up, Francis,’
-    he said, stepping in; ‘but I had forgotten my latch-key. What time is it?’ ‘Five
-    minutes past two, sir,’ answered the man, looking at the clock and yawning. ‘Five
-    minutes past two? How horribly late! You must wake me at nine to-morrow. I have
-    some work to do.’
-  timestring: Five minutes past two
-  title: The Picture of Dorian Gray
 - author: Ray Keating
   quote: >-
     2:05 A.M., Flushing, Queens<br/>Her cellphone, set on vibrate, rested on the night
@@ -2967,19 +2864,6 @@
   timestring: nearly 2:30 in the morning
   title: Vatican Shadows
 02:30:
-- author: Jack Finney
-  quote: >-
-    "Get into the mood, Shirl!" Lew said. "The party's already started! Yippee! You
-    dressed for a party, Harry?" "Yep. Something told me to put on dinner clothes
-    when I went to bed tonight." "I'm in mufti myself: white gloves and matching tennis
-    shoes. But I'm sorry to report that Jo is still in her Dr. Dentons. What're you
-    wearing, Shirl?" "My old drum majorette's outfit. The one I wore to the State
-    Finals. Listen, we can't tie up the phones like this." "Why not?" said Harry.
-    "Who's going to call at 2:30 a.m. with a better idea? Yippee, to quote Lew, we're
-    having a party! What're we serving, Lew?" "Beer, I guess. Haven't got any wine,
-    have we, Jo?" "Just for cooking."
-  timestring: 2:30 a.m.
-  title: The Night People
 - author: Sarah Waters
   quote: >-
     At about half past two she had been woken by the creak of footsteps out on the
@@ -3221,13 +3105,6 @@
     the man opened fire: eight shots-rapid, unhesitating.
   timestring: 2.46am.
   title: Patriots
-- author: Tanya Huff
-  quote: >-
-    Vicki shoved her glasses at her face and peered at the clock. Two forty-six. 'I
-    don't have time for this' she muttered, sttling back against the pillows, heart
-    still slamming against her ribs.
-  timestring: Two forty-six
-  title: Blood Lines
 - author: Jodi Picoult
   quote: >-
     WE NEVER KNOW, AT FIRST, if we are headed into a cooker or a smudge. At 2:46 A.M.
@@ -3408,17 +3285,6 @@
     and the hell with it.
   timestring: At three am
   title: The Long Goodbye
-- author: Russell Hoban
-  quote: >-
-    At three o' clock in the morning Eurydice is bound to come into it. After all,
-    why did I sit here like a telegrapher at a lost outpost if not to receive messages
-    from everywhere about the lost Eurydice who was never mine to begin with but whom
-    I lamented and sought continually both professionally and amateurishly. This is
-    not a digression. Where I am at three o' clock in the morning - and by now every
-    hour is three o' clock in the morning - there are no digressions, it's all one
-    thing.
-  timestring: three o' clock in the morning
-  title: The Medusa Frequency
 - author: F. Scott Fitzgerald
   quote: >-
     But at three o’clock in the morning, a forgotten package has the same tragic importance
@@ -3426,17 +3292,6 @@
     the soul it is always three o’clock in the morning, day after day.
   timestring: at three o’clock in the morning
   title: The Crack-Up
-- author: Amit Chaudhuri
-  quote: >-
-    Early mornings, my mother is about, drifting in her pale nightie, making herself
-    a cup of tea in the kitchen. Water begins to boil in the kettle; it starts as
-    a private, secluded sound, pure as rain, and grows to a steady, solipsistic bubbling.
-    Not till she has had one cup of tea, so weak that it has a colour accidentally
-    golden, can she begin her day. She is an insomniac. Her nights are wide-eyed and
-    excited with worry. Even at three o’clock in the morning one might hear her eating
-    a Bain Marie biscuit in the kitchen.
-  timestring: three o’clock
-  title: Afternoon Raag
 - author: Dan Holloway
   quote: >-
     I slam the phone down but it misses the base. I hit the clock instead, which flashes
@@ -3862,29 +3717,12 @@
 03:04:
 - author: Henning Mankell
   quote: >-
-    …his back-up alarm clock rang. He looked at his front-line clock on the bedside
-    table and noted that it had stopped at 3.04. So, you couldn’t even rely on alarm
-    clocks.
-  timestring: '3.04'
-  title: The Return of the Dancing Master
-- author: Henning Mankell
-  quote: >-
     He looked at his front-line clock on the bedside table and noted that it had stopped
     at 3.04. So, you couldn’t even rely on alarm clocks.
   sfw: unknown
   timestring: '3.04'
   title: The Return of the Dancing Master
 03:05:
-- author: Jonathan Franzen
-  quote: >-
-    On the Sunday before Christmas she awoke at 3:05 a.m. and though: Thirty-six hours.
-    Four hours later she got up thinking: Thirty-two hours. Late in the day she took
-    Alfred to the street-association Christmas party at Dale and Honey Driblett’s,
-    sat him down safely with Kirby Root, and proceeded to remind all her neighbors
-    that her favorite grandson, who’d been looking forward all year to a Christmas
-    in St. Jude, was arriving tomorrow afternoon.
-  timestring: 3:05 a.m.
-  title: The Corrections
 - author: Jim Butcher
   quote: >-
     Five minutes ago it was three o’clock, Murphy said. "I can't be certain, but I
@@ -4399,14 +4237,6 @@
   timestring: '3:44'
   title: The Sweetness at the Bottom of the Pie
 03:45:
-- author: Oscar Wilde
-  quote: >-
-    LORD CAVERSHAM: Well, sir! what are you doing here? Wasting your life as usual!
-    You should be in bed, sir. You keep too late hours! I heard of you the other night
-    at Lady Rufford's dancing till four o' clock in the morning! LORD GORING: Only
-    a quarter to four, father.
-  timestring: quarter to four
-  title: An Ideal Husband
 - author: Jeffrey Archer
   quote: >-
     He touched the face of his watch to check the time: 03.45. The code that would
@@ -4485,28 +4315,11 @@
   quote: >-
     She had used her cell phone to leave several messages on the answering machine
     in Sao Paulo of the young dentist of the previous evening, whose name was Fernando.
-    The first was recorded at ten or five to four in the morning. I'm never going
-    to forget you ... I'm sure we'll meet again somewhere.
-  timestring: ten or five to four
-  title: 'A Death in Brazil: A Book of Omissions'
-- author: Peter Robb
-  quote: >-
-    She had used her cell phone to leave several messages on the answering machine
-    in Sao Paulo of the young dentist of the previous evening, whose name was Fernando.
     The first was recorded at ten or five to four in the morning.
   sfw: unknown
   timestring: ten or five to four
   title: 'A Death in Brazil: A Book of Omissions'
 03:51:
-- author: Don DeLillo
-  quote: >-
-    I lacked the will and physical strength to get out of bed and move through the
-    dark house, clutching walls and stair rails. To feel my way, reinhabit my body,
-    re-enter the world. Sweat trickled down my ribs. The digital reading on the clock-radio
-    was 3:51. Always odd numbered at times like this. What does it mean? Is death
-    odd-numbered?
-  timestring: '3:51'
-  title: White Noise
 - author: Don DeLillo
   quote: >-
     The digital reading on the clock-radio was 3:51. Always odd numbers at times like
@@ -5169,18 +4982,7 @@
     she has to be up at like 0430 for the breakfast shift at the Provident Nursing
     Home and sometimes eats breakfast with Gately, both their faces nodding perilously
     close to their Frosted Flakes.
-  timestring: '430'
-  title: Infinite Jest
-- author: David Foster Wallace
-  quote: >-
-    Tonight Clenette H. and the deeply whacked out Yolanda W. come back in from Footprints
-    around 2315 in purple skirts and purple lipstick and ironed hair, tottering on
-    heels and telling each other what a wicked time they just had. Hester Thrale undulates
-    in in a false fox jacket at 2330 as usual even though she has to be up at like
-    0430 for the breakfast shift at the Provident Nursing Home and sometimes eats
-    breakfast with Gately, both their faces nodding perilously close to their Frosted
-    Flakes.
-  timestring: '430'
+  timestring: '0430'
   title: Infinite Jest
 - author: Dacre Stoker &amp; J.D. Barker
   quote: >-
@@ -5379,15 +5181,6 @@
 04:45:
 - author: Henning Mankell
   quote: >-
-    He lies still in the darkness and listens. His wife's breathing at his side is
-    so faint that he can scarcely hear it. One of these mornings she'll be lying dead
-    beside me and I won't even notice, he thinks. Or maybe it'll be me. Daybreak will
-    reveal that one of us has been left alone. He checks the clock on the table next
-    to the bed. The hands glow and register 4:45 a.m.
-  timestring: 4:45 a.m.
-  title: Faceless Killers
-- author: Henning Mankell
-  quote: >-
     His wife's breathing at his side is so faint that he can scarcely hear it. One
     of these mornings she'll be lying dead beside me and I won't even notice, he thinks.
     Or maybe it'll be me. Daybreak will reveal that one of us has been left alone.
@@ -5524,12 +5317,6 @@
   timestring: six minutes to five
   title: A Matter of Honor
 04:55:
-- author: Hunter S. Thompson
-  quote: >-
-    4:55 - Mank holding phone. Turns to Caddell - 'Who is this?' Caddell: 'Jim.' (shrugs)
-    'I think he's our man in Cincinnati.'
-  timestring: '4:55'
-  title: 'Fear and Loathing: On the Campaign Trail ''72'
 - author: Karen Hancock
   quote: >-
     There were two messages. The first, sent at 4:55 a.m., was from the campus garage.<br/>"We
@@ -5590,21 +5377,6 @@
   timestring: one minute to five
   title: The Undiplomatic Diplomat
 05:00:
-- author: Charlotte Brontë
-  quote: >-
-    Five o’clock had hardly struck on the morning of the 19th of January, when Bessie
-    brought a candle into my closet and found me already up and nearly dressed.
-  timestring: Five o’clock
-  title: Jane Eyre
-- author: Charlotte Brontë
-  quote: >-
-    Five o’clock had hardly struck on the morning of the 19th of January, when Bessie
-    brought a candle into my closet and found me already up and nearly dressed. I
-    had risen half-an-hour before her entrance, and had washed my face, and put on
-    my clothes by the light of a half-moon just setting, whose rays streamed through
-    the narrow window near my crib.
-  timestring: Five o’clock
-  title: Jane Eyre
 - author: H.P. Lovecraft
   quote: >-
     It was in the township of Dunwich, in a large and hardly inhabited farmhouse set
@@ -5916,18 +5688,6 @@
   timestring: '5:09'
   title: Sons of Fortune
 05:10:
-- author: Wilkie Collins
-  quote: >-
-    "Oh, my husband, I have done the deed which will relieve you of the wife whom
-    you hate! I have taken the poison--all of it that was left in the paper packet,
-    which was the first that I found. If this is not enough to kill me, I have more
-    left in the bottle. Ten minutes past five. "You have just gone, after giving me
-    my composing draught. My courage failed me at the sight of you. I thought to myself,
-    'If he look at me kindly, I will confess what I have done, and let him save my
-    life.' You never looked at me at all. You only looked at the medicine. I let you
-    go without saying a word.
-  timestring: Ten minutes past five
-  title: The Law and the Lady
 - author: Tina Fey
   quote: >-
     I settled into a daily routine. Wake up at 4:40am, shower, get on the train north
@@ -6178,17 +5938,6 @@
   timestring: Shortly before five-thirty
   title: Death in Holy Orders
 05:30:
-- author: Timothy Mo
-  quote: >-
-    Gideon has been most unlike Gideon. As Walter Eastman is preoccupied himself,
-    he has not had time, or more to the point, inclination, to notice aberrant behaviour.
-    For instance, it is half-past five in the summer morning. Young Chase's narrow
-    bachelor bed has evidently been slept in, for it is rumpled in that barely disturbed
-    way which can never be counterfeited. His jug's empty and there's grey water in
-    the basin, cleanly boy. The window is open, admitting the salubrious sea-breeze.
-    He doesn't smoke anyway. What an innocent room it is.
-  timestring: half-past five
-  title: An Insular Possession
 - author: Charlotte Brontë
   quote: >-
     It was by this time half-past five, and the sun was on the point of rising; but
@@ -6286,12 +6035,6 @@
   timestring: five thirty-three
   title: Among the Brave
 05:34:
-- author: C.S. Forester
-  quote: >-
-    I asked "What time is sunrise?”' A second's silence while the crestfallen Bush
-    absorbed his rebuke, and then another voice answered: ‘Five-thirty-four, sir.'
-  timestring: Five-thirty-four
-  title: The Commodore
 - author: C.S. Forester
   quote: >-
     I asked "What time is sunrise?”<br/>A second's silence while the crestfallen Bush
@@ -7001,13 +6744,6 @@
     of the guys stared at us. Their eyes hard and threatening.
   timestring: 6.15 am.
   title: Girl Missing
-- author: Sophie McKenzie
-  quote: >-
-    It was 6.15 am. Just starting to get light. A small knot of older teenagers were
-    leaning against a nearby wall. They looked as though they had been out all night.Two
-    of the guys stared at us. Their eyes hard and threatening.
-  timestring: 6.15 am.
-  title: Girl Missing
 06:16:
 - author: Monika Jephcott Thomas
   quote: >-
@@ -7043,12 +6779,6 @@
   timestring: 6.19 am
   title: Venus
 06:20:
-- author: Austin Grossman
-  quote: >-
-    It was 6:20 a.m., and my parents and I were standing, stunned and haf-awake, in
-    the parking lot of a Howard Johnson's in Iowa.
-  timestring: 6:20 a.m.
-  title: Soon I Will Be Invincible
 - author: Austin Grossman
   quote: >-
     It was 6:20 a.m., and my parents and I were standing, stunned and half-awake,
@@ -7202,21 +6932,6 @@
   timestring: '6:29'
   title: The Sins of the Father
 06:30:
-- author: Sophie McKenzie
-  quote: >-
-    Inside now MJ ordered. She pushed the three of us into the hotel room, thern shut
-    the soor. I glanced at the clock by the bed. 6.30 am. Why were they waking Mum
-    and Dad up this early?
-  timestring: 6.30 am.
-  title: Girl Missing
-- author: E.L. Doctorow
-  quote: >-
-    Daniel and the FBI men listened to the sounds of his mother waking up his father.
-    Daniel still held the door-knob. He was ready to close the door the second he
-    was told to."What time is it?" said his father in a drugged voice. "Oh my God,
-    it's six-thirty," his mother said.
-  timestring: six-thirty
-  title: The Book of Daniel
 - author: Christina Stead
   quote: >-
     It was six-thirty. When the baby's cry came, they could not pick it out, and Sam,
@@ -8026,19 +7741,6 @@
 07:06:
 - author: Stephen King
   quote: >-
-    So far so good. There followed a little passage of time when we stood by the duty
-    desk, drinking coffee and studiously not mentioning what we were all thinking
-    and hoping: that Percy was late, that maybe Percy wasn't going to show up at all.
-    Considering the hostile reviews he'd gotten on the way he'd handled the electrocution,
-    that seemed at least possible. But Percy subscribed to that old axiom about how
-    you should get right back on the horse that had thrown you, because here he came
-    through the door at six minutes past seven, resplendent in his blue uniform with
-    his sidearm on one hip and his hickory stick in its ridiculous custom-made holster
-    on the other.
-  timestring: six minutes past seven
-  title: The Green Mile
-- author: Stephen King
-  quote: >-
     Percy subscribed to that old axiom about how you should get right back on the
     horse that had thrown you, because here he came through the door at six minutes
     past seven, resplendent in his blue uniform with his sidearm on one hip and his
@@ -8071,14 +7773,6 @@
   timestring: between eight and nine minutes after seven o’clock
   title: The Hard Way
 07:09:
-- author: Ray Bradbury
-  quote: >-
-    In the living room the voice-clock sang, Tick-tock, seven o’clock, time to get
-    up, time to get up, seven o 'clock! as if it were afraid that nobody would. The
-    morning house lay empty. The clock ticked on, repeating and repeating its sounds
-    into the emptiness. Seven-nine, breakfast time, seven-nine!
-  timestring: seven-nine
-  title: There Will Come Soft Rains
 - author: Ray Bradbury
   quote: >-
     Seven-nine, breakfast time, seven-nine!
@@ -8202,14 +7896,6 @@
     the plane's wireless outfit.
   timestring: 7:15 A.M.
   title: At the Mountains of Madness
-- author: Kate Summerscale
-  quote: >-
-    Gough again knocked on Mr and Mrs Kent's bedroom door. This time it was opened
-    - Mary Kent had got out of bed and put on her dressing gown, having just checked
-    her husband's watch: it was 7.15. A confused conversation ensued, in which each
-    woman seemed to assume Saville was with the other.
-  timestring: '7.15'
-  title: The Suspicions of Mr Whicher
 - author: Kate Summerscale
   quote: >-
     Gough again knocked on Mr and Mrs Kent's bedroom door. This time it was opened
@@ -8675,23 +8361,6 @@
   timestring: seventeen minutes to eight
   title: The Burglar Who Thought He Was Bogart
 07:44:
-- author: Sarah Rayner
-  quote: >-
-    And there I was, complaining that all this was just inconvenient, Anna castigates
-    herself. The Goth was obviously right. What does it matter, really, if I'm a bit
-    late for work? She voices her thoughts: "It's not exactly how you'd choose to
-    go, is it? You'd rather die flying a kite with your grandchildren, or at a great
-    party or something. Not on the seven forty-four."
-  timestring: seven forty-four
-  title: One moment, one morning
-- author: Sarah Rayner
-  quote: >-
-    The Goth was obviously right. What does it matter, really, if I'm a bit late for
-    work? She voices her thoughts: "It's not exactly how you'd choose to go, is it?
-    You'd rather die flying a kite with your grandchildren, or at a great party or
-    something. Not on the seven forty-four."
-  timestring: seven forty-four
-  title: One Moment, One Morning
 - author: Jeffrey Archer
   quote: >-
     ‘If you’re referring to Sergeant Jennings, sir, when I arrived this morning at
@@ -8853,13 +8522,6 @@
   timestring: ten minutes to eight
   title: Shroud for a Nightingale
 07:51:
-- author: Terry Pratchett
-  quote: >-
-    Vimes fished out the Gooseberry as a red-hot cabbage smacked into the road behind
-    him. "Good morning!" he said brightly to the surprised imp. "What is the time,
-    please?" "Er...nine minutes to eight, Insert Name Here," said the imp.
-  timestring: nine minutes to eight
-  title: Thud!
 - author: Jeffrey Archer
   quote: >-
     The plane swung around onto the take-off runway at 7:51, its jets revving before
@@ -9129,13 +8791,6 @@
     the stroke of eight And not the stroke of nine;
   timestring: 'eight '
   title: A shropshire Lad
-- author: Franz Kafka
-  quote: >-
-    Someone must have been telling lies about Joseph K. for without having done anything
-    wrong he was arrested one fine morning. His landlady's cook, who always brought
-    him breakfast at eight o’clock, failed to appear on this occasion.
-  timestring: eight o’clock
-  title: The Trial
 - author: Anthony Burgess
   quote: >-
     The next morning I woke up at oh eight oh oh hours, my brothers, and as I still
@@ -9151,19 +8806,6 @@
     sofa in his study.
   timestring: eight o’clock
   title: Anna Karenina
-- author: P.G. Wodehouse
-  quote: >-
-    Through the curtained windows of the furnished apartment which Mrs. Horace Hignett
-    had rented for her stay in New York rays of golden sunlight peeped in like the
-    foremost spies of some advancing army. It was a fine summer morning. The hands
-    of the Dutch clock in the hall pointed to thirteen minutes past nine; those of
-    the ormolu clock in the sitting-room to eleven minutes past ten; those of the
-    carriage clock on the bookshelf to fourteen minutes to six. In other words, it
-    was exactly eight; and Mrs. Hignett acknowledged the fact by moving her head on
-    the pillow, opening her eyes, and sitting up in bed. She always woke at eight
-    precisely.
-  timestring: exactly eight
-  title: Three Men and a Maid
 - author: Thomas Mann
   quote: >-
     When he opened the windows in the morning, the sky was as overcast as it had been,
@@ -9427,14 +9069,6 @@
 08:02:
 - author: Terry Pratchett
   quote: >-
-    ... bingeley ... Eight oh two eh em, Death of Corporal Littlebottombottom ...
-    Eight oh three eh em ... Death of Sergeant Detritus ... Eight oh threethreethree
-    eh em and seven seconds seconds ... Death of Constable Visit ... Eight oh three
-    eh em and nineninenine seconds ... Death of death of death of ...
-  timestring: Eight oh two
-  title: Jingo
-- author: Terry Pratchett
-  quote: >-
     Eight oh two eh em, Death of Corporal Littlebottombottom ... Eight oh three eh
     em ... Death of Sergeant Detritus ... Eight oh threethreethree eh em and seven
     seconds seconds ... Death of Constable Visit ... Eight oh three eh em and nineninenine
@@ -9443,14 +9077,6 @@
   timestring: Eight oh two
   title: Jingo
 08:03:
-- author: Terry Pratchett
-  quote: >-
-    ... bingeley ... Eight oh two eh em, Death of Corporal Littlebottombottom ...
-    Eight oh three eh em ... Death of Sergeant Detritus ... Eight oh threethreethree
-    eh em and seven seconds seconds ... Death of Constable Visit ... Eight oh three
-    eh em and nineninenine seconds ... Death of death of death of ...
-  timestring: Eight oh three
-  title: Jingo
 - author: Steve Toltz
   quote: >-
     He taught me that if I had to meet someone for an appointment, I must refuse to
@@ -9717,19 +9343,6 @@
   timestring: eight sixteen
   title: The Undomestic Goddess
 08:17:
-- author: Jules Verne
-  quote: >-
-    Breakfast over, my uncle drew from his pocket a small notebook, intended for scientific
-    observations. He consulted his instruments, and recorded:
-
-    “Monday, July 1.
-
-    “Chronometer, 8.17 a.m.; barometer, 297 in.; thermometer, 6° (43° F.). Direction,
-    E.S.E.”
-
-    This last observation applied to the dark gallery, and was indicated by the compass.
-  timestring: 8.17 a.m.
-  title: A Journey to the Centre of the Earth
 - author: Sophie Kinsella
   quote: >-
     Come on, I can't give up yet. I'll just sit here for a bit and enjoy the peace.
@@ -10358,12 +9971,6 @@
   timestring: eighteen minutes to nine
   title: His Hot Number
 08:43:
-- author: John Grisham
-  quote: >-
-    "You understand this tape recorder is on?" "Uh huh" "And it's Wednesday, May 15,
-    at eight forty-three in the mornin'." "If you say so"
-  timestring: eight forty-three
-  title: A Time to Kill
 - author: Mark Haddon
   quote: >-
     8.43 a.m. Go past tropical fish shop
@@ -10456,11 +10063,6 @@
     "Just on my way to the cottage. It's, er, ..8.47. Bit misty on the roads....."
   timestring: '8.47'
   title: Dirk Gently's Holistic Detective Agency
-- author: Douglas Adams
-  quote: >-
-    8.47. Bit misty on the roads
-  timestring: '8.47'
-  title: Dirk Gently's Holistic Detective Agency
 - author: Helen Fielding
   quote: >-
     8:47 a.m. Just had fag. But no-smoking day does not start officially till have
@@ -10494,13 +10096,6 @@
   timestring: '8:49'
   title: A Matter of Principle
 08:50:
-- author: V.S. Pritchett
-  quote: >-
-    At ten to nine the clerks began to arrive.When they had hung up their coats and
-    hates they came to the fireplace and stood warming themselves. If there was no
-    fire, they stood there all the same
-  timestring: ten to nine
-  title: The Chestnut Tree
 - author: Sam Lipsyte
   quote: >-
     It was 8:50 in the morning and Bernie and I were alone on an Astoria side street,
@@ -11155,15 +10750,6 @@
     9:03am lay in bed, staring at ceiling.
   timestring: 9:03am
   title: A Fraction of the Whole
-- author: Jacqueline Wilson
-  quote: >-
-    This isn't a very good start to the new school year." I stared at her. What was
-    she talking about? Why was she looking at her watch? I wasn't late. Okay, the
-    school bell had rung as I was crossing the playground, but you always get five
-    minutes to get to your classroom. "It's three minutes past nine," Miss Beckworth
-    announced. "You're late."
-  timestring: three minutes past nine
-  title: The Lottie Project
 - author: Jeffrey Archer
   quote: >-
     Sebastian remained seated, staring at the phone, willing it to ring. At three
@@ -11689,22 +11275,6 @@
   timestring: 9:27 A.M.
   title: Project Cyclops
 09:28:
-- author: Arnold Bennett
-  quote: >-
-    "This clock right?" he asked the butler in the hall. "Yes, sir." The clock showed
-    twenty-eight minutes past nine. "The clocks here have to be right, sir," the butler
-    added with pride and a respectful humour, on the stairs.
-  timestring: twenty-eight minutes past nine
-  title: Lord Raingo
-- author: Arnold Bennett
-  quote: >-
-    He entered No. 10 for the first time, he who had sat on the Government benches
-    for eight years and who had known the Prime Minister from youth up. "This clock
-    right?" he asked the butler in the hall. "Yes, sir." The clock showed twenty-eight
-    minutes past nine. "The clocks here have to be right, sir," the butler added with
-    pride and a respectful humour, on the stairs.
-  timestring: twenty-eight minutes past nine
-  title: Lord Raingo
 - author: P.D. James
   quote: >-
     The call had been made at 9:28. This was one more piece of evidence, and an important
@@ -11895,12 +11465,6 @@
     at the apex of a curl of razor wire.
   timestring: Nine-thirty-five
   title: The Memory of Love
-- author: Aminatta Forna
-  quote: >-
-    Nine-thirty-five. He really must be gone. The bird is no longer feeding but sitting
-    at the apex of a curl of razor wire.
-  timestring: Nine-thirty-five
-  title: The Memory of Love
 - author: Jeffrey Archer
   quote: >-
     He opened the first file and began to go over the seven questions he’d written
@@ -11934,18 +11498,6 @@
   timestring: twenty-five minutes to ten
   title: And Then There Were None
 09:36:
-- author: Sophie Kinsella
-  quote: >-
-    I grab a pen and the pad of paper by the phone and start scribbling a list for
-    the day. I have an image of myself moving smoothly from task to task, brush in
-    one hand, duster in the other, bringing order to everything. Like Mary Poppins.
-    9:30-9:36 Make Geigers' bed 9:36-9:42 Take laundry out of machine and put in dryer
-    9:42-10:00 Clean bathrooms I get to the end and read it over with a fresh surge
-    of optimism. At this rate I should be done easily by lunchtime. 9:36 Fuck. I cannot
-    make this bed. Why won't this sheet lie flat? 9:42 And why do they make mattresses
-    so heavy?
-  timestring: '9:36'
-  title: The Undomestic Goddess
 - author: Helen Fielding
   quote: >-
     Monday February 6th. '9.36am. Oh god, Oh god. Maybe he's fallen in love in New
@@ -12381,14 +11933,6 @@
   timestring: eight minutes to ten
   title: The Sins of the Father
 09:53:
-- author: Winifred Watson
-  quote: >-
-    Miss Pettigrew went to the bus-stop to await a bus. She could not afford the fare,
-    but she could still less afford to lose a possible situation by being late. The
-    bus deposited her about five minutes' walk from Onslow Mansions, an at seven minutes
-    to ten precisely she was outside her destination.
-  timestring: seven minutes to ten
-  title: Miss Pettigrew Lives for a Day
 - author: Stephen King
   quote: >-
     People did not speak to her in such a manner. Her father was a lawyer. It was
@@ -12659,11 +12203,6 @@
     a situation not unpleasant.
   timestring: ten o’clock
   title: Northanger Abbey
-- author: William Shakespeare
-  quote: >-
-    King Richard: Well, but what's o’clock? Buckingham: Upon the stroke of ten.
-  timestring: ten
-  title: Richard III
 - author: Samuel Pepys
   quote: >-
     Monday 30 March 1668 Up betimes, and so to the office, there to do business till
@@ -13020,17 +12559,6 @@
   timestring: '10:04'
   title: 'Back to the Future: Race Through Time'
 '10:05':
-- author: Sophie Kinsella
-  quote: >-
-    We both watch as a pair of swans sail regally under the little bridge. Then I
-    glance at my watch. It's already five past ten. “We should get going,” I say with
-    a little start. Your mother will be waiting.” “There's no rush,” Nathaniel calls
-    as I hasten down the other side of the bridge. “We've got all day.” He lopes down
-    the bridge. “It's OK. You can slow down.” I try to match his relaxed pace. But
-    I'm not used to this easy rhythm. I'm used to striding along crowded pavements,
-    fighting my way, pushing and elbowing.
-  timestring: five past ten
-  title: The Undomestic Goddess
 - author: Jeffrey Archer
   quote: >-
     She passes the FBI Building at three minutes past [ten], she passes the Peace
@@ -13187,19 +12715,6 @@
   timestring: Ten minutes later
   title: The Silver Chair
 '10:11':
-- author: P.G. Wodehouse
-  quote: >-
-    Through the curtained windows of the furnished apartment which Mrs. Horace Hignett
-    had rented for her stay in New York rays of golden sunlight peeped in like the
-    foremost spies of some advancing army. It was a fine summer morning. The hands
-    of the Dutch clock in the hall pointed to thirteen minutes past nine; those of
-    the ormolu clock in the sitting-room to eleven minutes past ten; those of the
-    carriage clock on the bookshelf to fourteen minutes to six. In other words, it
-    was exactly eight; and Mrs. Hignett acknowledged the fact by moving her head on
-    the pillow, opening her eyes, and sitting up in bed. She always woke at eight
-    precisely.
-  timestring: eleven minutes past ten
-  title: Three Men and a Maid
 - author: Jeffrey Archer
   quote: >-
     “Fine,” said Florentyna Kane and looked at her watch. It was 10:11. The digits
@@ -13255,14 +12770,6 @@
 '10:13':
 - author: Jules Verne
   quote: >-
-    "By the bye," said the first, "I was able this morning to telegraph the very words
-    of the order to my cousin at seventeen minutes past ten." "And I sent it to the
-    Daily Telegraph at thirteen minutes past ten." "Bravo, Mr. Blount!" "Very good,
-    M. Jolivet."
-  timestring: thirteen minutes past ten
-  title: Michel Strogoff
-- author: Jules Verne
-  quote: >-
     By the bye, said the first, "I was able this morning to telegraph the very words
     of the order to my cousin at seventeen minutes past ten."<br/>"And I sent it to
     the Daily Telegraph at thirteen minutes past ten."<br/>"Bravo, Mr. Blount!"<br/>"Very
@@ -13278,17 +12785,6 @@
   timestring: ten-thirteen
   title: The Anthem Sprinters
 '10:14':
-- author: Christopher Moore
-  quote: >-
-    “Okay. Ten fourteen: Mrs. Narada reports that her cat has been attacked by a large
-    dog. Now I send all the boys out looking, but they don't find anything until eleven.
-    Then one of them calls in that a big dog has just bitten holes in the tires on
-    his golf cart and run off. Eleven thirty: Dr. Epstein makes his first lost-nap
-    call: dog howling. Eleven thirty-five: Mrs. Norcross is putting the kids out on
-    the deck for some burgers when a big dog jumps over the rail, eats the burgers,
-    growls at the kids, runs off. First mention of lawsuit.”
-  timestring: Ten fourteen
-  title: Coyote Blue
 - author: Jeffrey Archer
   quote: >-
     10:14, would her next appointment have to be with Mr. Brett Elders?
@@ -13351,14 +12847,6 @@
   timestring: '10:16'
   title: The Undomestic Goddess
 '10:17':
-- author: Jules Verne
-  quote: >-
-    "By the bye," said the first, "I was able this morning to telegraph the very words
-    of the order to my cousin at seventeen minutes past ten." "And I sent it to the
-    Daily Telegraph at thirteen minutes past ten."n "Bravo, Mr. Blount!" "Very good,
-    M. Jolivet." "I will try and match that!"
-  timestring: seventeen minutes past ten
-  title: Michel Strogoff
 - author: Jeffrey Archer
   quote: >-
     Pacey hummed to himself as he walked slowly toward Abel's office for their daily
@@ -13538,15 +13026,6 @@
   timestring: 10:25 AM
   title: An Advent for Religious Liberty
 '10:26':
-- author: Sophie Kinsella
-  quote: >-
-    10:26 No. Please, no. I can hardly bear to look. It's a total disaster. Everything
-    in the washing machine has gone pink. Every single thing. What happened? With
-    trembling fingers I pick out a damp cashmere cardigan. It was a cream when I put
-    it in. It's now a sickly shade of candy floss. I knew K3 was bad news. I knew
-    it -
-  timestring: '10:26'
-  title: The Undomestic Goddess
 - author: Haruki Murakami
   quote: >-
     In the exact centre of my visual field was the alarm clock, hands pointing to
@@ -14278,19 +13757,6 @@
     o’clock when the class starts.
   timestring: 'eleven '
   title: The Saints
-- author: G.W.M. Reynolds
-  quote: >-
-    ON the morning following the events just narrated, Mrs. Arlington was seated at
-    breakfast in a sweet little parlour of the splendid mansion which the Earl of
-    Warrington had taken and fitted up for her in Dover Street, Piccadilly. It was
-    about eleven o’clock; and the Enchantress was attired in a delicious deshabillé.
-    With her little feet upon an ottoman near the fender, and her fine form reclining
-    in a luxurious large arm-chair, she divided her attention between her chocolate
-    and the columns of the Morning Herald. She invariably prolonged the morning's
-    repast as much as possible, limply because it served to wile away the time until
-    the hour for dressing arrived.
-  timestring: eleven o’clock
-  title: The Mysteries of London
 - author: George Augustus Sala
   quote: >-
     Quiet as I am, I become at Eleven o’clock in the Morning on every day of the week
@@ -14306,14 +13772,6 @@
     to sit for a moment, when the echo had vanished, to repossess her thoughts.
   timestring: eleven
   title: The Stranger's Child
-- author: Jerome K Jerome
-  quote: >-
-    We got to Waterloo at eleven, and asked where the eleven-five started from. Of
-    course nobody knew; nobody at Waterloo ever does know where a train is going to
-    start from, or where a train when it does start is going to, or anything about
-    it.
-  timestring: at eleven
-  title: Three Men in a Boat
 - author: Jerome K Jerome
   quote: >-
     We got to Waterloo at eleven, and asked where the eleven-five started from.Of
@@ -14588,18 +14046,6 @@
   timestring: '11:02'
   title: The Shadow and Night
 '11:03':
-- author: Christopher Buckley
-  quote: >-
-    "What makes you think it's for real?" "Just a hunch, really. He sounded for real.
-    Sometimes you can just tell about people"-he smiled-"even if you're a dull old
-    WASP." "I think it's a setup." "Why?" "I just do. Why would someone from the government
-    want to help you?" "Good question. Guess I'll find out." She went back into the
-    kitchen."What time are you meeting him?" she called out. "Eleven oh-three," he
-    said. "That made me think he's for real. Military and intelligence types set precise
-    appointment times to eliminate confusion and ambiguity. Nothing ambiguous about
-    eleven oh-three."
-  timestring: Eleven oh-three
-  title: Little Green Men
 - author: Jorge Luis Borges
   quote: >-
     On the fourth, at 11.03am, the editor of the Yidische Zaitung put in a call to
@@ -14786,13 +14232,6 @@
     it, iron it all overnight at £3 a shirt, and sew on Eddie's button.
   timestring: '11:12'
   title: The Undomestic Goddess
-- author: Jane Smiley
-  quote: >-
-    I squinted down the street at the bank clock: 11:12, 87 degrees. "It's only a
-    block and a half and it's not that hot, Daddy. The walk will do you good." This
-    conversation made me breathless, as if I were wearing a girdle with tight stays.
-  timestring: '11:12'
-  title: A Thousand Acres
 - author: Jeffrey Archer
   quote: >-
     “11:12 action stations, action stations.”<br/>James slipped quickly into the Lamanns
@@ -15114,15 +14553,6 @@
     and I was at the door at half-past eleven to a minute as you said..."
   timestring: half-past eleven
   title: Far from the madding crowd
-- author: Dennis Wheatley
-  quote: >-
-    "Thank-you," said C.B. quietly; but as he hung up his face was grim. In a few
-    minutes he would have to break it to John that, although they had braved such
-    dredful perils dring the earlier part of the night they had, after all, failed
-    to save Christina. Beddows had abjured Satan at a little after half-past eleven.
-    By about eighteen minutes the Canon had beaten them to it again."
-  timestring: half-past eleven
-  title: To the Devil a Daughter
 - author: Haruki Murakami
   quote: >-
     This time it was Kumiko. The wall clock said 11.30.
@@ -15374,17 +14804,6 @@
   timestring: 11.40 am
   title: Around the World in Eighty Days
 '11:41':
-- author: Christopher Moore
-  quote: >-
-    Spagnola took a deep breath and started into the log again. "Eleven forty-one:
-    large dog craps in Dr. Yamata's Aston Martin. Twelve oh-three: dog eats two, count
-    'em, two of Mrs. Wittingham's Siamese cats. She just lost her husband last week;
-    this sort of put her over the edge. We had to call Dr. Yamata in off the putting
-    green to give her a sedative. The personal-injury lawyer in the unit next to hers
-    was home for lunch and he came over to help. He was talking class action then,
-    and we didn't even know who owned the dog yet."
-  timestring: Eleven forty-one
-  title: Coyote Blue
 - author: Jeffrey Archer
   quote: >-
     Giles turned to see the dean standing by his side. He bowed. It must be 11:41.
@@ -15632,13 +15051,6 @@
     It was 11:55 a.m. on April 30.
   timestring: 11:55 a.m.
   title: All the President's Men
-- author: Haruki Murakami
-  quote: >-
-    What time did you arrive at the site? It was 11:55. I remember since I happened
-    to glance at my watch when we got there. We rode our bicycles to the bottom of
-    the hill, as far as we could go, then climbed the rest of the way on foot.
-  timestring: '11:55'
-  title: Kafka on the Shore
 - author: Jeffrey Archer
   quote: >-
     The prisoners would be allowed out of their cells to watch the World Cup match
@@ -15685,12 +15097,6 @@
   timestring: 11:56 a.m.
   title: The Book of Lies
 '11:57':
-- author: Robert Tressell
-  quote: >-
-    I wondered what the time is?' said the latter after a pause'. 'I don't know exactly',
-    replied Easton, 'but it can't be far-off twelve.'
-  timestring: can't be far-off twelve
-  title: The Ragged Trousered Philanthropists
 - author: Jeffrey Archer
   quote: >-
     “At three minutes to twelve, I will officially welcome our guest of honor. My
@@ -15729,17 +15135,6 @@
     ninth, 1958.
   timestring: '11.58'
   title: 11/22/63
-- author: William Makepeace Thackeray
-  quote: >-
-    Two minutes before the clock struck noon, the savage baron was on the platform
-    to inspect the preparation for the frightful ceremony of mid-day. The block was
-    laid forth-the hideous minister of vengeance, masked and in black, with the flaming
-    glaive in his hand, was ready. The baron tried the edge of the blade with his
-    finger, and asked the dreadful swordsman if his hand was sure? A nod was the reply
-    of the man of blood. The weeping garrison and domestics shuddered and shrank from
-    him. There was not one there but loved and pitied the gentle lady.
-  timestring: Two minutes before the clock struck noon
-  title: Burlesques
 - author: Jeffrey Archer
   quote: >-
     Danny turned to the business section of The Times to check on his investments
@@ -15792,12 +15187,6 @@
     which she was so proud.
   timestring: noon
   title: The Master of Go
-- author: Emily Brontë
-  quote: >-
-    'There's nobody here!' I insisted. 'It was yourself, Mrs. Linton: you knew it
-    a while since.' 'Myself!' she gasped, 'and the clock is striking twelve!
-  timestring: twelve
-  title: Wuthering Heights
 - author: Fyodor Dostoyevsky
   quote: >-
     A cheap little clock on the wall struck twelve hurriedly, and served to begin
@@ -15814,33 +15203,6 @@
     flames in the sunset, the whole beautiful beloved city.
   timestring: noon
   title: The Woman Who Had Two Navels
-- author: Virginia Woolf
-  quote: >-
-    It was precisely twelve o’clock; twelve by Big Ben; whose stroke was wafted over
-    the northern part of London; blent with that of other clocks, mixed in a thin
-    ethereal way with the clouds and wisps of smoke and died up there among the seagulls,
-    twelve o’clock struck as Clarissa Dalloway laid her green dress on her bed and
-    the Warren Smiths walked down Harley Street. Twelve was the hour of their appointment.
-  timestring: twelve o’clock
-  title: Mrs Dalloway
-- author: Virginia Woolf
-  quote: >-
-    It was precisely twelve o’clock; twelve by Big Ben; whose stroke was wafted over
-    the northern part of London; blent with that of other clocks, mixed in a thin
-    ethereal way wth the clouds and wisps of smoke and died up there among the seagulls
-    - twelve o’clock struck as Clarissa Dalloway laid her green dress on the bed,
-    and the Warren Smiths walked down Harley Street.
-  timestring: twelve o’clock
-  title: Mrs Dalloway
-- author: Virginia Woolf
-  quote: >-
-    It was precisely twelve o’clock; twelve by Big Ben; whose stroke was wafted over
-    the northern part of London; blent with that of other clocks, mixed in a thin
-    ethereal way with the clouds and wisps of smoke and died up there among the seagulls—twelve
-    o’clock struck as Clarissa Dalloway laid her green dress on her bed, and the Warren
-    Smiths walked down Harley Street
-  timestring: twelve o’clock
-  title: Mrs Dalloway
 - author: Virginia Woolf
   quote: >-
     It was precisely twelve o’clock; twelve by Big Ben; whose stroke was wafted over
@@ -16188,13 +15550,6 @@
     clock/radio by his bedside table said 12:01.
   timestring: '12:01'
   title: Boy A
-- author: Jonathan Trigell
-  quote: >-
-    It was the twelfth of December, the twelfth month. A was twelve. The electric
-    clock/radio by his bedside table said 12:01. A was waiting for it to read 12:12,
-    he hoped there would be some sense of cosmic rightness when it did.
-  timestring: '12:01'
-  title: Boy A
 - author: Jeffrey Archer
   quote: >-
     “Madam President …” Florentyna had to think quickly to prevent anyone noticing
@@ -16212,15 +15567,6 @@
   timestring: one minute past twelve
   title: The Undiplomatic Diplomat
 '12:02':
-- author: Lewis Carroll
-  quote: >-
-    It had struck twelve o’clock two minutes and a quarter. The Baron's footman hastily
-    seized a large goblet, and gasped with terror as he filled it with hot, spiced
-    wine. "Tis past the hour, 'tis past," he groaned in anguish, "and surely I shall
-    now get the red hot poker the Baron hath so often promised me, oh! Woe is me!
-    Would that I had prepared the Baron's lunch before!"
-  timestring: twelve o’clock two minutes and a quarter
-  title: Crundle Castle
 - author: Stephen King
   quote: >-
     At two minutes past twelve the door opens and two men come into the lobby. One
@@ -16332,12 +15678,6 @@
 '12:08':
 - author: Matthew Goodman
   quote: >-
-    When a clock struck noon in Washington, D.C., the time was 12:08 in Philadephia,
-    12:12 in new York, and 12:24 in Boston.
-  timestring: '12:08'
-  title: Eighty Days
-- author: Matthew Goodman
-  quote: >-
     When a clock struck noon in Washington, D.C., the time was 12:08 in Philadelphia,
     12:12 in New York, and 12:24 in Boston.
   sfw: unknown
@@ -16387,18 +15727,6 @@
   timestring: ten past noon
   title: Joyland
 '12:11':
-- author: Jonathan Trigell
-  quote: >-
-    At 12:11 there was a knock on the door. It was Terry, A could tell. He hadn't
-    known Terry long, but there was something calmer, more patient, that separated
-    Terry's knocks from the rest of the staff. He knocked from genuine politeness,
-    not formality. "Come in," A said, although the lock was on the other side. Terry
-    did. "It's your mother," he said. "There's no easy way to say this." Though he
-    had just used the easiest, because A now knew the rest. A’s face froze, as it
-    tried to catch up, as it tried to register the news. Then it crumpled, and while
-    he considered this fresh blow, the tears came.
-  timestring: '12:11'
-  title: Boy A
 - author: Karen Hancock
   quote: >-
     She was to leave the reception as soon as she could and return to her room to
@@ -17168,18 +16496,6 @@
     radiated ease and enthusiasm
   timestring: 1pm
   title: Platform
-- author: Sybille Bedford
-  quote: >-
-    I got to Schmidt's early, feeling horribly nervous. At one o’clock sharp: Toni.
-    She was looking at the menu she knew well - Schmorbraten? Schnitzel? - when he
-    loomed over her. I had seen him come in. She looked up, through him, at me. 'Traitor.'
-    Jamie, hovering, looking very big, said her pet name, a German diminutive chosen
-    by her. Toni addressed the air. 'If he does not leave at once I shall tell the
-    waiter that I am not sharing my table with this gentleman.' Jamie heard, said
-    her name again, turned to go, I rose to go with him. Toni - with that concentration
-    of will - said, 'YOU are lunching with me.'
-  timestring: one o’clock
-  title: Jigsaw
 - author: George Orwell
   quote: >-
     It was a bright cold day in April, and the clocks were striking thirteen.
@@ -17340,12 +16656,6 @@
   sfw: unknown
   timestring: one
   title: The Scarlet Pimpernel
-- author: Terry Pratchett
-  quote: >-
-    One o’clock pee em! Hello, Insert Name Here!
-  sfw: unknown
-  timestring: One o’clock
-  title: Jingo
 - author: Sybille Bedford
   quote: >-
     I got to Schmidt's early, feeling horribly nervous. At one o’clock sharp: Toni.
@@ -17419,16 +16729,6 @@
   timestring: four minutes past one
   title: The Ragged Trousered Philanthropists
 '13:05':
-- author: Sophie Kinsella
-  quote: >-
-    “Samantha?” I can hear Trish approaching. “Um ... hold on!” I hurry to the door,
-    trying to block her view. “It's already five past one,” I can hear her saying
-    a little sharply. “And I did ask, most clearly for ...” Her voice trails off into
-    silence as she reaches the kitchen door, and her whole face sags in astonishment.
-    I turn and follow her gaze as she surveys the endless plates of sandwiches. “My
-    goodness!” At last Trish finds her voice. “This is ... this is very impressive!”
-  timestring: five past one
-  title: The Undomestic Goddess
 - author: Ngaio Marsh
   quote: >-
     At five past one Alleyn opened the outer door, knocked his pipe out on the edge
@@ -17493,11 +16793,6 @@
   timestring: nine minutes past one
   title: 'Tortured Souls: The Legend of Primordium'
 '13:10':
-- author: Agatha Christie
-  quote: >-
-    "It was ten minutes past one.” “You are sure of that?"
-  timestring: ten minutes past one
-  title: Death on the Nile
 - author: Jeffrey Archer
   quote: >-
     Thirty minutes later Fletcher passed Harry in the corridor on his way out, as
@@ -17545,13 +16840,6 @@
 '13:13':
 - author: Jules Verne
   quote: >-
-    "There it is! There it is!" shouted the Professor. "Now for the centre of the
-    globe!" he added in Danish. I looked at Hans. "Forüt!" was his tranquil answer.
-    "Forward!" replied my uncle. It was thirteen minutes past one.
-  timestring: thirteen minutes past one
-  title: Journey to the Centre of the Earth
-- author: Jules Verne
-  quote: >-
     There it is! There it is! shouted the Professor. "Now for the centre of the globe!"
     he added in Danish.<br/>I looked at Hans. "Forüt!" was his tranquil answer.<br/>"Forward!"
     replied my uncle. It was thirteen minutes past one.
@@ -17568,18 +16856,6 @@
   timestring: 1:14 pm
   title: Extinction Island
 '13:15':
-- author: Oscar Wilde
-  quote: >-
-    ‘Monsieur has well slept this morning,’ he said, smiling. ‘What o’clock is it,
-    Victor?’ asked Dorian Gray, sleepily. ‘One hour and a quarter, monsieur.’
-  timestring: One hour and a quarter
-  title: The Picture of Dorian Gray
-- author: Ngaio Marsh
-  quote: >-
-    "Where are the ladies and Gentlemen?" asked Aleyn. "Sir, in the garding", said
-    Bunce. "What time's lunch?" "One-fifteen".
-  timestring: One-fifteen
-  title: A Man Lay Dead
 - author: Winifred Watson
   quote: >-
     The clock caught Miss LaFosse´s eye. ´Good heavens!´ she gasped. ´Look at the
@@ -17647,23 +16923,6 @@
   timestring: One eighteen
   title: The Terrorist, He Watches
 '13:20':
-- author: Tom Clancy
-  quote: >-
-    Kamarov, signal to Purga: 'Diving at—,'" he checked his watch, "'—1320 hours.
-    Exercise OCTOBER FROST begins as scheduled. You are released to other assigned
-    duties. We will return as scheduled." Kamarov worked the trigger on the blinker
-    light to transmit the message. The Purga responded at once, and Ramius read the
-    flashing signal unaided: "IF THE WHALES DON'T EAT YOU. GOOD LUCK TO RED OCTOBER!"
-  timestring: 1320 hours
-  title: The Hunt for Red October
-- author: Bram Stoker
-  quote: >-
-    The time is coming for action. Today this Vampire is limit to the powers of man,
-    and till sunset he may not change. It will take him time to arrive here, see it
-    is twenty minutes past one, and there are yet some times before he can hither
-    come, be he never so quick.
-  timestring: twenty minutes past one
-  title: Dracula
 - author: Bram Stoker
   quote: >-
     Today this Vampire is limit to the powers of man, and till sunset he may not change.
@@ -18150,12 +17409,6 @@
   timestring: 1:56 P.M.
   title: Kitchens of the Great Midwest
 '13:57':
-- author: C.E. Murphy
-  quote: >-
-    I looked for a clock. It was three minutes to two. "I hope you can catch him,
-    then. Thank you. I really appreciate it."
-  timestring: three minutes to two
-  title: Urban Shaman
 - author: Haruki Murakami
   quote: >-
     Then I opened my eyes and looked at my watch. It was one fifty-seven. Twenty-five
@@ -18231,14 +17484,6 @@
     I caught the two o’clock bus. It was very hot. I ate at Céleste's restaurant as
     usual. They all felt very sorry for me and Céleste told me, 'There's no one like
     a mother'.
-  timestring: two o’clock
-  title: The Outsider
-- author: Albert Camus
-  quote: >-
-    The Home for Aged Persons is at Marengo, some fifty miles from Algiers. With the
-    two o’clock bus I should get there well before nightfall. Then I can spend the
-    night there, keeping the usual vigil beside the body, and be back here by tomorrow
-    evening.
   timestring: two o’clock
   title: The Outsider
 - author: Stieg Larsson
@@ -18667,18 +17912,6 @@
     must get ready at once.
   timestring: twenty minutes past two
   title: A tale of two cities
-- author: Brian Moore
-  quote: >-
-    Inevitable, implacable, the rainstorm wept itself out. She saw Tom look at his
-    watch. 'What time is it?' 'Twenty past two. Want to go back to the hotel for a
-    while?' 'All right.' They walked out of the gardens and down the rue de Vaugirard.
-    This holiday, unlike those holidays long ago, would not end with her sleeping
-    at home. Two nights from now I will be high over the Atlantic Ocean and on Saturday
-    I will be walking around in the Other Place. I am going to America. I am starting
-    my life over again. But as she said these words to herself, she found it hard
-    to imagine what the new life would be like. And, again, she was afraid.
-  timestring: Twenty past two
-  title: The Doctor's Wife
 - author: Charles Dickens
   quote: >-
     She looked at her watch and it was twenty minutes past two. She had no time to
@@ -19124,13 +18357,6 @@
     forty-five'.
   timestring: two forty-five
   title: The Pregnant Window
-- author: Daniil Ivanovich Kharms
-  quote: >-
-    What time is it?' 'Look for yourself,' the old woman says to me. I look, and I
-    see the clock has no hands. 'There are no hands,' I say. The old woman looks at
-    the clock face and says to me, 'It's a quarter to three'.
-  timestring: quarter to three
-  title: The Old Woman
 - author: Jeffrey Archer
   quote: >-
     David arrived at 2:45 P.M. at the Copley Hotel on Huntingdon Avenue, the adrenaline
@@ -19486,11 +18712,6 @@
     it.
   timestring: at three
   title: Casino Royale
-- author: Jean-Paul Sartre
-  quote: >-
-    Three o’clock is always too late or too early for anything you want to do.
-  timestring: Three o’clock
-  title: Nausea
 - author: Jonathan Trigell
   quote: >-
     Three o’clock is the perfect time in Cham, because anything is possible. You can
@@ -19796,13 +19017,6 @@
   timestring: four minutes past three
   title: The Tommyknockers
 '15:05':
-- author: Truman Capote
-  quote: >-
-    Ultimately, at five minutes past three that afternoon, Smith admitted the falsity
-    of the Fort Scott tale. "That was only something Dick told his family. So he could
-    stay out overnight. Do some drinking."
-  timestring: five minutes past three
-  title: In Cold Blood
 - author: Jim Butcher
   quote: >-
     Five minutes ago it was three o’clock, Murphy said. "I can't be certain, but I
@@ -20150,15 +19364,6 @@
     edition Rolex worth the price of a new car but I lost it.
   timestring: Three twenty-three
   title: Espedair Street
-- author: Iain Banks
-  quote: >-
-    Three twenty-three! Is that all? Doesn't time - no, I've already said that, thought
-    that. I sit and watch the seconds change on the watch. I used to have a limited
-    edition Rolex worth the price of a new car but I lost it. It was present from...Christine?
-    No, Inez. She got fed up with me always having to ask other people what the time
-    was; embarrassed on my behalf.
-  timestring: Three twenty-three
-  title: Espedair Street
 '15:24':
 - author: David Nobbs
   quote: >-
@@ -20170,13 +19375,6 @@
   timestring: twenty-four minutes past three
   title: The Reginald Perrin Omnibus
 '15:25':
-- author: Tom McCarthy
-  quote: >-
-    "Hmm, let's see. It's a three-line rail-fence, a, d, g...d-a-r-l...Got it: 'Darling
-    Hepzibah'—Hepzibah? What kind of name is that?—'Will meet you Reading Sunday 15.25
-    train Didcot-Reading.' Reading you all right, you idiots."
-  timestring: '15.25'
-  title: C
 - author: Tom McCarthy
   quote: >-
     Hmm, let's see. It's a three-line rail-fence, a, d, g...d-a-r-l...Got it: 'Darling
@@ -20422,16 +19620,6 @@
   timestring: three thirty-nine
   title: 11/22/63
 '15:40':
-- author: Dean Koontz
-  quote: >-
-    At three-forty, Cliff called to report that Dilworth and his lady friend were
-    sitting on the deck of the Amazing Grace, eating fruit and sipping wine, reminiscing
-    a lot, laughing a little. “From what we can pick up with directional microphones
-    and from what we can see, I’d say they don’t have any intention of going anywhere.
-    Except maybe to bed. They sure do seem to be a randy old pair.” “Stay with them,”
-    Lem said. “I don’t trust him.”
-  timestring: three-forty
-  title: Watchers
 - author: George Orwell
   quote: >-
     Why had nobody else arrived? Could he be too early? But no! They had said half
@@ -20796,15 +19984,6 @@
     found its calculation to be somehow erroneous. It was four o’clock in the afternoon.
   timestring: four o’clock
   title: Blood Bride
-- author: Anthony Trollope
-  quote: >-
-    I doubt whether anyone was commissioned to send the news along the actual telegraph,
-    and yet Mrs. Proudie knew it before four o’clock. But she did not know it quite
-    accurately.'Bishop', she said, standing at her husband's study door. 'They have
-    committed that man to gaol. There was no help for them unless they had forsworn
-    themselves.'
-  timestring: four o’clock
-  title: The Last Chronicle of Barset
 - author: Susan May Gudge
   quote: >-
     I only found out much later that those flowers were called Four o’clock, and were
@@ -20963,16 +20142,6 @@
   sfw: unknown
   timestring: four P.M.
   title: Cloud Atlas
-- author: Jane Austen
-  quote: >-
-    I propose myself the satisfaction of waiting on you and your family, Monday, November
-    18th, by four o’clock, and shall probably trespass on your hospitality till the
-    Saturday se’ennight following, which I can do without any inconvenience, as Lady
-    Catherine is far from objecting to my occasional absence on a Sunday, provided
-    that some other clergyman is engaged to do the duty of the day.
-  sfw: unknown
-  timestring: four o’clock
-  title: Pride and Prejudice
 - author: Jane Austen
   quote: >-
     “At four o’clock, therefore, we may expect this peace-making gentleman," said
@@ -21155,24 +20324,6 @@
   timestring: four past four
   title: The Lord of the Sea
 '16:05':
-- author: Sylvia Plath
-  quote: >-
-    I had met Irwin on the steps of the Widener Library. I was standing at the top
-    of the long flight, overlooking the red brick buildings that walled the snow-filled
-    quad and preparing to catch the trolley back to the asylum, when a tall young
-    man with a rather ugly and bespectacled, but intelligent face, came up and said,
-    'Could you please tell me the time?' I glanced at my watch. 'Five past four.'
-  timestring: Five past four
-  title: The Bell Jar
-- author: Sylvia Plath
-  quote: >-
-    I was standing at the top of the long flight, overlooking the red brick buildings
-    that walled the snow-filled quad and preparing to catch the trolley back to the
-    asylum, when a tall young man with a rather ugly and bespectacled, but intelligent
-    face, came up and said, 'Could you please tell me the time?' I glanced at my watch.
-    'Five past four.'
-  timestring: Five past four
-  title: The Bell Jar
 - author: Mary Elizabeth Braddon
   quote: >-
     IT was exactly five minutes past four as Mr. Robert Audley stepped out upon the
@@ -21231,13 +20382,6 @@
   timestring: eight minutes past four
   title: A Prisoner of Birth
 '16:09':
-- author: Ira Levin
-  quote: >-
-    I have to hang up now, Rosemary said. "I just wanted to know if there was any
-    improvement." "No, there isn't. It was nice of you to call." She hung up. It was
-    nine minutes after four.
-  timestring: nine minutes after four
-  title: Rosemary's Baby
 - author: Jeffrey Archer
   quote: >-
     “You can take the 3:17 to Peterborough, where you’ll have to change and catch
@@ -21338,12 +20482,6 @@
   timestring: 4.14pm
   title: Already Dead
 '16:15':
-- author: John Betjeman
-  quote: >-
-    I remember the dread with which I at quarter past four/ Let go with a bang behind
-    me our house front door
-  timestring: quarter past four
-  title: False Security
 - author: Jane Austen
   quote: >-
     It is only a quarter past four, (shewing his watch) and you are not now in Bath.
@@ -22502,14 +21640,6 @@
 '17:03':
 - author: José Latour
   quote: >-
-    "Good evening, Mrs. Scheindlin," the man said before departing. "Good evening,
-    Chris. Say hello to the wife for me." "I sure will. Thanks. Bye," he said, waving
-    to Elliot, who returned the goodbye. It was 5:03 when Elliot rested the handset
-    in its cradle.
-  timestring: '5:03'
-  title: 'Comrades in Miami: A Novel'
-- author: José Latour
-  quote: >-
     Good evening, Mrs. Scheindlin, the man said before departing.<br/>"Good evening,
     Chris. Say hello to the wife for me."<br/>"I sure will. Thanks. Bye," he said,
     waving to Elliot, who returned the goodbye. It was 5:03 when Elliot rested the
@@ -23097,12 +22227,6 @@
   timestring: 05:39
   title: Room
 '17:40':
-- author: Zhu Wen
-  quote: >-
-    Hey, young man, what time is it? 'What?' I said, is it 5:30 yet? 'Er, 5:40.' Heavens,
-    they'll be starving. But then that's a good thing. Let them.'
-  timestring: '5:40'
-  title: I Love Dollars
 - author: Sophie Kinsella
   quote: >-
     It's five-forty now. The party's at six. By about ten past, the eleventh floor
@@ -23258,12 +22382,6 @@
   timestring: eleven minutes to six
   title: The Comforts of Home
 '17:50':
-- author: Malorie Blackman
-  quote: >-
-    "What time is it Jack?" "Ten to six""Ten more minutes then." I shuffle the cards.
-    "Time for a quick game of rummy?"
-  timestring: Ten to six
-  title: Noughts and Crosses
 - author: Jeffrey Archer
   quote: >-
     He glanced up at the clock above the door: ten to six. Young Kevin would appear
@@ -23313,14 +22431,6 @@
   timestring: eight minutes to six o’clock
   title: Jimmy Kirkland and the Plot for a Pennant
 '17:53':
-- author: Talbot Baines Reed
-  quote: >-
-    "That boy will be spoiled, as sure as I go on springs; he's made such a lot of.
-    Have you been regulated?" "I should think I have!" exclaimed I, in indignant recollection
-    of my education. "All right; keep your temper. What time are you?" "Seven minutes
-    to six."
-  timestring: Seven minutes to six
-  title: The Adventures of a Three-Guinea Watch
 - author: Talbot Baines Reed
   quote: >-
     That boy will be spoiled, as sure as I go on springs; he's made such a lot of.
@@ -23465,12 +22575,6 @@
     o’clock?' she asked, puzzled. 'Quite sure.'
   timestring: six o’clock
   title: The Go-Between
-- author: William Shakespeare
-  quote: >-
-    King Richard: What is o’clock? Catesby: It is six o’clock, full supper time. King
-    Richard: I will not sup tonight. Give me some ink and paper.
-  timestring: six o’clock
-  title: Richard III
 - author: Gustave Flaubert
   quote: >-
     Leon waited all day for six o’clock to arrive; when he got to the inn, he found
@@ -23762,14 +22866,6 @@
 '18:04':
 - author: Mark Twain
   quote: >-
-    "We will make record of it, my Rosannah; every year, as this dear hour chimes
-    from the clock, we will celebrate it with thanksgivings, all the years of our
-    life." "We will, we will, Alonzo!" "Four minutes after six, in the evening, my
-    Rosannah...”
-  timestring: Four minutes after six
-  title: The Loves of Alonzo Fitz Clarence and Rosannah Ethelton
-- author: Mark Twain
-  quote: >-
     We will make record of it, my Rosannah; every year, as this dear hour chimes from
     the clock, we will celebrate it with thanksgivings, all the years of our life.<br/>"We
     will, we will, Alonzo!"<br/>"Four minutes after six, in the evening, my Rosannah..."
@@ -23829,13 +22925,6 @@
   timestring: nine minutes past six
   title: Life With No Breaks
 '18:10':
-- author: Graham Greene
-  quote: >-
-    'Let me see now. You had a drink at the Continental at six ten.' 'Yes.' 'And at
-    six forty-five you were talking to another journalist at the door of the Majestic?'
-    'Yes, Wilkins. I told you all this, Vigot, before. That night.'
-  timestring: six ten
-  title: The Quiet American
 - author: Jeffrey Archer
   quote: >-
     ‘I’d like to see your passenger list for yesterday afternoon’s 6.10 flight for
@@ -23912,12 +23001,6 @@
     At a quarter past six he was through with them.
   timestring: quarter past six
   title: The Photograph
-- author: Sophie McKenzie
-  quote: >-
-    I checked the time on the corner of my screen. 6.15 pm. I was never going to finisah
-    my essay in forty-five minutes
-  timestring: 6.15 pm.
-  title: Girl Missing
 - author: Sophie McKenzie
   quote: >-
     I checked the time on the corner of my screen. 6.15 pm. I was never going to finish
@@ -24138,17 +23221,6 @@
     6.30 p.m. Watch television or a video
   timestring: 6.30 p.m.
   title: The Curious Incident of the Dog in the Night-time
-- author: L.P. Hartley
-  quote: >-
-    As I was turning away, grieved to be parting from him, a thought started up in
-    me and I turned back. 'Shall I take one more message for you?' 'That's good of
-    you' he said, 'but do you want to?' 'Yes, just this once.' It could do no harm,
-    I thought; and I should be far away when the message takes effect, and I wanted
-    to say something to show we were friends. 'Well,' he said, once more across the
-    gap, 'say tomorrow's no good, I'm going to Norwich, but Friday at half-past six,
-    same as usual.'
-  timestring: half-past six
-  title: The Go-Between
 - author: Jane Austen
   quote: >-
     At five o’clock the two ladies retired to dress, and at half past six Elizabeth
@@ -24379,20 +23451,6 @@
   timestring: '18.43'
   title: Bad Press
 '18:45':
-- author: Graham Greene
-  quote: >-
-    'Let me see now. You had a drink at the Continental at six ten.' 'Yes.' 'And at
-    six forty-five you were talking to another journalist at the door of the Majestic?'
-    'Yes, Wilkins. I told you all this, Vigot, before. That night.'
-  timestring: six forty-five
-  title: The Quiet American
-- author: Christina Stead
-  quote: >-
-    "Six forty-five," called Louie. "Did you hear, Ming," he asked, "did you hear?"
-    "Yes, Taddy, I heard." "What is it?' asked Tommy. "The new baby, listen, the new
-    baby."
-  timestring: Six forty-five
-  title: The Man Who Loved Children
 - author: Raymond Chandler
   quote: >-
     It was a quarter to seven when I let myself into the office and clicked the light
@@ -24487,12 +23545,6 @@
     seven o’clock, Damaronde answered the door.
   timestring: ten minutes before seven
   title: Boy's Life
-- author: Robert R. McCammon
-  quote: >-
-    It was time to go see the Lady. When we arrived at her house at ten minutes before
-    seven o’clock, Damaronde answered the door.
-  timestring: ten minutes before seven
-  title: Boy's Life
 - author: Jeffrey Archer
   quote: >-
     Finally a voice said, “Neither Mr. Clifton nor your daughter are on that flight,
@@ -24563,13 +23615,6 @@
   timestring: a few minutes before seven
   title: Bridging
 '18:55':
-- author: Graham Greene
-  quote: >-
-    ... You had no reason to think the times important. Indeed how suspicious it would
-    be if you had been completely accurate. ''Haven't I been?'' Not quite. It was
-    five to seven that you talked to Wilkins. ''Another ten minutes."
-  timestring: five to seven
-  title: The Quiet American
 - author: Jeffrey Eugenides
   quote: >-
     The play was set to begin at seven o’clock and finish before sunset. It was 6:55.
@@ -24880,12 +23925,6 @@
   timestring: one minute past seven
   title: The Filigree Ball
 '19:02':
-- author: William McGonagall
-  quote: >-
-    Twas about seven o’clock at night, And the wind it blew with all its might, And
-    the rain came pouring down, And the dark clouds seem'd to frown,
-  timestring: about seven o’clock
-  title: The Tay Bridge Disaster
 - author: Ed McBain
   quote: >-
     When Teddy Carella walkied into the squad room at two minutes past seven, Peter
@@ -24992,17 +24031,6 @@
   timestring: nine minutes past seven
   title: The Pyramid
 '19:10':
-- author: Franz Kafka
-  quote: >-
-    He had already got to the point where, by rocking more strongly, he maintained
-    his equilibrium with difficulty, and very soon he would finally have to make a
-    final decision, for in five minutes it would be a quarter past seven. Then there
-    was a ring at the door of the apartment. “That’s someone from the office,” he
-    told himself, and he almost froze, while his small limbs only danced around all
-    the faster. For one moment everything remained still. “They aren’t opening,” Gregor
-    said to himself, caught up in some absurd hope.
-  timestring: in five minutes it would be a quarter past seven
-  title: Metamorphosis
 - author: Jorge Luis Borges
   quote: >-
     The party was to begin at seven. The invitations gave the hour as six-thirty because
@@ -25994,14 +25022,6 @@
 - author: Jorge Luis Borges
   quote: >-
     I remember the cigarette in his hard face, against the now limitless storm cloud.
-    Bernardo cried to him unexpectedly: 'What time is it, Ireno?' Without consulting
-    the sky, without stopping, he replied: 'It's four minutes to eight, young Bernardo
-    Juan Franciso.' His voice was shrill, mocking.
-  timestring: four minutes to eight
-  title: Funes the Memorious-Labyrinths
-- author: Jorge Luis Borges
-  quote: >-
-    I remember the cigarette in his hard face, against the now limitless storm cloud.
     Bernardo cried to him unexpectedly: "What time is it, Ireno?"<br/>Without consulting
     the sky, without stopping, he replied: "It's four minutes to eight, young Bernardo
     Juan Franciso." His voice was shrill, mocking.
@@ -26041,12 +25061,6 @@
   timestring: 7:58 P.M.
   title: Not a Penny More, Not a Penny Less
 '19:59':
-- author: Daniel Vare
-  quote: >-
-    Kuniang made her appearance in my study just before eight o' clock, arrayed in
-    what had once ben a "party frock".
-  timestring: just before eight o' clock
-  title: The Maker of Heavenly Trousers
 - author: Diane Setterfield
   quote: >-
     Quickly, quickly. A minute to eight. My hot water bottle was ready, and I filled
@@ -26499,11 +25513,6 @@
   timestring: fourteen minutes past eight
   title: Watchers
 '20:15':
-- author: Helen Fielding
-  quote: >-
-    8:15 p.m. Cannot locate operating instructions (for video)
-  timestring: 8:15 p.m.
-  title: Bridget Jones's Diary
 - author: Mark Haddon
   quote: >-
     8.15 p.m. Get changed into pyjamas
@@ -27075,12 +26084,6 @@
   timestring: twelve minutes to nine
   title: The Old Wives' Tale
 '20:49':
-- author: Ilona Andrews
-  quote: >-
-    8.49. I took the phone, cleared my throat, and dialled the keep, the packs stronghold
-    on the outskirts of Atlanta. Just keep it professional. Less pathetic that way.
-  timestring: '8.49'
-  title: Magic Bleeds
 - author: Jeffrey Archer
   quote: >-
     At 8:49 there was a loud rap on the door, and Sir Hamish muttered an inaudible
@@ -27106,13 +26109,6 @@
     all the clocks in London were striking ten minutes before nine.
   timestring: ten minutes before nine
   title: Around the world in eighty days
-- author: Georgette Heyer
-  quote: >-
-    He glanced at the bracket-clock on the mantelpiece, but as this had stopped, drew
-    out his watch. 'It is already too late,' he said. 'It wants only ten minutes to
-    nine.' 'Good God!' she exclaimed, turning quite pale. 'What am I to do?'
-  timestring: ten minutes to nine
-  title: The Reluctant Widow
 - author: David Foster Wallace
   quote: >-
     He was, yes, always home from work by 2050 on Thursdays.
@@ -27216,19 +26212,6 @@
   timestring: four minutes to nine
   title: Murder on the Orient Express
 '20:57':
-- author: O. Henry
-  quote: >-
-    "Wait," he said solemnly, "till the clock strikes. I have wealth and power and
-    knowledge above most men, but when the clock strikes I am afraid. Stay by me until
-    then. This woman shall be yours. You have the word of the hereditary Prince of
-    Valleluna. On the day of your marriage I will give you $100,000 and a palace on
-    the Hudson. But there must be no clocks in that palace--they measure our follies
-    and limit our pleasures. Do you agree to that?" "Of course," said the young man,
-    cheerfully, "they're a nuisance, anyway--always ticking and striking and getting
-    you late for dinner." He glanced again at the clock in the tower. The hands stood
-    at three minutes to nine.
-  timestring: three minutes to nine
-  title: The Four Million
 - author: Emma Donoghue
   quote: >-
     She points up at Watch that says 08:57, that’s only three minutes before nine.
@@ -27874,12 +26857,6 @@
   timestring: 9:24 p.m.
   title: Bath Haus
 '21:25':
-- author: Helen Fielding
-  quote: >-
-    9:25 p.m. Aargh. Suddenly main menu is on TV saying Press 6. Realize was using
-    telly remote control by mistake. Now News has come on
-  timestring: 9:25 p.m.
-  title: Bridget Jones's Diary
 - author: P.D. James
   quote: >-
     The phone on his desk rang, startling him. It was nine twenty-five. He hadn't
@@ -28420,13 +27397,6 @@
     on the remaining potato chips in the blue barrel, setting a popular example.
   timestring: ten
   title: The Shipping News
-- author: F. Scott Fitzgerald
-  quote: >-
-    Her body asserted itself with a restless movement of the knee, and she stood up.
-    'Ten o’clock,' she remarked, apparently finding the time on the ceiling. 'Time
-    for this good girl to go to bed.'
-  timestring: Ten o’clock
-  title: The Great Gatsby
 - author: Robert Louis Stevenson
   quote: >-
     I could not doubt that this was the BLACK SPOT; and taking it up, I found written
@@ -28761,12 +27731,6 @@
   timestring: 10:07 P.M.
   title: Syndrome
 '22:08':
-- author: Graham Greene
-  quote: >-
-    "My watch is always a little fast," I said. "What time do you make it now?" "Ten
-    eight." "Ten eighteen by mine. You see."
-  timestring: Ten eight
-  title: The Quiet American
 - author: P.D. James
   quote: >-
     Chief Superintendent Adam Dalgliesh turned from his inspection of the dead girl's
@@ -28775,13 +27739,6 @@
   sfw: sfw
   timestring: eight minutes past ten
   title: Shroud for a Nightingale
-- author: Graham Greene
-  quote: >-
-    My watch is always a little fast, I said. "What time do you make it now?"<br/>"Ten
-    eight."<br/>"Ten eighteen by mine. You see."
-  sfw: unknown
-  timestring: Ten eight
-  title: The Quiet American
 '22:09':
 - author: Dornford Yates
   quote: >-
@@ -28915,12 +27872,6 @@
   timestring: seventeen minutes past ten
   title: I Never Gave My Consent
 '22:18':
-- author: Graham Greene
-  quote: >-
-    "My watch is always a little fast," I said. "What time do you make it now?" "Ten
-    eight." "Ten eighteen by mine. You see."
-  timestring: Ten eighteen
-  title: The Quiet American
 - author: Helen Fielding
   quote: >-
     10:18pm. Ah. Thelma and Louise is in there
@@ -28956,14 +27907,6 @@
   timestring: 22:19 GMT
   title: Nothing Ventured
 '22:20':
-- author: Haruki Murakami
-  quote: >-
-    At 10:20 she returned with a shopping bag from the supermarket. In the bag were
-    three scrub brushes, one box of paperclips and a well-chilled six-pack of canned
-    beer. So I had another beer. "It was about sheep," I said. "Didn't I tell you?"
-    she said.
-  timestring: '10:20'
-  title: A Wild Sheep Chase
 - author: Ray Keating
   quote: >-
     The clock on the wall in the institute's bullpen ticked past 10:20 PM. Helen Pomeroy
@@ -29010,15 +27953,6 @@
     10:21pm. Thelma and Louise will not come out
   timestring: 10:21pm.
   title: Bridget Jones's Diary
-- author: David Foster Wallace
-  quote: >-
-    On a Saturday c. 2221h., Lenz found a miniature bird that had fallen out of some
-    nest and was sitting bald and pencil-necked on the lawn of Unit #3 flapping ineffectually,
-    and went in with Green and ducked Green and went back outside to # 3's lawn and
-    put the thing in a pocket and went in and put it down the garbage disposal in
-    the kitchen sink of the kitchen, but still felt largely impotent and unresolved.
-  timestring: 2221h
-  title: Infinite Jest
 - author: David Foster Wallace
   quote: >-
     On a Saturday c. 2221h., Lenz found a miniature bird that had fallen out of some
@@ -29242,20 +28176,6 @@
   timestring: ten thirty-two
   title: Blind Willow, Sleeping Woman
 '22:33':
-- author: Helen Fielding
-  quote: >-
-    10:33 p.m. Yessss, yessss. RECORDING CURRENT PROGRAMME. Have done it. Aargh. All
-    going mad. Cassette has started rewinding and now stopped and ejected. Why? Shit.
-    Shit. Realize in excitement have sat on remote control.
-  timestring: 10:33 p.m.
-  title: Bridget Jones's Diary
-- author: Helen Fielding
-  quote: >-
-    10:33pm. Yessss, yessss. RECORDING CURRENT PROGRAMME. Have done it. Aargh. All
-    going mad. Cassette has started rewinding and now stopped and ejected. Why? Shit.
-    Shit. Realize in excitement have sat on remote control.
-  timestring: 10:33pm.
-  title: Bridget Jones's Diary
 - author: P.D. James
   quote: >-
     He looked at his watch: 10.33. He remembered being told, he couldn't recall when
@@ -29281,12 +28201,6 @@
   timestring: Just after half past ten.
   title: Death on the Nile
 '22:35':
-- author: Helen Fielding
-  quote: >-
-    10:35 p.m. Frantic now. Have rung Sahzzer, Rebecca, Simon, Magda. Nobody knows
-    how to programme their videos. Only person I know who knows how to do it is Daniel.
-  timestring: 10:35 p.m.
-  title: Bridget Jones's Diary
 - author: Jeffrey Archer
   quote: >-
     “What time does the concert end?” he asked the first uniformed official he spotted.<br/>“Ten
@@ -29766,13 +28680,6 @@
     bed. It was near one before the gentlemen and ladies sought their chambers.
   timestring: eleven
   title: Jane Eyre
-- author: Charlotte Brontë
-  quote: >-
-    The clock struck eleven. I looked at Adele, whose head leant against my shoulder;
-    her eyes were waxing heavy, so I took her up in my arms and carried her off to
-    bed. It was near one before the gentlemen and ladies sought their chambers.
-  timestring: eleven
-  title: Jane Eyre
 - author: William Gaddis
   quote: >-
     The train arrived in New York at eleven that night.
@@ -29991,18 +28898,6 @@
   timestring: 11:02 P.M.
   title: If It Bleeds
 '23:03':
-- author: Christopher Buckley
-  quote: >-
-    "What makes you think it's for real?" "Just a hunch, really. He sounded for real.
-    Sometimes you can just tell about people"-he smiled-"even if you're a dull old
-    WASP." "I think it's a setup." "Why?" "I just do. Why would someone from the government
-    want to help you?" "Good question. Guess I'll find out." She went back into the
-    kitchen."What time are you meeting him?" she called out. "Eleven oh-three," he
-    said. "That made me think he's for real. Military and intelligence types set precise
-    appointment times to eliminate confusion and ambiguity. Nothing ambiguous about
-    eleven oh-three."
-  timestring: Eleven oh-three
-  title: Little Green Men
 - author: Christopher Buckley
   quote: >-
     What makes you think it's for real?<br/> "Just a hunch, really. He sounded for
@@ -30400,12 +29295,6 @@
   timestring: 11:24 P.M.
   title: Project Cyclops
 '23:25':
-- author: Justin Cartwright
-  quote: >-
-    "OK, Estelle, I willl be at Nice Airport at 11.25 p.m. on Saturday, BA: Could
-    you send the driver?"
-  timestring: 11.25 p.m.
-  title: Other People's Money
 - author: Ambrose Bierce
   quote: >-
     To test the intensity of the light whose nature and cause he could not determine,
@@ -30525,15 +29414,6 @@
   timestring: twenty-nine minutes to midnight
   title: Midnight's Children
 '23:32':
-- author: Gerard Reve
-  quote: >-
-    "This is the evening. This is the night. It is New Year´s Eve. In about twenty-eight
-    minutes it will be midnight. I still have twenty-eight minutes left. I have to
-    recollect my thoughts. At twelve o’clock, I should be done thinking." He looked
-    at his father. "Help those that are depressed and consider themselves lost in
-    this world," he thought. "Old fart."
-  timestring: In about twenty-eight minutes it will be midnight.
-  title: The Evenings
 - author: Mark Haddon
   quote: >-
     And then it started to rain and I got wet and I started shivering because I was
@@ -30972,19 +29852,6 @@
     Miss Granger, three turns should do it. Good luck."
   timestring: five minutes to midnight
   title: Harry Potter and the Prisoner of Azkaban
-- author: Wilkie Collins
-  quote: >-
-    I looked at my watch. It wanted five minutes to twelve, when the premonitory symptoms
-    of the working of the laudanum first showed themselves to me.
-
-    At this time, no unpractised eyes would have detected any change in him. But,
-    as the minutes of the new morning wore away, the swiftly-subtle progress of the
-    influence began to show itself more plainly. The sublime intoxication of opium
-    gleamed in his eyes; the dew of a stealthy perspiration began to glisten on his
-    face. In five minutes more, the talk which he still kept up with me, failed in
-    coherence.
-  timestring: five minutes to twelve
-  title: The Moonstone
 - author: Haruki Murakami
   quote: >-
     The band began playing “Auld Lang Syne.”<br>“Eleven fifty-five,” she said, glancing
@@ -31023,13 +29890,6 @@
   timestring: four minutes to midnight
   title: Wicked Women
 '23:57':
-- author: Cormac McCarthy
-  quote: >-
-    Wells looked out at the street. "What time is it?" he said. Chigurh raised his
-    wrist and looked at his watch. "Eleven fifty-seven" he said. Wells nodded. By
-    the old woman's calendar I've got three more minutes.
-  timestring: Eleven fifty-seven
-  title: No Country for Old Men
 - author: P.D. James
   quote: >-
     It said three minutes to midnight. That didn't seem so very late in the mood I
