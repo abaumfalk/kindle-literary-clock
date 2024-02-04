@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import html
+import re
 from argparse import ArgumentParser
 from sortedcontainers import SortedDict
 from pathlib import Path
@@ -80,12 +81,12 @@ class Quote2Image:
         self.layout.wrap = pangocffi.WrapMode.WORD
         self.layout.width = units_from_double(self.width - 2 * self.margin)
 
+        self.quote = re.sub("<br\\s*(/)?>", '\n', self.quote)
         self.quote_len = len(quote)
-        quote = html.escape(quote, quote=False)
-        quote = quote.replace(timestr, f"<span foreground='black' font_desc='bold'>{timestr}</span>")
+        self.quote = self.quote.replace(timestr, f"<span foreground='black' font_desc='bold'>{timestr}</span>")
 
         self._find_font_size()
-        self.layout.apply_markup(self._get_markup(quote, self.font_size))
+        self.layout.apply_markup(self._get_markup(self.quote, self.font_size))
 
         context.move_to(self.margin, self.margin)
         pangocairocffi.show_layout(context, self.layout)
