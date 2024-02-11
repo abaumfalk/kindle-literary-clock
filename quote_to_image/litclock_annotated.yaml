@@ -13136,6 +13136,13 @@
     the bundle of papers.
   timestring: '10.30'
   title: Dracula
+- author: Bram Stoker
+  quote: >-
+    ‘Jonathan will be here at half-past eleven, and you must come to lunch with us and 
+    see him then; you could catch the quick 3.34 train, which will leave you at Paddington
+    before eight.’
+  timestring: half-past eleven
+  title: Dracula
 '10:31':
 - author: Agatha Christie
   quote: >-
@@ -19554,6 +19561,13 @@
   sfw: sfw
   timestring: '15:34'
   title: Devil's Peak
+- author: Bram Stoker
+  quote: >-
+    ‘Jonathan will be here at half-past eleven, and you must come to lunch with us and 
+    see him then; you could catch the quick 3.34 train, which will leave you at Paddington
+    before eight.’
+  timestring: '3.34'
+  title: Dracula
 '15:35':
 - author: Lorrie Moore
   quote: >-
@@ -25305,6 +25319,13 @@
     About eight o’clock he began to get excited and to sniff about as a dog does when
     setting.
   timestring: eight o’clock
+  title: Dracula
+- author: Bram Stoker
+  quote: >-
+    ‘Jonathan will be here at half-past eleven, and you must come to lunch with us and 
+    see him then; you could catch the quick 3.34 train, which will leave you at Paddington
+    before eight.’
+  timestring: eight
   title: Dracula
 '20:01':
 - author: Kurt Vonnegut
