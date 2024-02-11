@@ -5561,6 +5561,12 @@
   sfw: unknown
   timestring: 5 a.m.
   title: Munich
+- author: Erskine Childers
+  quote: >-
+    The voyage from Dover to Ostend was dismissed in two lines: ‘Under way 7 p.m., wind
+    W.S.W. moderate; West Hinder 5 a.m., outside all banks; Ostend 11 a.m.’
+  timestring: 5 a.m.
+  title: The Riddle of the Sands
 05:01:
 - author: Agatha Christie
   quote: >-
@@ -10694,6 +10700,12 @@
   sfw: unknown
   timestring: Nine o’clock
   title: One Flew Over the Cuckoo’s Nest
+- author: Erskine Childers
+  quote: >-
+    ‘H<span variant="smallcaps">ere</span> she comes,’ said Davies. It was nine o’clock on the next day, 22nd October, and
+    we were on deck waiting for the arrival of the streamer from Norddeich.
+  timestring: nine o’clock
+  title: The Riddle of the Sands
 09:01:
 - author: Steve Toltz
   quote: >-
@@ -14027,6 +14039,12 @@
   sfw: unknown
   timestring: eleven o’clock
   title: The Mysteries of London
+- author: Erskine Childers
+  quote: >-
+    The voyage from Dover to Ostend was dismissed in two lines: ‘Under way 7 p.m., wind
+    W.S.W. moderate; West Hinder 5 a.m., outside all banks; Ostend 11 a.m.’
+  timestring: 11 a.m.
+  title: The Riddle of the Sands
 '11:01':
 - author: Justin Cronin
   quote: >-
@@ -23924,6 +23942,19 @@
   sfw: unknown
   timestring: seven o’clock
   title: The Wedding Officer
+- author: Erskine Childers
+  quote: >-
+    It was in some such spirit, with an added touch of self-consciousness, that, at
+    seven o’clock in the evening of 23rd September in a recent year, I was making my
+    evening toilet in my chambers in Pall Mall.
+  timestring: seven o’clock
+  title: The Riddle of the Sands
+- author: Erskine Childers
+  quote: >-
+    The voyage from Dover to Ostend was dismissed in two lines: ‘Under way 7 p.m., wind
+    W.S.W. moderate; West Hinder 5 a.m., outside all banks; Ostend 11 a.m.’
+  timestring: 7 p.m.
+  title: The Riddle of the Sands
 '19:01':
 - author: Patricia Highsmith
   quote: >-
@@ -24000,6 +24031,12 @@
   sfw: sfw
   timestring: 7:05 p.m.
   title: The Constantine Codex
+- author: Erskine Childers
+  quote: >-
+    The last train (my time-table told me) was one reaching Norden at 7.15 p.m. I could
+    catch this at Hage Station at 7.5.
+  timestring: '7.5'
+  title: The Riddle of the Sands
 '19:06':
 - author: David Ellis
   quote: >-
@@ -24197,6 +24234,12 @@
   sfw: unknown
   timestring: seven-fifteen
   title: The Elderly Lady
+- author: Erskine Childers
+  quote: >-
+    The last train (my time-table told me) was one reaching Norden at 7.15 p.m. I could
+    catch this at Hage Station at 7.5.
+  timestring: 7.15 p.m.
+  title: The Riddle of the Sands
 '19:16':
 - author: Patricia Cornwell
   quote: >-
@@ -24767,6 +24810,13 @@
   sfw: sfw
   timestring: 7:43 p.m.
   title: A Knyght Ther Was
+- author: Erskine Childers
+  quote: >-
+    Of trains from west to east there was only one that need be considered, the same
+    one that I had travelled by last night, leaving Norden at 7.43 and reaching Esens 
+    at 8.50, and Wittmund at 9.13.
+  timestring: '7.43'
+  title: The Riddle of the Sands
 '19:44':
 - author: Thomas Hoover
   quote: >-
@@ -26157,6 +26207,13 @@
   sfw: unknown
   timestring: ten minutes to nine
   title: The Reluctant Widow
+- author: Erskine Childers
+  quote: >-
+    Of trains from west to east there was only one that need be considered, the same
+    one that I had travelled by last night, leaving Norden at 7.43 and reaching Esens 
+    at 8.50, and Wittmund at 9.13.
+  timestring: '8.50'
+  title: The Riddle of the Sands
 '20:51':
 - author: Albert Cohen
   quote: >-
@@ -26731,6 +26788,13 @@
   sfw: sfw
   timestring: thirteen minutes past nine
   title: Scar Night
+- author: Erskine Childers
+  quote: >-
+    Of trains from west to east there was only one that need be considered, the same
+    one that I had travelled by last night, leaving Norden at 7.43 and reaching Esens 
+    at 8.50, and Wittmund at 9.13.
+  timestring: '9.13'
+  title: The Riddle of the Sands
 '21:15':
 - author: James Joyce
   quote: >-
@@ -29175,6 +29239,12 @@
   sfw: nsfw
   timestring: between fifteen and sixteen minutes past eleven
   title: The Hasheesh Eater
+- author: Erskine Childers
+  quote: >-
+    I had no accurate idea of the time, for I could not see my watch, but I thought we
+    must have started about a quarterpast eleven.
+  timestring: quarterpast eleven
+  title: The Riddle of the Sands
 '23:16':
 - author: Mark Haddon
   quote: >-
