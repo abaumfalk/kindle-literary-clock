@@ -14,10 +14,16 @@ from common import get_quotes, minute_to_timestr
 
 DEFAULT_MARGIN = 26
 ANNOTATION_MARGIN = 100
-CREDIT_FONT_SIZE = 18
 FONT_SIZE_MIN = 19
 FONT_SIZE_MAX = None
-DEFAULT_BACKGROUND = [0, 0, 0]  # white
+DEFAULT_BACKGROUND = [1, 1, 1]  # white
+DEFAULT_TEXT_FONT = ""
+DEFAULT_TEXT_COLOR = "grey"
+DEFAULT_TIME_FONT = "bold"
+DEFAULT_TIME_COLOR = "black"
+DEFAULT_META_FONT = "italic bold"
+DEFAULT_META_COLOR = "black"
+DEFAULT_META_SIZE = 18
 
 
 def get_arguments():
@@ -27,8 +33,13 @@ def get_arguments():
     )
     parser.add_argument('src', help='source file containing quotes in yaml format', type=Path)
     parser.add_argument('dst', help='destination folder', type=Path)
-    parser.add_argument('-text_font', help='font for regular text', type=str, default="")
-    parser.add_argument('-meta_font', help='font for metadata', type=str, default="italic bold")
+    parser.add_argument('-text_font', help='font for regular text', type=str, default=DEFAULT_TEXT_FONT)
+    parser.add_argument('-text_color', help='color for regular text', type=str, default=DEFAULT_TEXT_COLOR)
+    parser.add_argument('-time_font', help='font for the time string', type=str, default=DEFAULT_TIME_FONT)
+    parser.add_argument('-time_color', help='color for the time string', type=str, default=DEFAULT_TIME_COLOR)
+    parser.add_argument('-meta_font', help='font for metadata', type=str, default=DEFAULT_META_FONT)
+    parser.add_argument('-meta_color', help='color for metadata', type=str, default=DEFAULT_META_COLOR)
+    parser.add_argument('-meta_size', help='size for metadata', type=int, default=DEFAULT_META_SIZE)
     parser.add_argument('-width', help='image width', type=int, default=600)
     parser.add_argument('-height', help='image height', type=int, default=800)
     parser.add_argument('-margin', help='margin around text in pixels', type=int, default=DEFAULT_MARGIN)
@@ -52,12 +63,22 @@ class Quote2Image:
     FONT_SIZE_STEPS = 3  # determines the initial step size of the search algorithm
     MAX_STEP = FONT_SIZE_PRECISION * 2 ** FONT_SIZE_STEPS
 
-    def __init__(self, width: int, height: int, font="Sans", margin=DEFAULT_MARGIN,
-                 meta_font='', meta_margin=ANNOTATION_MARGIN, meta_width_ratio=0.7, background=None):
+    def __init__(self, width: int, height: int,
+                 text_font=DEFAULT_TEXT_FONT, meta_font=DEFAULT_META_FONT, time_font=DEFAULT_TIME_FONT,
+                 text_color=DEFAULT_TEXT_COLOR, meta_color=DEFAULT_META_COLOR, time_color=DEFAULT_TIME_COLOR,
+                 meta_size=DEFAULT_META_SIZE, background=None,
+                 margin=DEFAULT_MARGIN, meta_margin=ANNOTATION_MARGIN, meta_width_ratio=0.7):
         self.width = width
         self.height = height
-        self.font = font
+
+        self.text_font = text_font
         self.meta_font = meta_font
+        self.time_font = time_font
+        self.text_color = text_color
+        self.meta_color = meta_color
+        self.time_color = time_color
+        self.meta_size = meta_size
+
         self.margin = margin
         self.meta_margin = meta_margin
         self.meta_width_ratio = meta_width_ratio
@@ -90,7 +111,8 @@ class Quote2Image:
 
         self.quote = re.sub("<br\\s*(/)?>", '\n', self.quote)
         self.quote_len = len(quote)
-        self.quote = self.quote.replace(timestr, f"<span foreground='black' font_desc='bold'>{timestr}</span>")
+        self.quote = self.quote.replace(timestr, f"<span foreground='{self.time_color}' "
+                                                 f"font_desc='{self.time_font}'>{timestr}</span>")
 
         self._find_font_size()
         self.layout.apply_markup(self._get_markup(self.quote, self.font_size))
@@ -165,7 +187,7 @@ class Quote2Image:
         return units_to_double(ext.height), units_to_double(ext.width)
 
     def _get_markup(self, quote, font_size):
-        return f"<span foreground='grey' font_desc='{self.font} {font_size}'>{quote}</span>"
+        return f"<span foreground='{self.text_color}' font_desc='{self.text_font} {font_size}'>{quote}</span>"
 
     def add_annotations(self, title, author):
         title = html.escape(title)
@@ -178,7 +200,8 @@ class Quote2Image:
         layout.width = units_from_double(self.width * self.meta_width_ratio)
         layout.alignment = pangocffi.Alignment.RIGHT
 
-        layout.apply_markup(f'<span font_desc="{self.meta_font} {CREDIT_FONT_SIZE}">—{title}, {author}</span>')
+        layout.apply_markup(f'<span foreground="{self.meta_color}" '
+                            f'font_desc="{self.meta_font} {self.meta_size}">—{title}, {author}</span>')
         _, ext = layout.get_extents()
 
         pos_x = self.width * (1 - self.meta_width_ratio) - self.margin
@@ -262,7 +285,9 @@ if __name__ == "__main__":
             print(".", end='', flush=True)
             basename = f"quote_{current_time.replace(':', '')}_{count}"
 
-            q2i = Quote2Image(args['width'], args['height'], font=args['text_font'], meta_font=args['meta_font'],
+            q2i = Quote2Image(args['width'], args['height'],
+                              text_font=args['text_font'], time_font=args['time_font'], meta_font=args['meta_font'],
+                              text_color=args['text_color'], time_color=args['time_color'], meta_color=args['meta_color'],
                               background=args['background'])
 
             q2i.add_quote(data['quote'], data['timestring'])
