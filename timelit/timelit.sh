@@ -22,8 +22,5 @@ ThisMinuteImage=$( find /mnt/us/timelit/images/quote_$MinuteOTheDay* 2>/dev/null
 
 echo $ThisMinuteImage > /mnt/us/timelit/clockisticking
 
-# clear the screen
-eips -c
-
 # show that image
 eips -g $ThisMinuteImage
