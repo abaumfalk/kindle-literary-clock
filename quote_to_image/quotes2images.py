@@ -34,6 +34,8 @@ def get_arguments():
     parser.add_argument('-margin', help='margin around text in pixels', type=int, default=DEFAULT_MARGIN)
     parser.add_argument('-background', help='background color in rgb (default is white: 1 1 1) ',
                         type=float, nargs=3, default=DEFAULT_BACKGROUND)
+    parser.add_argument('-no-convert-grayscale', help='do *not* convert the resulting image to grayscale',
+                        action='store_false', dest='grayscale')
     parser.add_argument('--statistics', help='collect and show statistics', action='store_true')
 
     parsed = parser.parse_args()
@@ -266,12 +268,14 @@ if __name__ == "__main__":
             q2i.add_quote(data['quote'], data['timestring'])
             filename = dst / f'{basename}.png'
             q2i.surface.write_to_png(str(filename))
-            rgb2gray(filename)
+            if args['grayscale']:
+                rgb2gray(filename)
 
             q2i.add_annotations(data['title'], data['author'])
             filename = meta_dst / f'{basename}_credits.png'
             q2i.surface.write_to_png(str(filename))
-            rgb2gray(filename)
+            if args['grayscale']:
+                rgb2gray(filename)
 
             if statistics is not None:
                 statistics.add(q2i, basename)
