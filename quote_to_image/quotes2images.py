@@ -8,6 +8,7 @@ import cairocffi
 import pangocffi
 import pangocairocffi
 from pangocffi import units_from_double, units_to_double
+from PIL import Image
 
 from common import get_quotes, minute_to_timestr
 
@@ -221,6 +222,12 @@ class Statistics:
             print(f"  iterations per quote: {self.iterations / quotes}")
 
 
+def rgb2gray(file):
+    img_rgb = Image.open(file)
+    img_gray = img_rgb.convert('L')
+    img_gray.save(file)
+
+
 if __name__ == "__main__":
     args = get_arguments()
 
@@ -252,10 +259,14 @@ if __name__ == "__main__":
             q2i = Quote2Image(args['width'], args['height'], font=args['text_font'], meta_font=args['meta_font'])
 
             q2i.add_quote(data['quote'], data['timestring'])
-            q2i.surface.write_to_png(str(dst / f'{basename}.png'))
+            filename = dst / f'{basename}.png'
+            q2i.surface.write_to_png(str(filename))
+            rgb2gray(filename)
 
             q2i.add_annotations(data['title'], data['author'])
-            q2i.surface.write_to_png(str(meta_dst / f'{basename}_credits.png'))
+            filename = meta_dst / f'{basename}_credits.png'
+            q2i.surface.write_to_png(str(filename))
+            rgb2gray(filename)
 
             if statistics is not None:
                 statistics.add(q2i, basename)
