@@ -17,6 +17,7 @@ ANNOTATION_MARGIN = 100
 CREDIT_FONT_SIZE = 18
 FONT_SIZE_MIN = 19
 FONT_SIZE_MAX = None
+DEFAULT_BACKGROUND = [0, 0, 0]  # white
 
 
 def get_arguments():
@@ -31,6 +32,8 @@ def get_arguments():
     parser.add_argument('-width', help='image width', type=int, default=600)
     parser.add_argument('-height', help='image height', type=int, default=800)
     parser.add_argument('-margin', help='margin around text in pixels', type=int, default=DEFAULT_MARGIN)
+    parser.add_argument('-background', help='background color in rgb (default is white: 1 1 1) ',
+                        type=float, nargs=3, default=DEFAULT_BACKGROUND)
     parser.add_argument('--statistics', help='collect and show statistics', action='store_true')
 
     parsed = parser.parse_args()
@@ -48,7 +51,7 @@ class Quote2Image:
     MAX_STEP = FONT_SIZE_PRECISION * 2 ** FONT_SIZE_STEPS
 
     def __init__(self, width: int, height: int, font="Sans", margin=DEFAULT_MARGIN,
-                 meta_font='', meta_margin=ANNOTATION_MARGIN, meta_width_ratio=0.7):
+                 meta_font='', meta_margin=ANNOTATION_MARGIN, meta_width_ratio=0.7, background=None):
         self.width = width
         self.height = height
         self.font = font
@@ -56,6 +59,7 @@ class Quote2Image:
         self.margin = margin
         self.meta_margin = meta_margin
         self.meta_width_ratio = meta_width_ratio
+        self.background = background if background is not None else DEFAULT_BACKGROUND
 
         self.layout = None
         self.surface = None
@@ -75,7 +79,7 @@ class Quote2Image:
         context = cairocffi.Context(self.surface)
         # fill background
         with context:
-            context.set_source_rgb(1, 1, 1)  # white
+            context.set_source_rgb(*self.background)
             context.paint()
 
         self.layout = pangocairocffi.create_layout(context)
@@ -256,7 +260,8 @@ if __name__ == "__main__":
             print(".", end='', flush=True)
             basename = f"quote_{current_time.replace(':', '')}_{count}"
 
-            q2i = Quote2Image(args['width'], args['height'], font=args['text_font'], meta_font=args['meta_font'])
+            q2i = Quote2Image(args['width'], args['height'], font=args['text_font'], meta_font=args['meta_font'],
+                              background=args['background'])
 
             q2i.add_quote(data['quote'], data['timestring'])
             filename = dst / f'{basename}.png'
