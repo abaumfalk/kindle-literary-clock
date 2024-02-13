@@ -2,6 +2,8 @@
 import html
 import re
 from argparse import ArgumentParser
+from dataclasses import dataclass, fields, replace
+
 from sortedcontainers import SortedDict
 from pathlib import Path
 import cairocffi
@@ -16,14 +18,34 @@ DEFAULT_MARGIN = 26
 ANNOTATION_MARGIN = 100
 FONT_SIZE_MIN = 19
 FONT_SIZE_MAX = None
-DEFAULT_BACKGROUND = [0, 0, 0]  # black
-DEFAULT_TEXT_FONT = ""
-DEFAULT_TEXT_COLOR = "grey"
-DEFAULT_TIME_FONT = "bold"
-DEFAULT_TIME_COLOR = "white"
-DEFAULT_META_FONT = "italic"
-DEFAULT_META_COLOR = "white"
-DEFAULT_META_SIZE = 18
+
+
+@dataclass(kw_only=True, frozen=False)
+class ColorTheme:
+    background: list
+    text_font: str
+    text_color: str
+    time_font: str
+    time_color: str
+    meta_font: str
+    meta_color: str
+    meta_size: float
+
+
+STYLES = {
+    'default': ColorTheme(
+        background=[1, 1, 1],  # white
+        text_font='', text_color='grey',
+        time_font='bold', time_color='black',
+        meta_font='italic', meta_color='black', meta_size=18
+    ),
+    'dark': ColorTheme(
+        background=[0, 0, 0],  # black
+        text_font='', text_color='grey',
+        time_font='bold', time_color='white',
+        meta_font='italic', meta_color='white', meta_size=18
+    ),
+}
 
 
 def get_arguments():
@@ -33,24 +55,33 @@ def get_arguments():
     )
     parser.add_argument('src', help='source file containing quotes in yaml format', type=Path)
     parser.add_argument('dst', help='destination folder', type=Path)
-    parser.add_argument('-text_font', help='font for regular text', type=str, default=DEFAULT_TEXT_FONT)
-    parser.add_argument('-text_color', help='color for regular text', type=str, default=DEFAULT_TEXT_COLOR)
-    parser.add_argument('-time_font', help='font for the time string', type=str, default=DEFAULT_TIME_FONT)
-    parser.add_argument('-time_color', help='color for the time string', type=str, default=DEFAULT_TIME_COLOR)
-    parser.add_argument('-meta_font', help='font for metadata', type=str, default=DEFAULT_META_FONT)
-    parser.add_argument('-meta_color', help='color for metadata', type=str, default=DEFAULT_META_COLOR)
-    parser.add_argument('-meta_size', help='size for metadata', type=int, default=DEFAULT_META_SIZE)
+    parser.add_argument('-style', help=f'font and background style (one of: {list(STYLES.keys())}, default=default)',
+                        type=str, default='default')
+
+    parser.add_argument('-text_font', help='override font for regular text', type=str, default=None)
+    parser.add_argument('-text_color', help='override color for regular text', type=str, default=None)
+    parser.add_argument('-time_font', help='override font for the time string', type=str, default=None)
+    parser.add_argument('-time_color', help='override color for the time string', type=str, default=None)
+    parser.add_argument('-meta_font', help='override font for metadata', type=str, default=None)
+    parser.add_argument('-meta_color', help='override color for metadata', type=str, default=None)
+    parser.add_argument('-meta_size', help='override size for metadata', type=int, default=None)
+    parser.add_argument('-background', help='override background color (in RGB e.g. white: 1 1 1)',
+                        type=float, nargs=3, default=None)
+
     parser.add_argument('-width', help='image width', type=int, default=600)
     parser.add_argument('-height', help='image height', type=int, default=800)
     parser.add_argument('-margin', help='margin around text in pixels', type=int, default=DEFAULT_MARGIN)
-    parser.add_argument('-background', help='background color in rgb (default is white: 1 1 1) ',
-                        type=float, nargs=3, default=DEFAULT_BACKGROUND)
     parser.add_argument('-no-convert-grayscale', help='do *not* convert the resulting image to grayscale',
                         action='store_false', dest='grayscale')
     parser.add_argument('--statistics', help='collect and show statistics', action='store_true')
 
-    parsed = parser.parse_args()
-    return vars(parsed)
+    parsed = vars(parser.parse_args())
+    parsed['color_theme'] = STYLES[parsed['style']]
+    for field in fields(ColorTheme):
+        if parsed[field.name] is not None:
+            parsed['color_theme'] = replace(parsed['color_theme'], **{field.name: parsed[field.name]})
+
+    return parsed
 
 
 class Quote2ImageException(Exception):
@@ -63,26 +94,16 @@ class Quote2Image:
     FONT_SIZE_STEPS = 3  # determines the initial step size of the search algorithm
     MAX_STEP = FONT_SIZE_PRECISION * 2 ** FONT_SIZE_STEPS
 
-    def __init__(self, width: int, height: int,
-                 text_font=DEFAULT_TEXT_FONT, meta_font=DEFAULT_META_FONT, time_font=DEFAULT_TIME_FONT,
-                 text_color=DEFAULT_TEXT_COLOR, meta_color=DEFAULT_META_COLOR, time_color=DEFAULT_TIME_COLOR,
-                 meta_size=DEFAULT_META_SIZE, background=None,
+    def __init__(self, width: int, height: int, color_theme: ColorTheme,
                  margin=DEFAULT_MARGIN, meta_margin=ANNOTATION_MARGIN, meta_width_ratio=0.7):
         self.width = width
         self.height = height
 
-        self.text_font = text_font
-        self.meta_font = meta_font
-        self.time_font = time_font
-        self.text_color = text_color
-        self.meta_color = meta_color
-        self.time_color = time_color
-        self.meta_size = meta_size
+        self.color_theme = color_theme
 
         self.margin = margin
         self.meta_margin = meta_margin
         self.meta_width_ratio = meta_width_ratio
-        self.background = background if background is not None else DEFAULT_BACKGROUND
 
         self.layout = None
         self.surface = None
@@ -102,7 +123,7 @@ class Quote2Image:
         context = cairocffi.Context(self.surface)
         # fill background
         with context:
-            context.set_source_rgb(*self.background)
+            context.set_source_rgb(*self.color_theme.background)
             context.paint()
 
         self.layout = pangocairocffi.create_layout(context)
@@ -111,8 +132,8 @@ class Quote2Image:
 
         self.quote = re.sub("<br\\s*(/)?>", '\n', self.quote)
         self.quote_len = len(quote)
-        self.quote = self.quote.replace(timestr, f"<span foreground='{self.time_color}' "
-                                                 f"font_desc='{self.time_font}'>{timestr}</span>")
+        self.quote = self.quote.replace(timestr, f"<span foreground='{self.color_theme.time_color}' "
+                                                 f"font_desc='{self.color_theme.time_font}'>{timestr}</span>")
 
         self._find_font_size()
         self.layout.apply_markup(self._get_markup(self.quote, self.font_size))
@@ -187,7 +208,8 @@ class Quote2Image:
         return units_to_double(ext.height), units_to_double(ext.width)
 
     def _get_markup(self, quote, font_size):
-        return f"<span foreground='{self.text_color}' font_desc='{self.text_font} {font_size}'>{quote}</span>"
+        return (f"<span foreground='{self.color_theme.text_color}' font_desc='{self.color_theme.text_font} "
+                f"{font_size}'>{quote}</span>")
 
     def add_annotations(self, title, author):
         title = html.escape(title)
@@ -200,8 +222,8 @@ class Quote2Image:
         layout.width = units_from_double(self.width * self.meta_width_ratio)
         layout.alignment = pangocffi.Alignment.RIGHT
 
-        layout.apply_markup(f'<span foreground="{self.meta_color}" '
-                            f'font_desc="{self.meta_font} {self.meta_size}">—{title}, {author}</span>')
+        layout.apply_markup(f'<span foreground="{self.color_theme.meta_color}" font_desc="{self.color_theme.meta_font} '
+                            f'{self.color_theme.meta_size}">—{title}, {author}</span>')
         _, ext = layout.get_extents()
 
         pos_x = self.width * (1 - self.meta_width_ratio) - self.margin
@@ -285,10 +307,7 @@ if __name__ == "__main__":
             print(".", end='', flush=True)
             basename = f"quote_{current_time.replace(':', '')}_{count}"
 
-            q2i = Quote2Image(args['width'], args['height'],
-                              text_font=args['text_font'], time_font=args['time_font'], meta_font=args['meta_font'],
-                              text_color=args['text_color'], time_color=args['time_color'], meta_color=args['meta_color'],
-                              background=args['background'])
+            q2i = Quote2Image(args['width'], args['height'], args['color_theme'])
 
             q2i.add_quote(data['quote'], data['timestring'])
             filename = dst / f'{basename}.png'
