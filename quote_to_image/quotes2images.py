@@ -148,7 +148,6 @@ class Quote2Image:
     def _find_font_size(self):
         max_height = self.height - self.margin - self.meta_margin
         max_width = self.width - 2 * self.margin
-        iterations = {}
 
         # the initial guess decides if we iterate upwards or downwards
         font_size = self._predict_font_size()
