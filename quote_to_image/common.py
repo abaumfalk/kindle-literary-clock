@@ -64,3 +64,8 @@ def get_quotes(src_file, collect_errors=False, fix_timestring_case=False):
 def minute_to_timestr(minute: int):
     h, m = divmod(minute, 60)
     return f"{h:02d}:{m:02d}"
+
+
+def timestr_to_minute(timestr: str):
+    h, m = timestr.split(":")
+    return int(h) * 60 + int(m)

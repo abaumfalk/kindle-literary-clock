@@ -12,7 +12,7 @@ import pangocairocffi
 from pangocffi import units_from_double, units_to_double
 from PIL import Image
 
-from common import get_quotes, minute_to_timestr
+from common import get_quotes, minute_to_timestr, timestr_to_minute
 
 DEFAULT_MARGIN = 26
 ANNOTATION_MARGIN = 100
@@ -75,11 +75,19 @@ def get_arguments():
                         action='store_false', dest='grayscale')
     parser.add_argument('--statistics', help='collect and show statistics', action='store_true')
 
+    parser.add_argument('-start-time', help='optional time to start', type=str, default="00:00")
+    parser.add_argument('-stop-time', help='optional time to stop', type=str, default="23:59")
+
     parsed = vars(parser.parse_args())
     parsed['color_theme'] = STYLES[parsed['style']]
     for field in fields(ColorTheme):
         if parsed[field.name] is not None:
             parsed['color_theme'] = replace(parsed['color_theme'], **{field.name: parsed[field.name]})
+
+    for t in ['start_time', 'stop_time']:
+        parsed[t] = timestr_to_minute(parsed[t])
+    if parsed['start_time'] > parsed['stop_time']:
+        raise RuntimeError("start-time may not be later than stop-time")
 
     return parsed
 
@@ -292,7 +300,7 @@ if __name__ == "__main__":
     statistics = Statistics() if args['statistics'] else None
 
     missing = []
-    for minute in range(0, 60 * 24):  # iterate through all minutes of the day
+    for minute in range(args['start_time'], args['stop_time'] + 1):  # iterate through given minutes of the day
         current_time = minute_to_timestr(minute)
         print(f"{current_time}: ", end='')
         quotes = quotes_dict.get(current_time)
