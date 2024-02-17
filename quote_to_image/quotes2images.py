@@ -141,7 +141,7 @@ class Quote2Image:
         self.quote = re.sub("<br\\s*(/)?>", '\n', self.quote)
         self.quote_len = len(quote)
         self.quote = self.quote.replace(timestr, f"<span foreground='{self.color_theme.time_color}' "
-                                                 f"font_desc='{self.color_theme.time_font}'>{timestr}</span>")
+                                                 f"font_desc='{self.color_theme.time_font}'>{timestr}</span>", 1)
 
         self._find_font_size()
         self.layout.apply_markup(self._get_markup(self.quote, self.font_size))
