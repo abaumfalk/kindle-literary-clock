@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # see what image is shown at the moment
 current=$(cat clockisticking 2>/dev/null)

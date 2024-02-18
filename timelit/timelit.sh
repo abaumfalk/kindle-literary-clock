@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # if the Kindle is not being used as clock, then just quit
 test -f /mnt/us/timelit/clockisticking || exit

@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 clockrunning=1
 
