@@ -41,7 +41,7 @@ STYLES = {
     ),
     'dark': ColorTheme(
         background=[0, 0, 0],  # black
-        text_font='', text_color='grey',
+        text_font='', text_color='#C0C0C0',
         time_font='bold', time_color='white',
         meta_font='italic', meta_color='white', meta_size=18
     ),
