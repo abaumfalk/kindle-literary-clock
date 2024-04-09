@@ -19,11 +19,12 @@ fi
 
 # randomly pick a png file for that minute (since we have multiple for some minutes)
 ThisMinuteImage=$( find /mnt/us/timelit/images/quote_$MinuteOTheDay* 2>/dev/null | python -c "import sys; import random; print(''.join(random.sample(sys.stdin.readlines(), int(sys.argv[1]))).rstrip())" 1)
+if [ "$ThisMinuteImage" ]; then
+	echo $ThisMinuteImage > /mnt/us/timelit/clockisticking
 
-echo $ThisMinuteImage > /mnt/us/timelit/clockisticking
+	# clear the screen
+	eips -c
 
-# clear the screen
-eips -c
-
-# show that image
-eips -g $ThisMinuteImage
+	# show that image
+	eips -g $ThisMinuteImage
+fi
