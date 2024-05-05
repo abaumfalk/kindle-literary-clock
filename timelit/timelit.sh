@@ -23,7 +23,7 @@ ThisMinuteImage=$( find /mnt/us/timelit/images/quote_$MinuteOTheDay* 2>/dev/null
 echo $ThisMinuteImage > /mnt/us/timelit/clockisticking
 
 # clear the screen every hour to avoid ghosting
-minute=$(printf "%s" "$MinuteOfTheDay" | tail -c 2)
+minute=$(printf "%s" "$MinuteOTheDay" | tail -c 2)
 if [ "$minute" = "00" ]; then 
 	eips -c
 fi
