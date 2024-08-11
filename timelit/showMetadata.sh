@@ -8,11 +8,11 @@ if [ -n "$current" ];
 	then
 
 	# find the matching image with metadata
-	currentCredit=$(echo $current | sed 's/.png//')_credits.png
-	currentCredit=$(echo $currentCredit | sed 's/images/images\/metadata/')
+	currentCredit=$(echo "$current" | sed 's/.png//')_credits.png
+	currentCredit=$(echo "$currentCredit" | sed 's/images/images\/metadata/')
 
 	# show the image with metdata
-	eips -g $currentCredit
+	eips -g "$currentCredit"
 
 fi
 
