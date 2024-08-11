@@ -17,10 +17,10 @@ if [ $clockrunning -eq 0 ]; then
 	#eips "Clock is not ticking. Lets wind it."
 
 	# run showMetadata.sh to enable the keystrokes that will show the metadata
-	sh "$BASEDIR/showMetadata.sh"
+	"$BASEDIR/showMetadata.sh"
 
 	touch "$BASEDIR/clockisticking"
-	sh "$BASEDIR/timelit.sh"
+	"$BASEDIR/timelit.sh"
 
 else
 
