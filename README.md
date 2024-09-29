@@ -3,7 +3,9 @@ Use a kindle ebook-reader as literary clock:
 
 - for every minute of the day a citation from a piece of literature is shown containing the current time (printed in **bold letters**)
 - use Shift-C to toggle between clock-mode and ordinary mode of the device
-- use special keys to reveal the origin of the current citation ("quiz-mode")
+- press key to reveal the origin of the current citation ("quiz-mode")
+- press key to toggle between black and white mode
+
 
 ## Installation
 ... TODO ...
