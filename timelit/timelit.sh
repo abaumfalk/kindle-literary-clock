@@ -1,4 +1,5 @@
 #!/bin/sh
+BASEDIR=$(dirname "$(realpath "$0")")
 
 # if the Kindle is not being used as clock, then just quit
 test -f /mnt/us/timelit/clockisticking || exit
@@ -8,7 +9,7 @@ test -f /mnt/us/timelit/clockisticking || exit
 MinuteOTheDay="$(env TZ=CEST date -R +"%H%M")";
 
 # check if there is at least one image for this minute 
-lines="$(find "/mnt/us/timelit/images/quote_$MinuteOTheDay"* 2>/dev/null | wc -l)"
+lines="$(find "$BASEDIR/images/quote_$MinuteOTheDay"* 2>/dev/null | wc -l)"
 if [ "$lines" -eq 0 ]; then
 	echo "no images found for $MinuteOTheDay"
 	exit
@@ -18,7 +19,7 @@ fi
 
 
 # randomly pick a png file for that minute (since we have multiple for some minutes)
-ThisMinuteImage=$( find "/mnt/us/timelit/images/quote_$MinuteOTheDay"* 2>/dev/null | python -c "import sys; import random; print(''.join(random.sample(sys.stdin.readlines(), int(sys.argv[1]))).rstrip())" 1)
+ThisMinuteImage=$( find "$BASEDIR/images/quote_$MinuteOTheDay"* 2>/dev/null | python -c "import sys; import random; print(''.join(random.sample(sys.stdin.readlines(), int(sys.argv[1]))).rstrip())" 1)
 
 echo "$ThisMinuteImage" > /mnt/us/timelit/clockisticking
 

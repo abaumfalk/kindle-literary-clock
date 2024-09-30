@@ -1,5 +1,7 @@
 #!/bin/sh
 
+BASEDIR=$(dirname "$(realpath "$0")")
+
 # see what image is shown at the moment
 current=$(cat clockisticking 2>/dev/null)
 
@@ -17,4 +19,4 @@ if [ -n "$current" ];
 fi
 
 # start waiting for new keystrokes
-/usr/bin/waitforkey 104 191 && sh /mnt/us/timelit/showMetadata.sh &
+/usr/bin/waitforkey 104 191 && sh "$BASEDIR/showMetadata.sh" &
