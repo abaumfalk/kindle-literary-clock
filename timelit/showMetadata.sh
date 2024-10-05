@@ -20,4 +20,4 @@ if [ -n "$current" ];
 fi
 
 # start waiting for new keystrokes
-/usr/bin/waitforkey 191 && sh "$BASEDIR/showMetadata.sh" &
+/usr/bin/waitforkey 191 && "$0" &
