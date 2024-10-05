@@ -1,9 +1,10 @@
 #!/bin/sh
 
 BASEDIR=$(dirname "$(realpath "$0")")
+CLOCK_IS_TICKING="$BASEDIR/clockisticking"
 
 # see what image is shown at the moment
-current=$(cat clockisticking 2>/dev/null)
+current=$(cat "$CLOCK_IS_TICKING" 2>/dev/null)
 
 # only if a filename is in the clockisticking file, then continue 
 if [ -n "$current" ]; 
