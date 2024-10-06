@@ -1,5 +1,4 @@
 #!/bin/sh
-
 BASEDIR=$(dirname "$(realpath "$0")")
 CLOCK_IS_TICKING="$BASEDIR/clockisticking"
 
@@ -7,8 +6,7 @@ CLOCK_IS_TICKING="$BASEDIR/clockisticking"
 current=$(cat "$CLOCK_IS_TICKING" 2>/dev/null)
 
 # only if a filename is in the clockisticking file, then continue 
-if [ -n "$current" ]; 
-	then
+if [ -n "$current" ]; then
 
 	# find the matching image with metadata
 	currentCredit=$(echo "$current" | sed 's/.png//')_credits.png
@@ -19,5 +17,5 @@ if [ -n "$current" ];
 
 fi
 
-# start waiting for new keystrokes
+# wait for right button and restart
 /usr/bin/waitforkey 191 && "$0" &

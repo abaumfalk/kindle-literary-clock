@@ -5,7 +5,6 @@ CLOCK_IS_TICKING="$BASEDIR/clockisticking"
 # if the Kindle is not being used as clock, then just quit
 test -f "$CLOCK_IS_TICKING" || exit
 
-
 # find the current minute of the day
 MinuteOTheDay="$(env TZ=CEST date -R +"%H%M")";
 
@@ -17,7 +16,6 @@ if [ "$lines" -eq 0 ]; then
 else
 	echo "$lines files found for $MinuteOTheDay"
 fi
-
 
 # randomly pick a png file for that minute (since we have multiple for some minutes)
 ThisMinuteImage=$( find "$BASEDIR/images/quote_$MinuteOTheDay"* 2>/dev/null | python -c "import sys; import random; print(''.join(random.sample(sys.stdin.readlines(), int(sys.argv[1]))).rstrip())" 1)

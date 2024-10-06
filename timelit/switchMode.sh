@@ -18,5 +18,5 @@ if [ -n "$current" ]; then
   eips -g "$current"
 fi
 
-# start waiting for new keystrokes
+# wait for left button and restart
 /usr/bin/waitforkey 104 && "$0" &
