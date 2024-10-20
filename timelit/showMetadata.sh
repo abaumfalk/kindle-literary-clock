@@ -2,20 +2,25 @@
 BASEDIR=$(dirname "$(realpath "$0")")
 CLOCK_IS_TICKING="$BASEDIR/clockisticking"
 
-# see what image is shown at the moment
-current=$(cat "$CLOCK_IS_TICKING" 2>/dev/null)
+while true; do
+    # wait for right button
+    /usr/bin/waitforkey 191
 
-# only if a filename is in the clockisticking file, then continue 
-if [ -n "$current" ]; then
+    # if the Kindle is not being used as clock, then just quit
+    test -f "$CLOCK_IS_TICKING" || exit
 
-	# find the matching image with metadata
-	currentCredit=$(echo "$current" | sed 's/.png//')_credits.png
-	currentCredit=$(echo "$currentCredit" | sed 's/images/images\/metadata/')
+    # see what image is shown at the moment
+    current=$(cat "$CLOCK_IS_TICKING" 2>/dev/null)
 
-	# show the image with metdata
-	eips -g "$currentCredit"
+    # only if a filename is in the clockisticking file, then continue 
+    if [ -n "$current" ]; then
 
-fi
+        # find the matching image with metadata
+        currentCredit=$(echo "$current" | sed 's/.png//')_credits.png
+        currentCredit=$(echo "$currentCredit" | sed 's/images/images\/metadata/')
 
-# wait for right button and restart
-/usr/bin/waitforkey 191 && "$0" &
+        # show the image with metadata
+        eips -g "$currentCredit"
+
+    fi
+done

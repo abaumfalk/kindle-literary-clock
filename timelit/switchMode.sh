@@ -7,16 +7,21 @@ CURRENT="$BASEDIR/images"
 OTHER="$BASEDIR/images_other"
 SUFFIX=".switching"
 
-mv "$CURRENT" "$CURRENT$SUFFIX"
-mv "$OTHER" "$OTHER$SUFFIX"
-mv "$CURRENT$SUFFIX" "$OTHER"
-mv "$OTHER$SUFFIX" "$CURRENT"
+while true; do
+    # wait for left button
+    /usr/bin/waitforkey 104
 
-# see what image is shown at the moment
-current=$(cat "$CLOCK_IS_TICKING" 2>/dev/null)
-if [ -n "$current" ]; then
-  eips -g "$current"
-fi
+    # if the Kindle is not being used as clock, then just quit
+    test -f "$CLOCK_IS_TICKING" || exit
 
-# wait for left button and restart
-/usr/bin/waitforkey 104 && "$0" &
+    mv "$CURRENT" "$CURRENT$SUFFIX"
+    mv "$OTHER" "$OTHER$SUFFIX"
+    mv "$CURRENT$SUFFIX" "$OTHER"
+    mv "$OTHER$SUFFIX" "$CURRENT"
+
+    # see what image is shown at the moment
+    current=$(cat "$CLOCK_IS_TICKING" 2>/dev/null)
+    if [ -n "$current" ]; then
+      eips -g "$current"
+    fi
+done
