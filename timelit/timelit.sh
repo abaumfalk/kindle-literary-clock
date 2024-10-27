@@ -6,8 +6,15 @@ CLOCK_IS_TICKING="$BASEDIR/clockisticking"
 test -f "$CLOCK_IS_TICKING" || exit
 
 # find the current minute of the day
-# Note: the timezone can be adjusted by adding e.g. UMT+2 to the TZ file in BASEDIR
-MinuteOTheDay="$(env TZ=$(cat "$BASEDIR/TZ" 2>/dev/null) date -R +"%H%M")";
+# Note: the timezone can be adjusted by an offset in the TZ file
+OFFSET=$(cat "$BASEDIR/TZ")
+TZ="UTC"
+if [ "$OFFSET" -gt 0 ]; then
+	TZ="$TIMEZONE+$OFFSET"
+elif [ "$OFFSET" -lt 0 ]; then
+	TZ="$TZ$OFFSET"
+fi
+MinuteOTheDay="$(env TZ=$TZ date -R +"%H%M")";
 
 # check if there is at least one image for this minute 
 lines="$(find "$BASEDIR/images/quote_$MinuteOTheDay"* 2>/dev/null | wc -l)"

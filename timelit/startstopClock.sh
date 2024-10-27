@@ -11,22 +11,16 @@ if [ $clockrunning -eq 0 ]; then
 	
 	eips -c  # clear display
 
-	# run showMetadata.sh to enable the keystrokes that will show the metadata
-	"$BASEDIR/showMetadata.sh" &
-
-	# run switchMode.sh to switch between dark/light mode on keystroke
-	"$BASEDIR/switchMode.sh" &
-
+	# show initial image
 	touch "$BASEDIR/clockisticking"
-
 	"$BASEDIR/timelit.sh"
+
+	# start event loop in background
+	"$BASEDIR/eventloop.sh" &
 else
 	rm "$BASEDIR/clockisticking"
 
 	eips -c  # clear display
-
-	# go to home screen
-	# echo "send 102">/proc/keypad
 
 	/etc/init.d/framework start
 	/etc/init.d/powerd start
