@@ -1857,6 +1857,17 @@
   timestring: one-twenty-nine A.M.
   title: The Narc
 01:30:
+- author: Wilkie Collins
+  title: No Name
+  quote: >-
+    Yes; Thomas had heard the concert; he had been paid for to go in at the back; it
+    was a loud concert; it was a hot concert; it was described at the top of the bills
+    as Grand; whether it was worth travelling sixteen miles to hear by railway, with 
+    the additional hardship of going back nineteen miles by road, at half-past one
+    in the morning - was a question which he would leave his master and the young ladies
+    to decide; his own opinion, in the mean time, being unhesitatingly, No.
+  timestring: half-past one
+  sfw: sfw
 - author: TS Eliot
   quote: >-
     "Half-past one”, The street lamp sputtered, The street lamp muttered, The street
@@ -6893,6 +6904,14 @@
   timestring: '6:29'
   title: The Sins of the Father
 06:30:
+- author: Wilkie Collins
+  title: No Name
+  quote: >-
+    The hands of the hall-clock pointed to half-past six in the morning. The house
+    was a country residence in West Somersetshire, called Combe-Raven. The day was
+    the fourth of March, and the year was eighteen hundred and forty-six.
+  timestring: half-past six
+  sfw: sfw
 - author: Christina Stead
   quote: >-
     It was six-thirty. When the baby's cry came, they could not pick it out, and Sam,
@@ -7412,6 +7431,13 @@
   timestring: one minute to seven
   title: The Sins of the Father
 07:00:
+- author: Wilkie Collins
+  title: No Name
+  quote: >-
+    Seven o’clock struck; and the signs of domestic life began to show themselves
+    in more rapid succession.
+  timestring: Seven o’clock
+  sfw: sfw
 - author: Franz Kafka
   quote: >-
     "Seven o’clock, already", he said to himself when the clock struck again, "seven
@@ -9225,6 +9251,14 @@
   timestring: 8:14 A.M.
   title: Project Cyclops
 08:15:
+- author: Wilkie Collins
+  title: No Name
+  quote: >-
+    A quarter-past eight, and nothing happened. Half-past - and more signs of life 
+    appeared from the bedroom regions. The next member of the family who came
+    downstairs was Mr Andrew Vanstone, the master of the house.
+  timestring: A quarter-past eight
+  sfw: sfw
 - author: Jerome K Jerome
   quote: >-
     It was in the winter when this happened, very near the shortest day, and a week
@@ -9553,6 +9587,14 @@
   timestring: '8:29'
   title: The Great Train Robbery
 08:30:
+- author: Wilkie Collins
+  title: No Name
+  quote: >-
+    A quarter-past eight, and nothing happened. Half-past - and more signs of life 
+    appeared from the bedroom regions. The next member of the family who came
+    downstairs was Mr Andrew Vanstone, the master of the house.
+  timestring: Half-past
+  sfw: sfw
 - author: JK Rowling
   quote: >-
     At half past eight, Mr. Dursley picked up his briefcase, pecked Mrs. Dursley on
@@ -10027,6 +10069,14 @@
   timestring: '8:49'
   title: A Matter of Principle
 08:50:
+- author: Wilkie Collins
+  title: No Name
+  quote: >-
+    The hands, stealing their steady way round the dial of the clock, pointed to ten
+    minutes to nine. Another member of the family appeared on the stairs – Miss Garth,
+    the gouverness.
+  timestring: ten minutes to nine
+  sfw: sfw
 - author: Sam Lipsyte
   quote: >-
     It was 8:50 in the morning and Bernie and I were alone on an Astoria side street,
@@ -10288,6 +10338,13 @@
   timestring: '8:59'
   title: The Chinese Statue
 09:00:
+- author: Wilkie Collins
+  title: No Name
+  quote: >-
+    Nine o’clock struck; and the minute hand stole on to twenty minutes past the
+    hour, before any more footsteps were heard on the stairs. 
+  timestring: Nine o’clock
+  sfw: sfw
 - author: John Kennedy Toole
   quote: >-
     'I could never get all the way down there before nine o’clock.'
@@ -11032,6 +11089,13 @@
   timestring: nineteen minutes past nine in the morning
   title: Mutiny on the Bounty
 09:20:
+- author: Wilkie Collins
+  title: No Name
+  quote: >-
+    Nine o’clock struck; and the minute hand stole on to twenty minutes past the
+    hour, before any more footsteps were heard on the stairs. 
+  timestring: twenty minutes past the hour
+  sfw: sfw
 - author: Susanna Kaysen
   quote: >-
     I'll compromise by saying that I left home at eight and spent an hour travelling
@@ -12052,6 +12116,22 @@
   timestring: '9:59'
   title: Blood Stained
 '10:00':
+- author: Wilkie Collins
+  title: No Name
+  quote: >-
+    ‘Breakfast at ten?’ repeated Miss Garth, when the footman had answered the bell,
+    and had mentioned his master's orders. ‘Ha! I thought what would come out of that
+    concert last night. (...)’
+  timestring: ten
+  sfw: sfw
+- author: Wilkie Collins
+  title: No Name
+  quote: >-
+    ‘Thomas!’ cried Mr Vanstone, taking up his old felt hat and his thick walking-stick
+    from the hall table. ‘Breakfast, this morning, at ten. The young ladies are not likely
+    to be down earlier after the concert last night. (...)’
+  timestring: ten
+  sfw: sfw
 - author: Laurence Sterne
   quote: >-
     ––In assaying to put on his regimental coat and waistcoat, my uncle Toby found
