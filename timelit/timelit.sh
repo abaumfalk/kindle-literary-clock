@@ -26,7 +26,7 @@ else
 fi
 
 # randomly pick a png file for that minute (since we have multiple for some minutes)
-ThisMinuteImage=$( find "$BASEDIR/images/quote_$MinuteOTheDay"* 2>/dev/null | python -c "import sys; import random; print(''.join(random.sample(sys.stdin.readlines(), int(sys.argv[1]))).rstrip())" 1)
+ThisMinuteImage=$( find "$BASEDIR/images/quote_$MinuteOTheDay"* 2>/dev/null | python -c "import sys; import random; print(''.join(random.sample(sys.stdin.readlines(), 1)).rstrip())")
 
 echo "$ThisMinuteImage" > "$CLOCK_IS_TICKING"
 
