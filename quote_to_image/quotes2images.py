@@ -3,6 +3,7 @@ import html
 import re
 from argparse import ArgumentParser
 from dataclasses import dataclass, fields, replace
+from hashlib import sha1
 
 from sortedcontainers import SortedDict
 from pathlib import Path
@@ -310,9 +311,11 @@ if __name__ == "__main__":
             print("missing!")
             continue
 
-        for count, data in enumerate(quotes):
+        for data in quotes:
             print(".", end='', flush=True)
-            basename = f"quote_{current_time.replace(':', '')}_{count}"
+            
+            hsh = sha1(f"{current_time}: {data['quote']}::{data['timestring']}::{data['author']}::{data['title']}".encode('UTF-8')).hexdigest()
+            basename = f"quote_{current_time.replace(':', '')}_{hsh}"
 
             q2i = Quote2Image(args['width'], args['height'], args['color_theme'])
 
