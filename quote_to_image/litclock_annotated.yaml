@@ -1881,6 +1881,18 @@
   timestring: one-twenty-nine A.M.
   title: The Narc
 01:30:
+- author: Wilkie Collins
+  title: No Name
+  chapter: S1C1
+  quote: >-
+    Yes; Thomas had heard the concert; he had been paid for to go in at the back; it
+    was a loud concert; it was a hot concert; it was described at the top of the bills
+    as Grand; whether it was worth travelling sixteen miles to hear by railway, with 
+    the additional hardship of going back nineteen miles by road, at half-past one
+    in the morning - was a question which he would leave his master and the young ladies
+    to decide; his own opinion, in the mean time, being unhesitatingly, No.
+  timestring: half-past one
+  sfw: sfw
 - author: TS Eliot
   quote: >-
     "Half-past one”, The street lamp sputtered, The street lamp muttered, The street
@@ -5421,6 +5433,15 @@
   timestring: one minute to five
   title: The Undiplomatic Diplomat
 05:00:
+- author: Wilkie Collins
+  title: No Name
+  chapter: S1C11
+  quote: >-
+    The night passed; and she lived through it. The next day came; and she lingered on
+    till the clock pointed to five. At that hour of time the tidings of her husband's 
+    death had dealt the mortal blow.
+  timestring: five
+  sfw: sfw
 - author: H.P. Lovecraft
   quote: >-
     It was in the township of Dunwich, in a large and hardly inhabited farmhouse set
@@ -6959,6 +6980,15 @@
   timestring: '6:29'
   title: The Sins of the Father
 06:30:
+- author: Wilkie Collins
+  title: No Name
+  chapter: S1C1
+  quote: >-
+    The hands of the hall-clock pointed to half-past six in the morning. The house
+    was a country residence in West Somersetshire, called Combe-Raven. The day was
+    the fourth of March, and the year was eighteen hundred and forty-six.
+  timestring: half-past six
+  sfw: sfw
 - author: Christina Stead
   quote: >-
     It was six-thirty. When the baby's cry came, they could not pick it out, and Sam,
@@ -7242,6 +7272,7 @@
     a long and melancholy howl.
   timestring: quarter to seven
   title: No Name
+  chapter: S1C1
 - author: Franz Kafka
   quote: >-
     He was still hurriedly thinking all this through, unable to decide to get out
@@ -7478,6 +7509,14 @@
   timestring: one minute to seven
   title: The Sins of the Father
 07:00:
+- author: Wilkie Collins
+  title: No Name
+  chapter: S1C1
+  quote: >-
+    Seven o’clock struck; and the signs of domestic life began to show themselves
+    in more rapid succession.
+  timestring: Seven o’clock
+  sfw: sfw
 - author: Franz Kafka
   quote: >-
     "Seven o’clock, already", he said to himself when the clock struck again, "seven
@@ -9299,6 +9338,15 @@
   timestring: 8:14 A.M.
   title: Project Cyclops
 08:15:
+- author: Wilkie Collins
+  title: No Name
+  chapter: S1C1
+  quote: >-
+    A quarter-past eight, and nothing happened. Half-past - and more signs of life 
+    appeared from the bedroom regions. The next member of the family who came
+    downstairs was Mr Andrew Vanstone, the master of the house.
+  timestring: A quarter-past eight
+  sfw: sfw
 - author: Jerome K Jerome
   quote: >-
     It was in the winter when this happened, very near the shortest day, and a week
@@ -9627,6 +9675,15 @@
   timestring: '8:29'
   title: The Great Train Robbery
 08:30:
+- author: Wilkie Collins
+  title: No Name
+  chapter: S1C1
+  quote: >-
+    A quarter-past eight, and nothing happened. Half-past - and more signs of life 
+    appeared from the bedroom regions. The next member of the family who came
+    downstairs was Mr Andrew Vanstone, the master of the house.
+  timestring: Half-past
+  sfw: sfw
 - author: JK Rowling
   quote: >-
     At half past eight, Mr. Dursley picked up his briefcase, pecked Mrs. Dursley on
@@ -10101,6 +10158,15 @@
   timestring: '8:49'
   title: A Matter of Principle
 08:50:
+- author: Wilkie Collins
+  title: No Name
+  chapter: S1C1
+  quote: >-
+    The hands, stealing their steady way round the dial of the clock, pointed to ten
+    minutes to nine. Another member of the family appeared on the stairs – Miss Garth,
+    the governess.
+  timestring: ten minutes to nine
+  sfw: sfw
 - author: Sam Lipsyte
   quote: >-
     It was 8:50 in the morning and Bernie and I were alone on an Astoria side street,
@@ -10362,6 +10428,14 @@
   timestring: '8:59'
   title: The Chinese Statue
 09:00:
+- author: Wilkie Collins
+  title: No Name
+  chapter: S1C1
+  quote: >-
+    Nine o’clock struck; and the minute hand stole on to twenty minutes past the
+    hour, before any more footsteps were heard on the stairs. 
+  timestring: Nine o’clock
+  sfw: sfw
 - author: John Kennedy Toole
   quote: >-
     'I could never get all the way down there before nine o’clock.'
@@ -11106,6 +11180,14 @@
   timestring: nineteen minutes past nine in the morning
   title: Mutiny on the Bounty
 09:20:
+- author: Wilkie Collins
+  title: No Name
+  chapter: S1C1
+  quote: >-
+    Nine o’clock struck; and the minute hand stole on to twenty minutes past the
+    hour, before any more footsteps were heard on the stairs. 
+  timestring: twenty minutes past the hour
+  sfw: sfw
 - author: Susanna Kaysen
   quote: >-
     I'll compromise by saying that I left home at eight and spent an hour travelling
@@ -12127,6 +12209,49 @@
   timestring: '9:59'
   title: Blood Stained
 '10:00':
+- author: Wilkie Collins
+  title: No Name
+  chapter: S1C7
+  quote: >-
+    ‘Luncheon-time already!’ she said, looking at her watch. ‘Surely not?’<br/>
+    ‘Have you and Mr Francis Clare been alone in the shrubbery since ten o’clock?’ asked Norah.
+  timestring: ten o’clock
+  sfw: sfw
+- author: Wilkie Collins
+  title: No Name
+  chapter: S1C6
+  quote: >-
+    ‘In the shrubbery at ten?’ asked Frank in a whisper.<br/>
+    She drew up the hood of her cloak, and nodded to him gaily.
+  timestring: ten
+  sfw: sfw
+- author: Wilkie Collins
+  title: No Name
+  chapter: S1C2
+  quote: >-
+    At ten o’clock the next morning, Norah and Magdalen stood alone in the hall at 
+    Combe-Raven, watching the departure of the carriage which took theris father and 
+    mother to the London train.
+  timestring: ten o’clock
+  sfw: sfw
+- author: Wilkie Collins
+  title: No Name
+  chapter: S1C2
+  quote: >-
+    ‘Breakfast at ten?’ repeated Miss Garth, when the footman had answered the bell,
+    and had mentioned his master's orders. ‘Ha! I thought what would come out of that
+    concert last night.’
+  timestring: ten
+  sfw: sfw
+- author: Wilkie Collins
+  title: No Name
+  chapter: S1C1
+  quote: >-
+    ‘Thomas!’ cried Mr Vanstone, taking up his old felt hat and his thick walking-stick
+    from the hall table. ‘Breakfast, this morning, at ten. The young ladies are not likely
+    to be down earlier after the concert last night.’
+  timestring: ten
+  sfw: sfw
 - author: Laurence Sterne
   quote: >-
     ––In assaying to put on his regimental coat and waistcoat, my uncle Toby found
@@ -13661,6 +13786,14 @@
   timestring: a minute before eleven
   title: That Hideous Strength
 '11:00':
+- author: Wilkie Collins
+  title: No Name
+  chapter: S1C12
+  quote: >-
+    ‘The time is getting on,’ he said, looking towards the shrubbery, as he joined Mr Clare. 
+    ‘My appointment with Miss Garth is for eleven o’clock: it only wants ten minutes of the hour.’
+  timestring: eleven o’clock
+  sfw: sfw
 - author: Virginia Woolf
   quote: >-
     'Who can - what can -” asked Mrs Dalloway (thinking it was outrageous to be interrupted
@@ -15149,6 +15282,14 @@
   timestring: about noon
   title: Ben-Hur
 '12:00':
+- author: Wilkie Collins
+  title: No Name
+  chapter: S1C7
+  quote: >-
+    Two hours passed – and there were no signs of Magdalen. Norah rose, as the clock
+    struck twelve, and quietly left the room to look for her.
+  timestring: twelve
+  sfw: sfw
 - author: Yasunari Kawabata
   quote: >-
     'It will soon be an hour and a half,' said the girl who kept the records. The
@@ -15956,6 +16097,15 @@
   timestring: Twenty-nine minutes past twelve
   title: The Mark of the Knife
 '12:30':
+- author: Wilkie Collins
+  title: No Name
+  chapter: S1C2
+  quote: >-
+    Towards the afternoon the weather improved. At half-past one the sun was shining
+    brightly; and the ladies left the house, accompanied by the dogs, to set forth on
+    their walk.
+  timestring: half-past one
+  sfw: sfw
 - author: Nancy Mitford
   quote: >-
     "You'll never believe this but (in Spain) they are two hours late for ever meal
@@ -16102,6 +16252,15 @@
   timestring: thirty-nine minutes past twelve
   title: The Toilers of the Sea
 '12:40':
+- author: Wilkie Collins
+  title: No Name
+  chapter: S1C2
+  quote: >-
+    Come, rouse up directly. If I see those gloomy faces any longer, as sure as my name's
+    Garth, I'll give your mother written warning, and go back to my friends by the mixed
+    train at twelve-forty.
+  timestring: twelve-forty
+  sfw: sfw
 - author: Stacy Aumonier
   quote: >-
     A little ormolu clock in the outer corridor indicated twenty minutes to one. The
@@ -16385,6 +16544,23 @@
   timestring: 12:59 P.M.
   title: Kitchens of the Great Midwest
 '13:00':
+- author: Wilkie Collins
+  title: No Name
+  chapter: S1C14
+  quote: >-
+    It was nearly an hour past noon, when Mr Pendril left the house. Miss Garth sat 
+    down again at the table alone; and tried to face the necessity which the event
+    of the morning now forced on her.
+  timestring: an hour past noon
+  sfw: sfw
+- author: Wilkie Collins
+  title: No Name
+  chapter: S1C5
+  quote: >-
+    The railway conveyed the three, in excellent time, to Evergreen Lodge; and at 
+    one o’clock the rehersal begun.
+  timestring: one o’clock
+  sfw: sfw
 - author: Baroness Orczy
   quote: >-
     "I think," he said, with a triumphant smile, "that I may safely expect to find
@@ -18519,6 +18695,49 @@
   timestring: 2.59 p.m.
   title: Ulysses
 '15:00':
+- author: Wilkie Collins
+  title: No Name
+  chapter: S1C15
+  quote: >-
+    Towards three o’clock, Miss Garth and Norah entered the morning-room, to await Mr Pendril's
+    arrival. They were joined shortly afterwards by Magdalen. In half an hour more, the familiar
+    fall of the iron latch in the socket, reached their ears from the fence beyond the shrubbery.
+  timestring: three o’clock
+  sfw: sfw
+- author: Wilkie Collins
+  title: No Name
+  chapter: S1C11
+  quote: >-
+    Miss Garth was too heart-sick to dwell on either question. She told Frank that Mr Pendril
+    was expected at three o’clock, and sent him back with her thanks.
+  timestring: three o’clock
+  sfw: sfw
+- author: Wilkie Collins
+  title: No Name
+  chapter: S1C11
+  quote: >-
+    Worn out in body and mind, she slept sheer exhaustion – slept heavily and dreamlessly
+    for some hours. It was between three and four in the afternoon, when she was roused by 
+    one of the female servants.
+  timestring: three
+  sfw: sfw
+- author: Wilkie Collins
+  title: No Name
+  chapter: S1C10
+  quote: >-
+    It was past three o’clock when she woke.On going downstairs again she found her mother,
+    Norah and Miss Garth all sitting togehther enjoying the shade and the coolness under
+    the open portico in front of the house.
+  timestring: three o’clock
+  sfw: sfw
+- author: Wilkie Collins
+  title: No Name
+  chapter: S1C10
+  quote: >-
+    ‘Grailsea Mill, three o’clock, Saturday. Just the time when Pendril will be here; and
+    I <i>must</i> be at home to see him.’
+  timestring: three o’clock
+  sfw: sfw
 - author: John Kennedy Toole
   quote: >-
     'I gotta get uptown by three o’clock.'
@@ -19806,6 +20025,15 @@
   timestring: Towards four o’clock
   title: Les Misérables
 '16:00':
+- author: Wilkie Collins
+  title: No Name
+  chapter: S1C11
+  quote: >-
+    Worn out in body and mind, she slept sheer exhaustion – slept heavily and dreamlessly
+    for some hours. It was between three and four in the afternoon, when she was roused by 
+    one of the female servants.
+  timestring: four
+  sfw: sfw
 - author: Jane Austen
   quote: >-
     ... when they all sat down to table at four o’clock, about three hours after his
@@ -20379,6 +20607,14 @@
   timestring: 4.14pm
   title: Already Dead
 '16:15':
+- author: Wilkie Collins
+  title: No Name
+  chapter: S1C10
+  quote: >-
+    As the church clock struck the quarter past four, the morning-room door opened; and
+    Mrs Vanstone crossed the hall alone. She had vainly tried to compose herself.
+  timestring: quarter past four
+  sfw: sfw
 - author: Jane Austen
   quote: >-
     It is only a quarter past four, (shewing his watch) and you are not now in Bath.
@@ -21218,6 +21454,15 @@
   timestring: One minute to five
   title: Embroidery
 '17:00':
+- author: Wilkie Collins
+  title: No Name
+  chapter: S1C11
+  quote: >-
+    Heavily the thunder-clouds of Affliction had gathered over the house – heavily,
+    but not at their darkest yet. At five, that evening, the shock of the calamity
+    had struck its blow.
+  timestring: five
+  sfw: sfw
 - author: Mark Haddon
   quote: >-
     5.00 p.m. Read a book
@@ -28493,6 +28738,14 @@
   title: Harry Potter and the Half-Blood Prince
 '23:00':
 - author: Wilkie Collins
+  title: No Name
+  chapter: S1C11
+  quote: >-
+    It was then past eleven o’clock. Some little time had elapsed since she had seen the
+    sisters, and spoken to them.
+  timestring: eleven o’clock
+  sfw: sfw
+- author: Wilkie Collins
   quote: >-
     First bedroom (beginning from the staircase), occupied by Mrs. Beauly. Second bedroom,
     empty. Third bedroom occupied by Miserrimus Dexter. Fourth bedroom, empty. So much for
@@ -29198,6 +29451,14 @@
   timestring: twenty-nine minutes past eleven
   title: Belle du Seigneur
 '23:30':
+- author: Wilkie Collins
+  title: No Name
+  chapter: S1C5
+  quote: >-
+    The clock on the mantelpiece pointed to half-past eleven, before Lucy the resolute,
+    permitted Falkland the helpless to shut up his task-book for the night.
+  timestring: half-past eleven
+  sfw: sfw
 - author: David Foster Wallace
   quote: >-
     He loaded the player and turned on the viewer, his knees popping again as he squatted
