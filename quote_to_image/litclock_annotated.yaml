@@ -10430,6 +10430,16 @@
 09:00:
 - author: Wilkie Collins
   title: No Name
+  quote: >-
+    We believe she left by the nine o’clock train. We followed her by the twelve o’clock
+    train. We have ascertained that she called, at half past two, at Mr. Huxtable’s 
+    lodgings; that she found he was away, and not expected back till eight in the evening;
+    that she left word she would call again at eight; and that she never returned.
+  sfw: sfw
+  timestring: nine o’clock
+  chapter: BTS1+2C4
+- author: Wilkie Collins
+  title: No Name
   chapter: S1C1
   quote: >-
     Nine o’clock struck; and the minute hand stole on to twenty minutes past the
@@ -14141,6 +14151,13 @@
     now.
   timestring: just past eleven
   title: Mary and O'Neil
+- author: Wilkie Collins
+  title: No Name
+  quote: >-
+    ‘A little after eleven we went upstairs to try if we could get some rest.’
+  timestring: little after eleven
+  chapter: BTS1+2C1
+  sfw: sfw
 '11:02':
 - author: The Manhattan Engineer District
   quote: >-
@@ -15282,6 +15299,16 @@
   timestring: about noon
   title: Ben-Hur
 '12:00':
+- author: Wilkie Collins
+  title: No Name
+  quote: >-
+    We believe she left by the nine o’clock train. We followed her by the twelve o’clock
+    train. We have ascertained that she called, at half past two, at Mr. Huxtable’s 
+    lodgings; that she found he was away, and not expected back till eight in the evening;
+    that she left word she would call again at eight; and that she never returned.
+  sfw: sfw
+  timestring: twelve o’clock
+  chapter: BTS1+2C4
 - author: Wilkie Collins
   title: No Name
   chapter: S1C7
@@ -18131,6 +18158,16 @@
   timestring: twenty-nine minutes past two
   title: Blue at the Mizzen
 '14:30':
+- author: Wilkie Collins
+  title: No Name
+  quote: >-
+    We believe she left by the nine o’clock train. We followed her by the twelve o’clock
+    train. We have ascertained that she called, at half past two, at Mr. Huxtable’s 
+    lodgings; that she found he was away, and not expected back till eight in the evening;
+    that she left word she would call again at eight; and that she never returned.
+  sfw: sfw
+  timestring: half past two
+  chapter: BTS1+2C4
 - author: Art Spiegelman
   quote: >-
     Ach! It's 2:30. Look how the time is flying. And it's still so much to do today..
@@ -25196,6 +25233,16 @@
   timestring: just before eight o' clock
   title: The Maker of Heavenly Trousers
 '20:00':
+- author: Wilkie Collins
+  quote: >-
+    We believe she left by the nine o’clock train. We followed her by the twelve o’clock
+    train. We have ascertained that she called, at half past two, at Mr. Huxtable’s 
+    lodgings; that she found he was away, and not expected back till eight in the evening;
+    that she left word she would call again at eight; and that she never returned.
+  sfw: sfw
+  timestring: eight
+  title: No Name
+  chapter: BTS1+2C4
 - author: William Wordsworth
   quote: >-
     'TIS eight o’clock,--a clear March night, The moon is up,--the sky is blue, The
