@@ -6481,6 +6481,14 @@
   timestring: just before six
   title: Under the Golden Dome
 05:59:
+- author: Wilkie Collins
+  title: No Name
+  quote: >-
+    Towards six o’clock in the morning, the light pouring in on her face awoke
+    Magdalen in the bedroom in Rosemary Lane.
+  sfw: sfw
+  timestring: Towards six o’clock 
+  chapter: S2C1
 - author: Bo Giertz
   quote: >-
     The shades in the corner room on the southeast were the first to be raised. It
@@ -22213,6 +22221,13 @@
   timestring: twenty-nine minutes past five
   title: Thud!
 '17:30':
+- author: Wilkie Collins
+  title: No Name
+  chapter: S2C1
+  sfw: sfw
+  quote: >-
+    While he was still loitering, the clock of York Minster chimed the half-hour past five.
+  timestring: half-hour past five
 - author: Leo Tolstoy
   quote: >-
     He went up to his coachman, who was dozing on the box in the shadow, already lengthening,
@@ -22386,6 +22401,14 @@
   timestring: 05:39
   title: Room
 '17:40':
+- author: Wilkie Collins
+  title: No Name
+  chapter: S2C1
+  sfw: sfw
+  quote: >-
+    Cabs rattled by him over the bridge on their way to meet the train from London,
+    at twenty minutes to six.
+  timestring: twenty minutes to six
 - author: Sophie Kinsella
   quote: >-
     It's five-forty now. The party's at six. By about ten past, the eleventh floor
@@ -23539,6 +23562,25 @@
   timestring: twenty-one minutes to seven
   title: Manhunt
 '18:40':
+- author: Wilkie Collins
+  title: No Name
+  quote: >-
+    He mounted the walls (which enclose the whole western portion of the city)
+    by the North Street Postern, from which the walk winds round, until it ends
+    again at its spothernly extremity, in the narrow passage of Rosemary Lane.
+    It was then twenty minutes to seven.
+  sfw: sfw
+  timestring: twenty minutes to seven
+  chapter: S2C1
+- author: Wilkie Collins
+  title: No Name
+  quote: >-
+    It was then twenty minutes to seven. The sun had set more than half an hour
+    since; red light lay broad and low in the cloudless western haven; all visible
+    objects were softening in the tender twilight, but were not darkening yet.
+  sfw: sfw
+  timestring: twenty minutes to seven
+  chapter: S2C1
 - author: TS Eliot
   quote: >-
     Amy: What's that? I thought I saw someone pass the window. What time is it? Charles:
@@ -24911,6 +24953,14 @@
   timestring: 7:44 P.M.
   title: Project Cyclops
 '19:45':
+- author: Wilkie Collins
+  title: No Name
+  quote: >-
+    The Minister clock struck the quarter to eight as they left the Walk on the Wall,
+    and descended the steps into Rosemary Lane.
+  sfw: sfw
+  timestring: quarter to eight
+  chapter: S2C1
 - author: Steve Toltz
   quote: >-
     He taught me that if I had to meet someone for an appointment, I must refuse to
@@ -27295,6 +27345,15 @@
   timestring: sixteen minutes to ten o’clock
   title: Stone Flute
 '21:45':
+- author: Wilkie Collins
+  title: No Name
+  quote: >-
+    ‘Button them up in spite of me, with your own fair fingers. There is a train to
+    London at nine-forty-five to-night. Submit yourself to your friend’s wishes; and
+    go back by it.’
+  sfw: sfw
+  timestring: nine-forty-five
+  chapter: S2C1
 - author: T. C. Boyle
   quote: >-
     But for some unfathomable reason-birth, death, the end of the universe and all
