@@ -41,7 +41,7 @@ def get_quotes(src_file, collect_errors=False, fix_timestring_case=False):
                     else:
                         raise e
 
-            timestring, quote = dataset['timestring'], dataset['quote']
+            timestring, quote = str(dataset['timestring']), dataset['quote']
             if timestring not in quote:
                 if fix_timestring_case:
                     search_result = re.search(timestring, quote, re.IGNORECASE)
